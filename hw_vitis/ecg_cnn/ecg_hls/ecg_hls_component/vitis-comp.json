@@ -1,0 +1,13 @@
+{
+  "name": "ecg_hls_component",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "..\\hls_config.cfg"
+    ],
+    "work_dir": "ecg_cnn"
+  },
+  "useSysrootToolchain": false,
+  "template": "empty_hls_component"
+}

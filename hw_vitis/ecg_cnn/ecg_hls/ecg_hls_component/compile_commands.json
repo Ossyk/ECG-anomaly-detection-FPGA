@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "C:\\Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component",
+    "arguments": [
+      "C:\\Xilinx\\2025.1\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\2025.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=ecg_cnn",
+      "-c",
+      "C:\\Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\..\\ecg_cnn.cpp"
+    ],
+    "file": "C:\\Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\..\\ecg_cnn.cpp"
+  },
+  {
+    "directory": "C:\\Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component",
+    "arguments": [
+      "C:\\Xilinx\\2025.1\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\2025.1\\Vitis\\include",
+      "-c",
+      "C:\\Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\..\\testbench_ecg_cnn.cpp"
+    ],
+    "file": "C:\\Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\..\\testbench_ecg_cnn.cpp"
+  }
+]

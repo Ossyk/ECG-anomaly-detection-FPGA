@@ -1,0 +1,4 @@
+.dat => raw egc samples
+.hea => metadata (header file describes the record: nb of signals / sampling frequence / gain / length of record ..)
+.atr => annotation file : contains beat by beat labels
+.xws => used by physionet for signal checksum 

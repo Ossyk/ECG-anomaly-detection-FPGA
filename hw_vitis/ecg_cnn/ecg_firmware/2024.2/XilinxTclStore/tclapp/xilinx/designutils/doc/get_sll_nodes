@@ -1,0 +1,12 @@
+
+
+  Description: 
+
+     Returns all the SLL nodes. Support 7-Serie and UltraScale devices.
+
+     This command must be run on a routed design.
+
+  Example:
+  
+     set nodes [::xilinx::designutils::get_sll_nodes]
+

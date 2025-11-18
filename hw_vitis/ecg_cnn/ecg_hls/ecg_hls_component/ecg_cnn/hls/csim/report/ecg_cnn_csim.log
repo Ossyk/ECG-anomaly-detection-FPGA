@@ -1,0 +1,12 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../../testbench_ecg_cnn.cpp in debug mode
+   Compiling ../../../../../ecg_cnn.cpp in debug mode
+   Generating csim.exe
+
+=== HLS SIM RESULT ===
+Label = 0
+Score_q8 = 61
+======================
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

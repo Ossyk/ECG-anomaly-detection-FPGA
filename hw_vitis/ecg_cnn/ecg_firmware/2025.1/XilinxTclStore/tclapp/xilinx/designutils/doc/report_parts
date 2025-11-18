@@ -1,0 +1,13 @@
+
+
+  Description: 
+
+     Report all the available parts that match a pattern.
+
+     This command must be run on a synthesized or implemented design.
+
+  Example:
+  
+     ::xilinx::designutils::report_parts
+     ::xilinx::designutils::report_parts xc*-2
+

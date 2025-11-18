@@ -1,0 +1,50 @@
+Xilinx Utilities App
+
+This directory is a collection of scripts and utiltiy application
+that are grouped by relevance to querying and analyzing a logical 
+design, principally around the netlist object model.
+
+All Tcl procs, variables, etc. must be defined within the
+::tclapp::xilinx::designutils namespace.  No globals of any kind are
+allowed.
+
+The structure of a .tcl file in this directory is something 
+like this:
+
+################################################################
+package require Vivado 1.2014.1
+
+namespace eval ::tclapp::xilinx::designutils {
+   namespace export <list of procs to export>
+}
+
+proc ::tclapp::xilinx::designutils::<proc> { ... } {
+ ...
+}
+
+proc ::tclapp::xilinx::designutils::<proc> { ... } {
+ ...
+}
+################################################################
+
+================================================================
+WHEN MAKING CHANGES TO THE CONTENT OF THIS DIRECTORY
+================================================================
+1. Make sure the Tcl file added or changed passes the Tcl linter
+
+   Vivado% lint_files <path-to-files-you-have-changed>
+
+2. Update the tclIndex file by running auto_mkindex . from the 
+   tclsh protmp
+
+   Vivado% auto_mkindex <path-to-this-directory>
+
+================================================================
+USING THIS APP FROM VIVADO
+================================================================
+Vivado% package require ::tclapp::xilinx::designutils
+Vivado% ::tclapp::xilinx::designutils::get_cell_count
+Vivado% namespace import ::tclapp::xilinx::designutils::get_cell_count
+Vivado% get_cell_count
+
+

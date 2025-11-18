@@ -1,0 +1,13 @@
+
+
+  Description: 
+
+     Report the location of cells matching a cell pattern.
+
+     This command must be run on a placed design.
+
+  Example:
+  
+     ::xilinx::designutils::report_cells_loc
+     ::xilinx::designutils::report_cells_loc ingressLoop[6].ingressFifo/buffer_fifo/*
+

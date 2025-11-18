@@ -1,0 +1,94 @@
+{
+    "conv1d": {
+        "type": "Conv1D",
+        "input_shape": [
+            -1,
+            720,
+            1
+        ],
+        "output_shape": [
+            -1,
+            714,
+            8
+        ],
+        "kernel_size": [
+            7
+        ],
+        "filters": 8,
+        "stride": [
+            1
+        ],
+        "activation": null,
+        "weight_scale": 77.51441192626953,
+        "bias_scale": 67996.15625
+    },
+    "max_pooling1d": {
+        "type": "MaxPooling1D",
+        "pool_size": [
+            2
+        ],
+        "stride": [
+            2
+        ]
+    },
+    "conv1d_1": {
+        "type": "Conv1D",
+        "input_shape": [
+            -1,
+            357,
+            8
+        ],
+        "output_shape": [
+            -1,
+            353,
+            16
+        ],
+        "kernel_size": [
+            5
+        ],
+        "filters": 16,
+        "stride": [
+            1
+        ],
+        "activation": null,
+        "weight_scale": 30.10161781311035,
+        "bias_scale": 37495.9921875
+    },
+    "global_average_pooling1d": {
+        "type": "GlobalAveragePooling1D"
+    },
+    "dense1": {
+        "type": "Dense",
+        "input_shape": [
+            -1,
+            16
+        ],
+        "output_shape": [
+            -1,
+            16
+        ],
+        "units": 16,
+        "activation": null,
+        "weight_scale": 37.83847427368164,
+        "bias_scale": 156665.03125
+    },
+    "dropout": {
+        "type": "Dropout",
+        "note": "Ignored at inference (training only)"
+    },
+    "dense2": {
+        "type": "Dense",
+        "input_shape": [
+            -1,
+            16
+        ],
+        "output_shape": [
+            -1,
+            1
+        ],
+        "units": 1,
+        "activation": null,
+        "weight_scale": 54.31182861328125,
+        "bias_scale": 88331.75
+    }
+}

@@ -1,0 +1,306 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_microblaze_0_0/sim/system_bd_microblaze_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_microblaze_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_dlmb_v10_0_1/sim/system_bd_dlmb_v10_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_dlmb_v10_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_ilmb_v10_0_1/sim/system_bd_ilmb_v10_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_ilmb_v10_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_dlmb_bram_if_cntlr_0_1/sim/system_bd_dlmb_bram_if_cntlr_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_dlmb_bram_if_cntlr_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_ilmb_bram_if_cntlr_0_1/sim/system_bd_ilmb_bram_if_cntlr_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_ilmb_bram_if_cntlr_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_mdm_1_0_1/sim/system_bd_mdm_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_mdm_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_rst_clk_wiz_1_100M_0_1/sim/system_bd_rst_clk_wiz_1_100M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_rst_clk_wiz_1_100M_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_axi_uartlite_0_0_1/sim/system_bd_axi_uartlite_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_axi_uartlite_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_axi_bram_ctrl_0_1/sim/system_bd_axi_bram_ctrl_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_axi_bram_ctrl_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_axi_bram_ctrl_0_2/sim/system_bd_axi_bram_ctrl_0_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_axi_bram_ctrl_0_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_axi_gpio_0_0/sim/system_bd_axi_gpio_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_axi_gpio_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_axi_gpio_1_0/sim/system_bd_axi_gpio_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_axi_gpio_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1_out_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1_out_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_0_0_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_0_0_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_0_1_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_0_1_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_0_2_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_0_2_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_0_3_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_0_3_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_0_4_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_0_4_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_1_0_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_1_0_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_1_1_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_1_1_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_1_2_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_1_2_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_1_3_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_1_3_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_1_4_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_1_4_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_2_0_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_2_0_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_2_1_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_2_1_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_2_2_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_2_2_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_2_3_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_2_3_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_2_4_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_2_4_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_3_0_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_3_0_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_3_1_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_3_1_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_3_2_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_3_2_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_3_3_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_3_3_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu2_w_local_80_3_4_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu2_w_local_80_3_4_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu_w_local_0_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu_w_local_0_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu_w_local_1_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu_w_local_1_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu_w_local_2_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu_w_local_2_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu_w_local_3_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu_w_local_3_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu_w_local_4_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu_w_local_4_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu_w_local_5_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu_w_local_5_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv1d_relu_w_local_6_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv1d_relu_w_local_6_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_conv2_out_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_conv2_out_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_CTRL_s_axi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_CTRL_s_axi'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_dense_linear.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_dense_linear'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_dense_relu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_dense_relu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_dense_relu_Pipeline_VITIS_LOOP_148_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_dense_relu_Pipeline_VITIS_LOOP_148_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_dense_relu_Pipeline_VITIS_LOOP_148_2_w_local_82_0_ROM_AUTO_1R.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_dense_relu_Pipeline_VITIS_LOOP_148_2_w_local_82_0_ROM_AUTO_1R'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_dense_relu_Pipeline_VITIS_LOOP_148_2_w_local_82_1_ROM_AUTO_1R.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_dense_relu_Pipeline_VITIS_LOOP_148_2_w_local_82_1_ROM_AUTO_1R'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_dense_relu_Pipeline_VITIS_LOOP_148_2_w_local_82_2_ROM_AUTO_1R.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_dense_relu_Pipeline_VITIS_LOOP_148_2_w_local_82_2_ROM_AUTO_1R'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_dense_relu_Pipeline_VITIS_LOOP_148_2_w_local_82_3_ROM_AUTO_1R.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_dense_relu_Pipeline_VITIS_LOOP_148_2_w_local_82_3_ROM_AUTO_1R'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_exp_12_3_s.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_exp_12_3_s'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_exp_12_3_s_exp_x_msb_1_table_ROM_AUTO_1R.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_exp_12_3_s_exp_x_msb_1_table_ROM_AUTO_1R'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_exp_12_3_s_exp_x_msb_2_m_1_table_ROM_AUTO_1R.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_exp_12_3_s_exp_x_msb_2_m_1_table_ROM_AUTO_1R'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_exp_12_3_s_f_x_lsb_table_ROM_AUTO_1R.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_exp_12_3_s_f_x_lsb_table_ROM_AUTO_1R'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_flow_control_loop_pipe_sequential_init.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_flow_control_loop_pipe_sequential_init'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_gap.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_gap'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_gap_Pipeline_VITIS_LOOP_117_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_gap_Pipeline_VITIS_LOOP_117_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_INPUT_r_m_axi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_INPUT_r_m_axi'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_INPUT_r_m_axi_load'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_INPUT_r_m_axi_read'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_INPUT_r_m_axi_burst_converter'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_INPUT_r_m_axi_burst_interleave'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_INPUT_r_m_axi_burst_sequential'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_INPUT_r_m_axi_reg_slice'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_INPUT_r_m_axi_fifo'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_INPUT_r_m_axi_srl'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_INPUT_r_m_axi_mem'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_mac_muladd_11ns_8s_21s_21_4_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_11ns_8s_21s_21_4_1_DSP48_0'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_11ns_8s_21s_21_4_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_mac_muladd_11ns_9s_19s_21_4_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_11ns_9s_19s_21_4_1_DSP48_0'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_11ns_9s_19s_21_4_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_mac_muladd_11ns_9s_21s_21_4_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_11ns_9s_21s_21_4_1_DSP48_0'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_11ns_9s_21s_21_4_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_mac_muladd_12s_9s_19s_21_4_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_12s_9s_19s_21_4_1_DSP48_0'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_12s_9s_19s_21_4_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_mac_muladd_12s_9s_21ns_21_4_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_12s_9s_21ns_21_4_1_DSP48_0'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_12s_9s_21ns_21_4_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_mac_muladd_12s_10s_21ns_21_4_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_12s_10s_21ns_21_4_1_DSP48_0'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mac_muladd_12s_10s_21ns_21_4_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_maxpool.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_maxpool'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_mul_9ns_11ns_19_1_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mul_9ns_11ns_19_1_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_mul_25ns_18ns_43_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mul_25ns_18ns_43_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_mul_25ns_25ns_50_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_mul_25ns_25ns_50_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_OUTPUT_r_m_axi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_OUTPUT_r_m_axi'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_OUTPUT_r_m_axi_store'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_OUTPUT_r_m_axi_write'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_OUTPUT_r_m_axi_burst_converter'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_OUTPUT_r_m_axi_burst_interleave'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_OUTPUT_r_m_axi_burst_sequential'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_OUTPUT_r_m_axi_throttle'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_OUTPUT_r_m_axi_reg_slice'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_OUTPUT_r_m_axi_fifo'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_OUTPUT_r_m_axi_srl'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_OUTPUT_r_m_axi_mem'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_pool1_out_RAM_T2P_BRAM_1R1W.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_pool1_out_RAM_T2P_BRAM_1R1W'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sdiv_20ns_13s_20_24_seq_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_sdiv_20ns_13s_20_24_seq_1_divseq'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_sdiv_20ns_13s_20_24_seq_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_9_2_10_1_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_sparsemux_9_2_10_1_1'
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_9_2_10_1_1.vhd:64]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_9_2_10_1_1.vhd:67]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_9_2_10_1_1.vhd:70]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_9_2_10_1_1.vhd:73]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_9_2_11_1_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_sparsemux_9_2_11_1_1'
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_9_2_11_1_1.vhd:64]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_9_2_11_1_1.vhd:67]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_9_2_11_1_1.vhd:70]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_9_2_11_1_1.vhd:73]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_11_3_11_1_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_sparsemux_11_3_11_1_1'
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_11_3_11_1_1.vhd:70]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_11_3_11_1_1.vhd:73]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_11_3_11_1_1.vhd:76]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_11_3_11_1_1.vhd:79]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_11_3_11_1_1.vhd:82]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_17_3_10_1_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_sparsemux_17_3_10_1_1'
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_17_3_10_1_1.vhd:88]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_17_3_10_1_1.vhd:91]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_17_3_10_1_1.vhd:94]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_17_3_10_1_1.vhd:97]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_17_3_10_1_1.vhd:100]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_17_3_10_1_1.vhd:103]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_17_3_10_1_1.vhd:106]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_17_3_10_1_1.vhd:109]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_sparsemux_33_4_10_1_1'
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:136]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:139]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:142]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:145]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:148]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:151]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:154]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:157]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:160]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:163]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:166]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:169]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:172]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:175]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:178]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1.vhd:181]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_sparsemux_33_4_10_1_1_x'
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:136]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:139]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:142]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:145]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:148]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:151]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:154]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:157]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:160]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:163]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:166]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:169]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:172]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:175]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:178]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x.vhd:181]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_sparsemux_33_4_10_1_1_x0'
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:136]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:139]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:142]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:145]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:148]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:151]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:154]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:157]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:160]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:163]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:166]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:169]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:172]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:175]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:178]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_10_1_1_x0.vhd:181]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_sparsemux_33_4_11_1_1'
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:136]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:139]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:142]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:145]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:148]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:151]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:154]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:157]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:160]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:163]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:166]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:169]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:172]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:175]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:178]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_11_1_1.vhd:181]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_sparsemux_33_4_12_1_1'
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:136]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:139]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:142]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:145]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:148]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:151]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:154]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:157]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:160]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:163]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:166]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:169]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:172]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:175]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:178]
+WARNING: [VRFC 10-471] case choice must be a locally static expression [C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_sparsemux_33_4_12_1_1.vhd:181]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn_urem_9ns_4ns_3_13_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_urem_9ns_4ns_3_13_1_divider'
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn_urem_9ns_4ns_3_13_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/fe02/hdl/vhdl/ecg_cnn.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ecg_cnn'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_ecg_cnn_0_1/sim/system_bd_ecg_cnn_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_ecg_cnn_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_e6ac_psr_aclk_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_e6ac_psr_aclk_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.ip_user_files/bd/system_bd/sim/system_bd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'microblaze_0_local_memory_imp_CVHQOW'
+INFO: [VRFC 10-3107] analyzing entity 'system_bd'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/hdl/system_bd_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_bd_wrapper'

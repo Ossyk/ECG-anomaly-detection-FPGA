@@ -1,0 +1,158 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\ecg_cnn.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "11/18/25 09:55:20",
+ "timestampMillis": "1763456120618",
+ "buildStep": {
+  "cmdId": "17086363-1c47-4ccc-9a55-61ef3ebc1d06",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\logs\\ecg_cnn.steps.log",
+  "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\..\\hls_config.cfg --work_dir ecg_cnn ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\..\\hls_config.cfg",
+   "--work_dir",
+   "ecg_cnn"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/18/25 09:55:20",
+ "timestampMillis": "1763456120619",
+ "status": {
+  "cmdId": "17086363-1c47-4ccc-9a55-61ef3ebc1d06",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "11/18/25 09:55:34",
+ "timestampMillis": "1763456134407",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "ecg_cnn",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_cnn.cpp",
+     "C:/Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_cnn.h",
+     "C:/Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\weights_rom.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "11/18/25 09:55:34",
+ "timestampMillis": "1763456134411",
+ "buildStep": {
+  "cmdId": "dc2428ba-55a6-4587-b77c-d1041e99b74c",
+  "name": "",
+  "logFile": "C:/Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\oussk\\OneDrive\\Desktop\\ECG_CNN_PROJECT_ALD\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/18/25 09:55:34",
+ "timestampMillis": "1763456134413",
+ "status": {
+  "cmdId": "dc2428ba-55a6-4587-b77c-d1041e99b74c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/18/25 09:56:44",
+ "timestampMillis": "1763456204585",
+ "status": {
+  "cmdId": "dc2428ba-55a6-4587-b77c-d1041e99b74c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/18/25 09:56:44",
+ "timestampMillis": "1763456204757",
+ "status": {
+  "cmdId": "17086363-1c47-4ccc-9a55-61ef3ebc1d06",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/18/25 09:56:44",
+ "timestampMillis": "1763456204758",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/18/25 09:56:44",
+ "timestampMillis": "1763456204759",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

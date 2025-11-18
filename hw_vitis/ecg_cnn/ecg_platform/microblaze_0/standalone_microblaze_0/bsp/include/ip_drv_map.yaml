@@ -1,0 +1,18 @@
+axi_bram_ctrl_0:
+- axi_bram_ctrl
+- bram
+axi_gpio_0:
+- axi_gpio
+- gpio
+axi_gpio_1:
+- axi_gpio
+- gpio
+axi_uartlite_0:
+- axi_uartlite
+- uartlite
+ecg_cnn_0:
+- ecg_cnn
+- ecg_cnn
+microblaze_0_local_memory_dlmb_bram_if_cntlr:
+- lmb_bram_if_cntlr
+- bram

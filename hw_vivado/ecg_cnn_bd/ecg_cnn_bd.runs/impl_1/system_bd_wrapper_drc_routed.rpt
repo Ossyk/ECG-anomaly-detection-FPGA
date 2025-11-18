@@ -1,0 +1,342 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Mon Nov 17 01:56:41 2025
+| Host         : LAPTOP-JU02PEUM running 64-bit major release  (build 9200)
+| Command      : report_drc -file system_bd_wrapper_drc_routed.rpt -pb system_bd_wrapper_drc_routed.pb -rpx system_bd_wrapper_drc_routed.rpx
+| Design       : system_bd_wrapper
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 59
++----------+----------+-----------------------------------------------------+--------+
+| Rule     | Severity | Description                                         | Checks |
++----------+----------+-----------------------------------------------------+--------+
+| CFGBVS-1 | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1      |
+| DPIP-1   | Warning  | Input pipelining                                    | 52     |
+| DPOP-1   | Warning  | PREG Output pipelining                              | 3      |
+| DPOP-2   | Warning  | MREG Output pipelining                              | 3      |
++----------+----------+-----------------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+DPIP-1#1 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U101/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U101/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U102/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U102/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U105/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U105/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U106/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U106/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U111/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U111/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U121/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U121/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U122/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U122/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U125/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U125/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U126/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U126/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U91/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_10s_21ns_21_4_1_U91/ecg_cnn_mac_muladd_11ns_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U100/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U100/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U103/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U103/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#13 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U104/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U104/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#14 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U107/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U107/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#15 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U109/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U109/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#16 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U110/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U110/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#17 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U118/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U118/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#18 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U119/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U119/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#19 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U120/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U120/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#20 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U123/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U123/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#21 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U124/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U124/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#22 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U127/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U127/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#23 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U89/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U89/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#24 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U90/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U90/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#25 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U98/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U98/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#26 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U99/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_11ns_11s_21ns_21_4_1_U99/ecg_cnn_mac_muladd_11ns_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#27 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_19s_21_4_1_U88/ecg_cnn_mac_muladd_12s_11ns_19s_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_19s_21_4_1_U88/ecg_cnn_mac_muladd_12s_11ns_19s_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#28 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U108/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U108/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#29 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U112/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U112/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#30 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U113/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U113/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#31 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U114/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U114/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#32 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U115/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U115/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#33 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U116/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U116/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#34 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U117/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U117/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#35 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U92/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U92/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#36 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U93/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U93/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#37 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U94/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U94/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#38 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U95/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U95/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#39 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U96/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U96/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#40 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U97/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/mac_muladd_12s_11ns_21ns_21_4_1_U97/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#41 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/tmp_20_cast_reg_5955_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/tmp_20_cast_reg_5955_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#42 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/tmp_26_cast_reg_5963_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/tmp_26_cast_reg_5963_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#43 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/tmp_32_cast_reg_5971_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/tmp_32_cast_reg_5971_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#44 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/tmp_38_cast_reg_5979_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu2_fu_452/tmp_38_cast_reg_5979_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#45 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_10s_21ns_21_4_1_U3/ecg_cnn_mac_muladd_12s_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_10s_21ns_21_4_1_U3/ecg_cnn_mac_muladd_12s_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#46 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_10s_21ns_21_4_1_U4/ecg_cnn_mac_muladd_12s_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_10s_21ns_21_4_1_U4/ecg_cnn_mac_muladd_12s_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#47 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_10s_21ns_21_4_1_U5/ecg_cnn_mac_muladd_12s_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_10s_21ns_21_4_1_U5/ecg_cnn_mac_muladd_12s_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#48 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_10s_21ns_21_4_1_U7/ecg_cnn_mac_muladd_12s_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_10s_21ns_21_4_1_U7/ecg_cnn_mac_muladd_12s_10s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#49 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_11s_18s_21_4_1_U2/ecg_cnn_mac_muladd_12s_11s_18s_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_11s_18s_21_4_1_U2/ecg_cnn_mac_muladd_12s_11s_18s_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#50 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_11s_21ns_21_4_1_U8/ecg_cnn_mac_muladd_12s_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_11s_21ns_21_4_1_U8/ecg_cnn_mac_muladd_12s_11s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#51 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_9s_21ns_21_4_1_U6/ecg_cnn_mac_muladd_12s_9s_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_conv1d_relu_fu_410/mac_muladd_12s_9s_21ns_21_4_1_U6/ecg_cnn_mac_muladd_12s_9s_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#52 Warning
+Input pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_dense_linear_fu_578/mac_muladd_12s_11ns_21ns_21_4_1_U266/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg input system_bd_i/ecg_cnn_0/U0/grp_dense_linear_fu_578/mac_muladd_12s_11ns_21ns_21_4_1_U266/ecg_cnn_mac_muladd_12s_11ns_21ns_21_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product output system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product__0 output system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product__1 output system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product multiplier stage system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product__0 multiplier stage system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product__1 multiplier stage system_bd_i/ecg_cnn_0/U0/grp_exp_12_3_s_fu_598/mul_25ns_25ns_50_1_0_U285/tmp_product__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+

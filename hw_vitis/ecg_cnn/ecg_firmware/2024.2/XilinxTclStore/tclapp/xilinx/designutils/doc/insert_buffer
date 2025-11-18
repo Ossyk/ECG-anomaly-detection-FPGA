@@ -1,0 +1,16 @@
+
+
+  Description: 
+
+     Insert a buffer or any 2-pins cell on a net or a pin.
+
+     Hierarchical pins are not supported (-pin/-name).
+    
+     -name: if name matches a net, then the buffer insertion is done on the net. If not,
+     the buffer insertion is done on matching pin.
+
+  Example:
+  
+     ::xilinx::designutils::insert_buffer -net [get_nets ingressLoop[0].ingressFifo/reset_IBUF]
+     ::xilinx::designutils::insert_buffer -net [get_nets ingressLoop[0].ingressFifo/reset_IBUF] -buffer {BUFH}
+     ::xilinx::designutils::insert_buffer -pin [get_nets ingressLoop[0].ingressFifo/I] -buffer {IBUF}

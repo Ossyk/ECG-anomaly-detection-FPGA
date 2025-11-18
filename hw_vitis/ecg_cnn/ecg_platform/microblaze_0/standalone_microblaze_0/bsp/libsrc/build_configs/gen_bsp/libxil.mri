@@ -1,0 +1,7 @@
+create libxil.a
+addlib C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/uartlite/src/libuartlite.a
+addlib C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/gpio/src/libgpio.a
+addlib C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/ecg_cnn/src/libecg_cnn.a
+addlib C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/bram/src/libbram.a
+save
+end

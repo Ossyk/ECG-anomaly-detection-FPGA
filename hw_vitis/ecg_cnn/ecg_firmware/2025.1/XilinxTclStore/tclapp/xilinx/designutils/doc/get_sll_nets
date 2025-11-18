@@ -1,0 +1,12 @@
+
+
+  Description: 
+
+     Returns all the SLL nets. Support 7-Serie, UltraScale and UltraScale+ devices.
+
+     This command must be run on a routed design.
+
+  Example:
+  
+     set nets [::xilinx::designutils::get_sll_nets]
+

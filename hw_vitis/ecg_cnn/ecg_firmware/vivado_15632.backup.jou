@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Nov 17 16:06:49 2025
+# Process ID         : 15632
+# Current directory  : C:/Users/oussk/AppData/Roaming/Xilinx/Vivado
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent18672
+# Log file           : C:/Users/oussk/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file       : C:/Users/oussk/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On         : LAPTOP-JU02PEUM
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16541 MB
+# Swap memory        : 15569 MB
+# Total Virtual      : 32111 MB
+# Available Virtual  : 13117 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.xpr
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.runs/impl_1/system_bd_wrapper.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1

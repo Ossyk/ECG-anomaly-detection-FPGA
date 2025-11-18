@@ -1,0 +1,13 @@
+
+
+  Description: 
+
+     Get all the leave cells below an instance.
+
+     This command must be run on a synthesized or implemented design.
+
+  Example:
+  
+     set leafCells [::xilinx::designutils::get_leaf_cells]
+     set leafCells [::xilinx::designutils::get_leaf_cells ingressLoop[6].ingressFifo/buffer_fifo/infer_fifo.full_reg_i_1]
+

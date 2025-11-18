@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Nov 17 23:27:53 2025
+# Process ID         : 20896
+# Current directory  : C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent27168 C:\Users\oussk\OneDrive\Desktop\ECG_CNN_PROJECT_ALD\hw\ecg_cnn_bd\ecg_cnn_bd.xpr
+# Log file           : C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/vivado.log
+# Journal file       : C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd\vivado.jou
+# Running On         : LAPTOP-JU02PEUM
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16541 MB
+# Swap memory        : 15569 MB
+# Total Virtual      : 32111 MB
+# Available Virtual  : 21664 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd}
+launch_simulation
+write_bd_layout -format pdf -orientation landscape C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/system_bd.pdf
+set_property location {79 670} [get_bd_ports clk_100MHz]
+set_property location {2 328 516} [get_bd_cells xlconstant_0]
+set_property location {107 667} [get_bd_ports clk_100MHz]
+undo
+undo
+generate_target all [get_files  {C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd}]
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+export_ip_user_files -of_objects [get_files C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd] -no_script -sync -force -quiet
+launch_simulation

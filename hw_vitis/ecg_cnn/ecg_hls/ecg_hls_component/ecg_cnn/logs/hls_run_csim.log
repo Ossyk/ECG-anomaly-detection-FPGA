@@ -1,0 +1,84 @@
+  **** HLS Build v2025.1 6135595
+INFO: [HLS 200-2005] Using work_dir C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn 
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=ecg_cnn.cpp' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(19)
+INFO: [HLS 200-10] Adding design file 'C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/ecg_cnn.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=ecg_cnn.h' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(20)
+INFO: [HLS 200-10] Adding design file 'C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/ecg_cnn.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=weights_rom.h' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(21)
+INFO: [HLS 200-10] Adding design file 'C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/weights_rom.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=testbench_ecg_cnn.cpp' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(23)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/testbench_ecg_cnn.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=ecg_cnn' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7a100tcsg324-1' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1465] Applying config ini 'clock=100MHz' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'clock_uncertainty=2ns' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(8)
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2ns.
+INFO: [HLS 200-1465] Applying config ini 'cosim.rtl=verilog' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying config ini 'cosim.trace_level=all' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(22)
+INFO: [HLS 200-1465] Applying config ini 'csim.clean=0' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying config ini 'package.ip.description=1D CNN accelerator for ECG anomaly detection' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(13)
+INFO: [HLS 200-1465] Applying config ini 'package.ip.display_name=ECG_cnn_nexys_PACKAGE' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(14)
+INFO: [HLS 200-1465] Applying config ini 'package.ip.library=hls' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(15)
+INFO: [HLS 200-1465] Applying config ini 'package.ip.taxonomy=/HLS/ECG' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(16)
+INFO: [HLS 200-1465] Applying config ini 'package.ip.vendor=unitn.edu' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(17)
+INFO: [HLS 200-1465] Applying config ini 'package.ip.version=1.0' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(18)
+INFO: [HLS 200-1465] Applying config ini 'package.output.file=C:\Users\oussk\Downloads\ecg_cnn_BACKUP_1\hw_HLS_backup\' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/vitis-comp.json
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../testbench_ecg_cnn.cpp in debug mode
+   Compiling ../../../../../ecg_cnn.cpp in debug mode
+   Generating csim.exe
+In file included from ../../../../../testbench_ecg_cnn.cpp:73:
+In file included from ../../../../../ecg_cnn.h:4:
+In file included from C:/Xilinx/2025.1/Vitis/include/ap_fixed.h:9:
+In file included from C:/Xilinx/2025.1/Vitis/include/etc/ap_common.h:677:
+In file included from C:/Xilinx/2025.1/Vitis/include/etc/ap_private.h:68:
+In file included from C:/Xilinx/2025.1/Vitis/include/hls_half.h:26:
+In file included from C:/Xilinx/2025.1/Vitis/include/etc/hls_half_fpo.h:19:
+In file included from C:/Xilinx/2025.1/Vitis/include/hls_fpo.h:140:
+In file included from C:/Xilinx/2025.1/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/Xilinx/2025.1/Vitis/include/gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/Xilinx/2025.1/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+In file included from ../../../../../ecg_cnn.cpp:1:
+In file included from ../../../../../ecg_cnn.h:4:
+In file included from C:/Xilinx/2025.1/Vitis/include/ap_fixed.h:9:
+In file included from C:/Xilinx/2025.1/Vitis/include/etc/ap_common.h:677:
+In file included from C:/Xilinx/2025.1/Vitis/include/etc/ap_private.h:68:
+In file included from C:/Xilinx/2025.1/Vitis/include/hls_half.h:26:
+In file included from C:/Xilinx/2025.1/Vitis/include/etc/hls_half_fpo.h:19:
+In file included from C:/Xilinx/2025.1/Vitis/include/hls_fpo.h:140:
+In file included from C:/Xilinx/2025.1/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/Xilinx/2025.1/Vitis/include/gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/Xilinx/2025.1/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+
+=== HLS SIM RESULT ===
+Label = 0
+Score_q8 = 61
+======================
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 4 seconds. Total elapsed time: 75.888 seconds; peak allocated memory: 145.316 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 1m 26s

@@ -1,0 +1,10 @@
+
+
+  Description: 
+
+     Return the host platform (windows|unix).
+
+  Example:
+  
+     set host [::xilinx::designutils::get_host_platform]
+
