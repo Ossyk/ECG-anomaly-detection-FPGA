@@ -30,7 +30,8 @@
 .metadata/
 
 # Python ML large files
-data/
+processed/
+labels/
 *.npy
 *.npz
 *.pkl
