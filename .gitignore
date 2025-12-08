@@ -2,27 +2,39 @@
 *.jou
 *.log
 *.str
-*.cache/
-*.runs/
-*.sim/
-*.hw/
-*.ip_user_files/
-*.Xil/
-*.srcs/
-*.gen/
-*.dbg/
-*.checkpoint
-*.dcp
 
-# Platform & HLS exports
-*.sdk/
-*.xpr
-*.rtlnetlist
-*.csv
+.cache/
+.runs/
+.sim/
+.hw/
+.ip_user_files/
+.Xil/
+.gen/
+.hbs/
+.ip_cache/
+.webtalk/
+.srcs/sources_1/ip/*
+.checkpoint
+.dcp
+.bit
+.bin
+
+# HLS & platform exports
+.sdk/
+.xpr
+.rtlNetlist
+.csv
 
 # Vitis
 .vitis/
 .metadata/
+
+# Python ML large files
+data/
+*.npy
+*.npz
+*.pkl
+*.h5
 
 # Temp
 *.tmp
