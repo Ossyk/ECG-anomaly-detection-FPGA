@@ -208,7 +208,6 @@ static int load_ecg_from_uart_to_bram(void)
         (void)thr_hi;
         return 0; // nothing to run
     }
-    /* Debug section
     if (cmd == 'D') {
         volatile int32_t *in_bram = (int32_t *)BRAM_INPUT_BASE;
         Uart_SendString("DBG-BEGIN\n");
@@ -218,8 +217,7 @@ static int load_ecg_from_uart_to_bram(void)
         }
         Uart_SendString("DBG-END\n");
         return 0;
-    }*/
-
+    }
     if (cmd != 'S') {
         return -1; // unknown command
     }
@@ -287,7 +285,19 @@ int main(void)
         while (1);
     // Init GPIOs for LEDs + 7-seg (NEW)
     init_gpios();
-    
+    // You can print ONE banner here; the PC code resets buffers after connect:
+    Uart_SendString("ECG CNN firmware ready.\r\n");
+    ecg_cnn_set_addresses();
+    Uart_SendString("DBG-ADDR\n");
+    print_hex32(Xil_In32(ECG_CNN_BASEADDR + XECG_CNN_CTRL_ADDR_INPUT_R_R_DATA));
+    Uart_SendString("\n");
+    print_hex32(Xil_In32(ECG_CNN_BASEADDR + XECG_CNN_CTRL_ADDR_INPUT_R_R_DATA + 4));
+    Uart_SendString("\n");
+    print_hex32(Xil_In32(ECG_CNN_BASEADDR + XECG_CNN_CTRL_ADDR_OUTPUT_R_R_DATA));
+    Uart_SendString("\n");
+    print_hex32(Xil_In32(ECG_CNN_BASEADDR + XECG_CNN_CTRL_ADDR_OUTPUT_R_R_DATA + 4));
+    Uart_SendString("\n");
+    Uart_SendString("END\n");
     while (1) {
         int len = load_ecg_from_uart_to_bram();
         if (len < 0) {
@@ -302,6 +312,7 @@ int main(void)
         run_ecg_cnn_mmio();
         send_cnn_reply_packet();
         Xil_DCacheFlushRange((UINTPTR)BRAM_OUTPUT_BASE, N_SAMPLES * sizeof(uint32_t));
+        
     }
     return 0;
 }

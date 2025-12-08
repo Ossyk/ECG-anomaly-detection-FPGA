@@ -1,0 +1,30 @@
+# Vivado junk
+*.jou
+*.log
+*.str
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.Xil/
+*.srcs/
+*.gen/
+*.dbg/
+*.checkpoint
+*.dcp
+
+# Platform & HLS exports
+*.sdk/
+*.xpr
+*.rtlnetlist
+*.csv
+
+# Vitis
+.vitis/
+.metadata/
+
+# Temp
+*.tmp
+*.zip
+*.tar.gz

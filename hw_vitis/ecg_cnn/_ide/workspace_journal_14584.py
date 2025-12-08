@@ -1,14 +1,14 @@
-# 2025-12-01T21:39:08.156478200
+# 2025-11-19T14:40:10.874983800
 import vitis
 
 client = vitis.create_client()
 client.set_workspace(path="ecg_cnn")
 
-comp = client.get_component(name="ecg_firmware")
-comp.build()
-
 platform = client.get_component(name="ecg_platform")
 status = platform.build()
+
+comp = client.get_component(name="ecg_firmware")
+comp.build()
 
 comp.build()
 

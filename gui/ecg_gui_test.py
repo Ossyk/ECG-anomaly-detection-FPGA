@@ -183,9 +183,9 @@ def show_plot(seg, seg_i16, fpga, back_callback):
     thr = DEFAULT_THR
     fpga.set_thresh_q15(thr)
     
-    print("seg length =", len(seg))
-    print("First 20 normalized =", seg[:20])
-    print("First 20 Q3.9       =", seg_i16[:20])
+    #print("seg length =", len(seg))
+    #print("First 20 normalized =", seg[:20])
+    #print("First 20 Q3.9       =", seg_i16[:20])
 
     result = fpga.send_segment(seg_i16)
     
@@ -200,10 +200,6 @@ def show_plot(seg, seg_i16, fpga, back_callback):
     txt = ax.text(0.02, 0.9, "", transform=ax.transAxes,
                   bbox=dict(fc='w', alpha=0.7))
 
-    # Threshold slider
-    ax_thr = plt.axes([0.15, 0.1, 0.7, 0.03])
-    s_thr = Slider(ax_thr, 'Threshold', 0.5, 0.99, valinit=thr, valstep=0.01)
-    s_thr.on_changed(lambda val: fpga.set_thresh_q15(val))
 
     # Back button
     ax_btn = plt.axes([0.4, 0.02, 0.2, 0.06])
@@ -271,3 +267,4 @@ if __name__ == "__main__":
     fpga_port = "COM5"  
     fpga = FPGA(fpga_port, simulate=simulate)
     welcome_window(fpga)
+
