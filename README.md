@@ -47,8 +47,8 @@ A MicroBlaze processor handles communication and control, while a custom HLS IP 
 
 ## Requirements
 
-* Vivado + Vitis (2023+)
+* Vivado + Vitis 
 
-* Python 3.10 + NumPy, SciPy, Matplotlib, WFDB
+* Python + NumPy, SciPy, Matplotlib, WFDB
 
 * Nexys4 DDR board
