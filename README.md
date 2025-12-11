@@ -1,90 +1,54 @@
-ECG Anomaly Detection on FPGA (Basys3)
+# ECG Anomaly Detection on FPGA
 
-This project implements a 1D CNN accelerator for ECG anomaly detection on the Basys3 (Artix-7 XC7A35T) FPGA using Vitis HLS 2025.1 and Vivado 2025.1.
+This project implements a real-time ECG anomaly detector using a 1D CNN accelerator on FPGA (Nexys4 DDR).
+A MicroBlaze processor handles communication and control, while a custom HLS IP performs CNN inference.
 
-📌 Project Overview
+## Features
 
-Trained a 1D Convolutional Neural Network (CNN) in Python/TensorFlow.
+* 1D CNN trained on MIT-BIH Arrhythmia Dataset
 
-Exported quantized weights/biases to .mem files.
+* Fixed-point hardware accelerator (ap_fixed<12,3>)
 
-Implemented the CNN inference pipeline in C++ for HLS.
+* MicroBlaze firmware for UART communication and BRAM management
 
-Verified functionality with C Simulation and C/RTL Co-Simulation.
+* Python GUI for sending ECG segments and visualizing results
 
-Generated synthesizable VHDL IP and integrated into Vivado with MicroBlaze + UART.
+* Real-time classification with FPGA LEDs/7-segment output
 
-🏗️ CNN Architecture
+## Data & Preprocessing
 
-Conv1D + ReLU (8 filters, kernel=7)
+* 2-second windows (720 samples @ 360 Hz)
 
-MaxPooling1D (pool=2)
+* Band-pass filtering (0.5–40 Hz)
 
-Conv1D + ReLU (16 filters, kernel=5)
+* Min-max normalization
 
-Global Average Pooling
+* Labels derived from MIT-BIH annotations (N = normal, others = abnormal)
 
-Dense + ReLU (16 units)
+## Workflow
 
-Dense + Sigmoid (1 unit, anomaly probability)
+* PC GUI sends a 720-sample ECG segment
 
-⚡ Performance (from HLS synthesis)
+* MicroBlaze writes samples into BRAM
 
-Latency: ~71,266 cycles ≈ 0.71 ms per ECG window
+* CNN accelerator runs inference (≈0.6 ms)
 
-Input window: 2 seconds (720 samples)
+* Result is returned to the PC and displayed on FPGA LEDs/7-seg
 
-Speedup: ~2800× faster than real-time
+## Structure
 
-Resource usage (Basys3 limits in parentheses):
+* /vitis/ – CNN accelerator (Vitis HLS) + MicroBlaze C application (Vitis platform & application)
 
-BRAM: ~65 (50 available) ⚠️ tight
+* /vivado/ – Block design and exported XSA
 
-DSP: ~88 (90 available) ⚠️ tight
+* /gui/ – Python interface and preprocessing code
 
-LUTs: ~19.6k (33.3k available)
+* /data/ – Raw dataset and processed numpy arrays
 
-FFs: ~18.5k (41.6k available)
+## Requirements
 
-✅ Functionally correct, passes C/RTL cosimulation.
-⚠️ May require BRAM/DSP optimizations if Vivado fails to place/route.
+* Vivado + Vitis (2023+)
 
-🚀 Workflow
+* Python 3.10 + NumPy, SciPy, Matplotlib, WFDB
 
-HLS
-
-Write CNN in ecg_cnn.cpp
-
-Simulate (C Simulation)
-
-Synthesize (C Synthesis)
-
-Verify RTL match (C/RTL Cosimulation)
-
-Export IP (ip_catalog)
-
-Vivado
-
-Import CNN IP into block design
-
-Add MicroBlaze + UART Lite + AXI BRAM
-
-Connect AXI buses + run automation
-
-Generate bitstream
-
-Vitis (firmware)
-
-Load weights & input into BRAM
-
-Start CNN accelerator, poll DONE
-
-Read output → send to PC over UART
-
-📡 Next Steps
-
-Optimize BRAM usage (#pragma HLS STREAM or ROM mapping).
-
-Test Vivado bitstream on Basys3 board.
-
-Integrate real ECG data from SD card or sensor via UART.
+* Nexys4 DDR board
