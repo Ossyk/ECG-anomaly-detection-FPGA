@@ -1,0 +1,247 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\ecg_cnn.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "12/10/25 23:58:15",
+ "timestampMillis": "1765407495315",
+ "buildStep": {
+  "cmdId": "40a5b2b0-97e0-44d8-94e7-6e02d2077fe0",
+  "name": "v++",
+  "logFile": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\logs\\ecg_cnn.steps.log",
+  "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\\Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\..\\hls_config.cfg --work_dir ecg_cnn ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "C:\\Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\..\\hls_config.cfg",
+   "--work_dir",
+   "ecg_cnn"
+  ],
+  "iniFiles": [
+   {
+    "path": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\hls_config.cfg",
+    "content": "part=xc7a100tcsg324-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=1\nclock=100MHz\nclock_uncertainty=2ns\nsyn.top=ecg_cnn\ncosim.rtl=verilog\ncsim.clean=0\npackage.output.file=C:\\Users\\oussk\\Downloads\\ecg_cnn_BACKUP_1\\hw_HLS_backup\\\npackage.ip.description=1D CNN accelerator for ECG anomaly detection\npackage.ip.display_name=ECG_cnn_nexys_PACKAGE\npackage.ip.library=hls\npackage.ip.taxonomy=/HLS/ECG\npackage.ip.vendor=unitn.edu\npackage.ip.version=1.0\nsyn.file=ecg_cnn.cpp\nsyn.file=ecg_cnn.h\nsyn.file=weights_rom.h\ncosim.trace_level=all\ntb.file=testbench_ecg_cnn.cpp"
+   }
+  ],
+  "cwd": "C:\\Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/10/25 23:58:15",
+ "timestampMillis": "1765407495317",
+ "status": {
+  "cmdId": "40a5b2b0-97e0-44d8-94e7-6e02d2077fe0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "12/10/25 23:58:28",
+ "timestampMillis": "1765407508537",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "ecg_cnn",
+     "file": "C:/Users\\oussk\\Downloads\\ecg_cnn_BACKUP_1\\hw_HLS_backup\\ecg_cnn.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_cnn.cpp",
+     "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_cnn.h",
+     "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\weights_rom.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "12/10/25 23:58:28",
+ "timestampMillis": "1765407508541",
+ "buildStep": {
+  "cmdId": "a0f0b59d-fd44-4041-82ee-d9db48abebfc",
+  "name": "",
+  "logFile": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/10/25 23:58:28",
+ "timestampMillis": "1765407508542",
+ "status": {
+  "cmdId": "a0f0b59d-fd44-4041-82ee-d9db48abebfc",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/10/25 23:58:28",
+ "timestampMillis": "1765407508543",
+ "report": {
+  "path": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/10/25 23:58:28",
+ "timestampMillis": "1765407508545",
+ "report": {
+  "path": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/10/25 23:58:28",
+ "timestampMillis": "1765407508546",
+ "report": {
+  "path": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/11/25 00:00:27",
+ "timestampMillis": "1765407627280",
+ "report": {
+  "path": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/11/25 00:00:27",
+ "timestampMillis": "1765407627281",
+ "report": {
+  "path": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/11/25 00:00:27",
+ "timestampMillis": "1765407627282",
+ "report": {
+  "path": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/11/25 00:00:27",
+ "timestampMillis": "1765407627284",
+ "status": {
+  "cmdId": "a0f0b59d-fd44-4041-82ee-d9db48abebfc",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/11/25 00:00:54",
+ "timestampMillis": "1765407654029",
+ "status": {
+  "cmdId": "40a5b2b0-97e0-44d8-94e7-6e02d2077fe0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/11/25 00:00:54",
+ "timestampMillis": "1765407654090",
+ "report": {
+  "path": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\reports\\v++_compile_ecg_cnn_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/11/25 00:00:54",
+ "timestampMillis": "1765407654093",
+ "report": {
+  "path": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\reports\\.db\\v++_compile_ecg_cnn_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

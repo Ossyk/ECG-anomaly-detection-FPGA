@@ -4,7 +4,7 @@
     "xci_name": "system_bd_ecg_cnn_0_1",
     "cell_name": "ecg_cnn_0",
     "component_reference": "unitn.edu:hls:ecg_cnn:1.0",
-    "ip_revision": "2114351482",
+    "ip_revision": "2114385960",
     "gen_directory": "../../../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_ecg_cnn_0_1",
     "parameters": {
       "component_parameters": {
@@ -80,7 +80,7 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "2114351482" } ],
+        "IPREVISION": [ { "value": "2114385960" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_ecg_cnn_0_1" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],

@@ -30,14 +30,23 @@
 .metadata/
 
 # Python ML large files
-processed/
-labels/
+data/processed/
+data/labels/
 *.npy
 *.npz
 *.pkl
 *.h5
 
+# ALLOW data/raw and other files inside data/
+!data/
+!data/raw/
+!data/raw/**
+!data/sample_info
+!data/target_VS_outcome*
+
 # Temp
 *.tmp
 *.zip
 *.tar.gz
+
+

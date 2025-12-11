@@ -54,411 +54,411 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_bd_e
 # IP: bd/system_bd/ip/system_bd_smartconnect_0_0/system_bd_smartconnect_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_bd_smartconnect_0_0 || ORIG_REF_NAME==system_bd_smartconnect_0_0} -quiet] -quiet
 
-# Block Designs: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/bd_e6ac.bd
+# Block Designs: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/bd_e6ac.bd
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_0/bd_e6ac_one_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_0/bd_e6ac_one_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_1/bd_e6ac_psr_aclk_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_1/bd_e6ac_psr_aclk_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_2/bd_e6ac_arsw_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_2/bd_e6ac_arsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_3/bd_e6ac_rsw_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_3/bd_e6ac_rsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_4/bd_e6ac_awsw_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_4/bd_e6ac_awsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_5/bd_e6ac_wsw_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_5/bd_e6ac_wsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_6/bd_e6ac_bsw_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_6/bd_e6ac_bsw_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_7/bd_e6ac_s00mmu_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_7/bd_e6ac_s00mmu_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_8/bd_e6ac_s00tr_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_8/bd_e6ac_s00tr_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_9/bd_e6ac_s00sic_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_9/bd_e6ac_s00sic_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_10/bd_e6ac_s00a2s_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_10/bd_e6ac_s00a2s_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_11/bd_e6ac_sarn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_11/bd_e6ac_sarn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_12/bd_e6ac_srn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_12/bd_e6ac_srn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_13/bd_e6ac_sawn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_13/bd_e6ac_sawn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_14/bd_e6ac_swn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_14/bd_e6ac_swn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_15/bd_e6ac_sbn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_15/bd_e6ac_sbn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_16/bd_e6ac_s01mmu_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_16/bd_e6ac_s01mmu_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_17/bd_e6ac_s01tr_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_17/bd_e6ac_s01tr_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_18/bd_e6ac_s01sic_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_18/bd_e6ac_s01sic_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_19/bd_e6ac_s01a2s_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_19/bd_e6ac_s01a2s_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_20/bd_e6ac_sarn_1.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_20/bd_e6ac_sarn_1.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_21/bd_e6ac_srn_1.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_21/bd_e6ac_srn_1.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_22/bd_e6ac_s02mmu_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_22/bd_e6ac_s02mmu_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_23/bd_e6ac_s02tr_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_23/bd_e6ac_s02tr_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_24/bd_e6ac_s02sic_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_24/bd_e6ac_s02sic_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_25/bd_e6ac_s02a2s_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_25/bd_e6ac_s02a2s_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_26/bd_e6ac_sawn_1.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_26/bd_e6ac_sawn_1.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_27/bd_e6ac_swn_1.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_27/bd_e6ac_swn_1.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_28/bd_e6ac_sbn_1.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_28/bd_e6ac_sbn_1.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_29/bd_e6ac_s03mmu_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_29/bd_e6ac_s03mmu_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_30/bd_e6ac_s03tr_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_30/bd_e6ac_s03tr_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_31/bd_e6ac_s03sic_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_31/bd_e6ac_s03sic_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_32/bd_e6ac_s03a2s_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_32/bd_e6ac_s03a2s_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_33/bd_e6ac_sarn_2.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_33/bd_e6ac_sarn_2.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_34/bd_e6ac_srn_2.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_34/bd_e6ac_srn_2.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_35/bd_e6ac_sawn_2.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_35/bd_e6ac_sawn_2.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_36/bd_e6ac_swn_2.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_36/bd_e6ac_swn_2.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_37/bd_e6ac_sbn_2.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_37/bd_e6ac_sbn_2.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_38/bd_e6ac_s04mmu_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_38/bd_e6ac_s04mmu_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_39/bd_e6ac_s04tr_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_39/bd_e6ac_s04tr_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_40/bd_e6ac_s04sic_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_40/bd_e6ac_s04sic_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_41/bd_e6ac_s04a2s_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_41/bd_e6ac_s04a2s_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_42/bd_e6ac_sarn_3.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_42/bd_e6ac_sarn_3.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_43/bd_e6ac_srn_3.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_43/bd_e6ac_srn_3.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_44/bd_e6ac_m00s2a_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_44/bd_e6ac_m00s2a_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_45/bd_e6ac_m00arn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_45/bd_e6ac_m00arn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_46/bd_e6ac_m00rn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_46/bd_e6ac_m00rn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_47/bd_e6ac_m00awn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_47/bd_e6ac_m00awn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_48/bd_e6ac_m00wn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_48/bd_e6ac_m00wn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_49/bd_e6ac_m00bn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_49/bd_e6ac_m00bn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_50/bd_e6ac_m00e_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_50/bd_e6ac_m00e_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_51/bd_e6ac_m01s2a_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_51/bd_e6ac_m01s2a_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_52/bd_e6ac_m01arn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_52/bd_e6ac_m01arn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_53/bd_e6ac_m01rn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_53/bd_e6ac_m01rn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_54/bd_e6ac_m01awn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_54/bd_e6ac_m01awn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_55/bd_e6ac_m01wn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_55/bd_e6ac_m01wn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_56/bd_e6ac_m01bn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_56/bd_e6ac_m01bn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_57/bd_e6ac_m01e_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_57/bd_e6ac_m01e_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_58/bd_e6ac_m02s2a_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_58/bd_e6ac_m02s2a_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_59/bd_e6ac_m02arn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_59/bd_e6ac_m02arn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_60/bd_e6ac_m02rn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_60/bd_e6ac_m02rn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_61/bd_e6ac_m02awn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_61/bd_e6ac_m02awn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_62/bd_e6ac_m02wn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_62/bd_e6ac_m02wn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_63/bd_e6ac_m02bn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_63/bd_e6ac_m02bn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_64/bd_e6ac_m02e_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_64/bd_e6ac_m02e_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_65/bd_e6ac_m03s2a_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_65/bd_e6ac_m03s2a_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_66/bd_e6ac_m03arn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_66/bd_e6ac_m03arn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_67/bd_e6ac_m03rn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_67/bd_e6ac_m03rn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_68/bd_e6ac_m03awn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_68/bd_e6ac_m03awn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_69/bd_e6ac_m03wn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_69/bd_e6ac_m03wn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_70/bd_e6ac_m03bn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_70/bd_e6ac_m03bn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_71/bd_e6ac_m03e_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_71/bd_e6ac_m03e_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_72/bd_e6ac_m04s2a_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_72/bd_e6ac_m04s2a_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_73/bd_e6ac_m04arn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_73/bd_e6ac_m04arn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_74/bd_e6ac_m04rn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_74/bd_e6ac_m04rn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_75/bd_e6ac_m04awn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_75/bd_e6ac_m04awn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_76/bd_e6ac_m04wn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_76/bd_e6ac_m04wn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_77/bd_e6ac_m04bn_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_77/bd_e6ac_m04bn_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# IP: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_78/bd_e6ac_m04e_0.xci
+# IP: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_78/bd_e6ac_m04e_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
 # IP: bd/system_bd/ip/system_bd_xlconstant_0_2/system_bd_xlconstant_0_2.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==system_bd_xlconstant_0_2 || ORIG_REF_NAME==system_bd_xlconstant_0_2} -quiet] -quiet
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_microblaze_0_0/system_bd_microblaze_0_0.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_microblaze_0_0/system_bd_microblaze_0_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_bd_microblaze_0_0 || ORIG_REF_NAME==system_bd_microblaze_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_microblaze_0_0/system_bd_microblaze_0_0_ooc_debug.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_microblaze_0_0/system_bd_microblaze_0_0_ooc_debug.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_lmb_bram_0_1/system_bd_lmb_bram_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_lmb_bram_0_1/system_bd_lmb_bram_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_mdm_1_0_1/system_bd_mdm_1_0.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_mdm_1_0_1/system_bd_mdm_1_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_bd_mdm_1_0 || ORIG_REF_NAME==system_bd_mdm_1_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_mdm_1_0_1/system_bd_mdm_1_0_ooc_trace.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_mdm_1_0_1/system_bd_mdm_1_0_ooc_trace.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_clk_wiz_1_0_1/system_bd_clk_wiz_1_0_board.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_clk_wiz_1_0_1/system_bd_clk_wiz_1_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_bd_clk_wiz_1_0 || ORIG_REF_NAME==system_bd_clk_wiz_1_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_clk_wiz_1_0_1/system_bd_clk_wiz_1_0.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_clk_wiz_1_0_1/system_bd_clk_wiz_1_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_bd_clk_wiz_1_0 || ORIG_REF_NAME==system_bd_clk_wiz_1_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_clk_wiz_1_0_1/system_bd_clk_wiz_1_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_clk_wiz_1_0_1/system_bd_clk_wiz_1_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_rst_clk_wiz_1_100M_0_1/system_bd_rst_clk_wiz_1_100M_0_board.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_rst_clk_wiz_1_100M_0_1/system_bd_rst_clk_wiz_1_100M_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_bd_rst_clk_wiz_1_100M_0 || ORIG_REF_NAME==system_bd_rst_clk_wiz_1_100M_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_uartlite_0_0_1/system_bd_axi_uartlite_0_0_board.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_uartlite_0_0_1/system_bd_axi_uartlite_0_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_bd_axi_uartlite_0_0 || ORIG_REF_NAME==system_bd_axi_uartlite_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_uartlite_0_0_1/system_bd_axi_uartlite_0_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_uartlite_0_0_1/system_bd_axi_uartlite_0_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_blk_mem_gen_0_1/system_bd_blk_mem_gen_0_1_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_blk_mem_gen_0_1/system_bd_blk_mem_gen_0_1_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_gpio_0_0/system_bd_axi_gpio_0_0_board.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_gpio_0_0/system_bd_axi_gpio_0_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_bd_axi_gpio_0_0 || ORIG_REF_NAME==system_bd_axi_gpio_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_gpio_0_0/system_bd_axi_gpio_0_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_gpio_0_0/system_bd_axi_gpio_0_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_gpio_1_0/system_bd_axi_gpio_1_0_board.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_gpio_1_0/system_bd_axi_gpio_1_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_bd_axi_gpio_1_0 || ORIG_REF_NAME==system_bd_axi_gpio_1_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_gpio_1_0/system_bd_axi_gpio_1_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_axi_gpio_1_0/system_bd_axi_gpio_1_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_ecg_cnn_0_1/constraints/ecg_cnn_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_ecg_cnn_0_1/constraints/ecg_cnn_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_1/bd_e6ac_psr_aclk_0_board.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_1/bd_e6ac_psr_aclk_0_board.xdc
 # DONT_TOUCH constraint suppressed by parent sub-design file.
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_2/bd_e6ac_arsw_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_2/bd_e6ac_arsw_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_3/bd_e6ac_rsw_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_3/bd_e6ac_rsw_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_4/bd_e6ac_awsw_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_4/bd_e6ac_awsw_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_5/bd_e6ac_wsw_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_5/bd_e6ac_wsw_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_6/bd_e6ac_bsw_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_6/bd_e6ac_bsw_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_10/bd_e6ac_s00a2s_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_10/bd_e6ac_s00a2s_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_11/bd_e6ac_sarn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_11/bd_e6ac_sarn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_12/bd_e6ac_srn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_12/bd_e6ac_srn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_13/bd_e6ac_sawn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_13/bd_e6ac_sawn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_14/bd_e6ac_swn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_14/bd_e6ac_swn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_15/bd_e6ac_sbn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_15/bd_e6ac_sbn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_19/bd_e6ac_s01a2s_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_19/bd_e6ac_s01a2s_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_20/bd_e6ac_sarn_1_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_20/bd_e6ac_sarn_1_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_21/bd_e6ac_srn_1_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_21/bd_e6ac_srn_1_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_25/bd_e6ac_s02a2s_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_25/bd_e6ac_s02a2s_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_26/bd_e6ac_sawn_1_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_26/bd_e6ac_sawn_1_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_27/bd_e6ac_swn_1_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_27/bd_e6ac_swn_1_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_28/bd_e6ac_sbn_1_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_28/bd_e6ac_sbn_1_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_32/bd_e6ac_s03a2s_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_32/bd_e6ac_s03a2s_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_33/bd_e6ac_sarn_2_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_33/bd_e6ac_sarn_2_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_34/bd_e6ac_srn_2_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_34/bd_e6ac_srn_2_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_35/bd_e6ac_sawn_2_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_35/bd_e6ac_sawn_2_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_36/bd_e6ac_swn_2_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_36/bd_e6ac_swn_2_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_37/bd_e6ac_sbn_2_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_37/bd_e6ac_sbn_2_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_41/bd_e6ac_s04a2s_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_41/bd_e6ac_s04a2s_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_42/bd_e6ac_sarn_3_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_42/bd_e6ac_sarn_3_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_43/bd_e6ac_srn_3_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_43/bd_e6ac_srn_3_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_44/bd_e6ac_m00s2a_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_44/bd_e6ac_m00s2a_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_45/bd_e6ac_m00arn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_45/bd_e6ac_m00arn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_46/bd_e6ac_m00rn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_46/bd_e6ac_m00rn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_47/bd_e6ac_m00awn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_47/bd_e6ac_m00awn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_48/bd_e6ac_m00wn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_48/bd_e6ac_m00wn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_49/bd_e6ac_m00bn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_49/bd_e6ac_m00bn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_51/bd_e6ac_m01s2a_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_51/bd_e6ac_m01s2a_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_52/bd_e6ac_m01arn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_52/bd_e6ac_m01arn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_53/bd_e6ac_m01rn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_53/bd_e6ac_m01rn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_54/bd_e6ac_m01awn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_54/bd_e6ac_m01awn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_55/bd_e6ac_m01wn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_55/bd_e6ac_m01wn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_56/bd_e6ac_m01bn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_56/bd_e6ac_m01bn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_58/bd_e6ac_m02s2a_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_58/bd_e6ac_m02s2a_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_59/bd_e6ac_m02arn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_59/bd_e6ac_m02arn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_60/bd_e6ac_m02rn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_60/bd_e6ac_m02rn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_61/bd_e6ac_m02awn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_61/bd_e6ac_m02awn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_62/bd_e6ac_m02wn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_62/bd_e6ac_m02wn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_63/bd_e6ac_m02bn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_63/bd_e6ac_m02bn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_65/bd_e6ac_m03s2a_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_65/bd_e6ac_m03s2a_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_66/bd_e6ac_m03arn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_66/bd_e6ac_m03arn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_67/bd_e6ac_m03rn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_67/bd_e6ac_m03rn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_68/bd_e6ac_m03awn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_68/bd_e6ac_m03awn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_69/bd_e6ac_m03wn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_69/bd_e6ac_m03wn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_70/bd_e6ac_m03bn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_70/bd_e6ac_m03bn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_72/bd_e6ac_m04s2a_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_72/bd_e6ac_m04s2a_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_73/bd_e6ac_m04arn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_73/bd_e6ac_m04arn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_74/bd_e6ac_m04rn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_74/bd_e6ac_m04rn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_75/bd_e6ac_m04awn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_75/bd_e6ac_m04awn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_76/bd_e6ac_m04wn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_76/bd_e6ac_m04wn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_77/bd_e6ac_m04bn_0_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_77/bd_e6ac_m04bn_0_ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/ooc.xdc
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/smartconnect.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_smartconnect_0_0/smartconnect.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==system_bd_smartconnect_0_0 || ORIG_REF_NAME==system_bd_smartconnect_0_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: c:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.gen/sources_1/bd/system_bd/system_bd_ooc.xdc
+# XDC: c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/system_bd_ooc.xdc

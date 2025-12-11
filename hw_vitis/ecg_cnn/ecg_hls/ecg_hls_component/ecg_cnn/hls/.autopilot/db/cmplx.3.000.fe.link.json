@@ -1,0 +1,269 @@
+{
+  "0": {
+    "basicblocks": 5,
+    "calls": "13 6 8 15 16 17",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 186,
+    "instructions": 206,
+    "loads": {
+      "L": 2
+    },
+    "memory_accesses": 0,
+    "name": "ecg_cnn",
+    "stores": {
+      "L": 1,
+      "T": 1
+    },
+    "total_instructions": 52552
+  },
+  "1": {
+    "basicblocks": 343,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 3,
+    "file": "hls_exp_apfixed.h",
+    "fileloc": 13,
+    "instructions": 4332,
+    "loads": {
+      "G": 32,
+      "L": 16
+    },
+    "memory_accesses": 51,
+    "name": "exp<12, 3>",
+    "stores": {
+      "G": 16,
+      "L": 27
+    },
+    "total_instructions": 47630
+  },
+  "10": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "weights_rom.h",
+    "fileloc": 22,
+    "instructions": 641,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.2",
+    "total_instructions": 247681
+  },
+  "11": {
+    "basicblocks": 1,
+    "calls": "12 2 10 9 5 14 3 7 4",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "ecg_cnn.pp.0.cpp",
+    "fileloc": 0,
+    "instructions": 10,
+    "memory_accesses": 0,
+    "name": "",
+    "total_instructions": 391087
+  },
+  "12": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "weights_rom.h",
+    "fileloc": 5,
+    "instructions": 57,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init",
+    "total_instructions": 21673
+  },
+  "13": {
+    "basicblocks": 34,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 2,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 14,
+    "instructions": 124,
+    "loads": {
+      "L": 5
+    },
+    "memory_accesses": 4,
+    "name": "conv1d_relu",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 632
+  },
+  "14": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "weights_rom.h",
+    "fileloc": 256,
+    "instructions": 17,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.5",
+    "total_instructions": 6193
+  },
+  "15": {
+    "basicblocks": 13,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 2,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 108,
+    "instructions": 51,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 1,
+    "name": "gap",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 501
+  },
+  "16": {
+    "basicblocks": 28,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 2,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 124,
+    "instructions": 110,
+    "loads": {
+      "L": 5
+    },
+    "memory_accesses": 4,
+    "name": "dense_relu",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 618
+  },
+  "17": {
+    "basicblocks": 25,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 2,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 155,
+    "instructions": 97,
+    "loads": {
+      "L": 4
+    },
+    "memory_accesses": 4,
+    "name": "dense_linear",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 466
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "weights_rom.h",
+    "fileloc": 18,
+    "instructions": 9,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.1",
+    "total_instructions": 3097
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "weights_rom.h",
+    "fileloc": 260,
+    "instructions": 17,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.6",
+    "total_instructions": 6193
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 9,
+    "instructions": 19,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.9",
+    "total_instructions": 586
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "weights_rom.h",
+    "fileloc": 205,
+    "instructions": 257,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.4",
+    "total_instructions": 99073
+  },
+  "6": {
+    "basicblocks": 21,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 3,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 49,
+    "instructions": 68,
+    "loads": {
+      "L": 4
+    },
+    "memory_accesses": 5,
+    "name": "maxpool",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 78
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "weights_rom.h",
+    "fileloc": 266,
+    "instructions": 2,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.7",
+    "total_instructions": 388
+  },
+  "8": {
+    "basicblocks": 46,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 2,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 70,
+    "instructions": 148,
+    "loads": {
+      "L": 5
+    },
+    "memory_accesses": 4,
+    "name": "conv1d_relu2",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 656
+  },
+  "9": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 0,
+    "file": "weights_rom.h",
+    "fileloc": 201,
+    "instructions": 17,
+    "memory_accesses": 0,
+    "name": "__cxx_global_var_init.3",
+    "total_instructions": 6193
+  }
+}

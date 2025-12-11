@@ -688,7 +688,7 @@
       },
       "ecg_cnn_0": {
         "vlnv": "unitn.edu:hls:ecg_cnn:1.0",
-        "ip_revision": "2114351482",
+        "ip_revision": "2114385960",
         "xci_name": "system_bd_ecg_cnn_0_1",
         "xci_path": "ip\\system_bd_ecg_cnn_0_1_1\\system_bd_ecg_cnn_0_1.xci",
         "inst_hier_path": "ecg_cnn_0",

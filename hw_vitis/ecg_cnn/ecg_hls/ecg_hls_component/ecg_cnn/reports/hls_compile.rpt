@@ -1,0 +1,528 @@
+
+
+================================================================
+== Synthesis Summary Report of 'ecg_cnn'
+================================================================
++ General Information: 
+    * Date:           Thu Dec 11 00:00:22 2025
+    * Version:        2025.1 (Build 6135595 on May 21 2025)
+    * Project:        ecg_cnn
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: artix7
+    * Target device:  xc7a100t-csg324-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+----------+----------+------------+-------------+-----+
+    |                  Modules                  | Issue|      |       Latency       | Iteration|         | Trip |          |          |          |            |             |     |
+    |                  & Loops                  | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|   BRAM   |    DSP   |     FF     |     LUT     | URAM|
+    +-------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+----------+----------+------------+-------------+-----+
+    |+ ecg_cnn                                  |     -|  0.00|    60677|  6.068e+05|         -|    60678|     -|        no|  53 (19%)|  58 (24%)|  10845 (8%)|  10735 (16%)|    -|
+    | + conv1d_relu                             |     -|  0.00|    40000|  4.000e+05|         -|    39991|     -|    rewind|    7 (2%)|    7 (2%)|   767 (~0%)|    1025 (1%)|    -|
+    |  o CONV1_F_CONV1_X                        |    II|  8.00|    39998|  4.000e+05|        22|        7|  5712|       yes|         -|         -|           -|            -|    -|
+    | + maxpool                                 |     -|  0.81|     2871|  2.871e+04|         -|     2857|     -|    rewind|         -|   1 (~0%)|   464 (~0%)|    433 (~0%)|    -|
+    |  o POOL_F_POOL_X                          |     -|  8.00|     2869|  2.869e+04|        15|        1|  2856|       yes|         -|         -|           -|            -|    -|
+    | + conv1d_relu2                            |     -|  0.26|    11354|  1.135e+05|         -|    11298|     -|    rewind|   20 (7%)|  45 (18%)|   6732 (5%)|    5260 (8%)|    -|
+    |  o CONV2_F_CONV2_X                        |    II|  8.00|    11352|  1.135e+05|        59|        2|  5648|       yes|         -|         -|           -|            -|    -|
+    | + gap                                     |     -|  2.66|     5745|  5.745e+04|         -|     5745|     -|        no|         -|         -|    61 (~0%)|    172 (~0%)|    -|
+    |  o GAP_F                                  |     -|  8.00|     5744|  5.744e+04|       359|        -|    16|        no|         -|         -|           -|            -|    -|
+    |   + gap_Pipeline_VITIS_LOOP_115_1         |     -|  2.66|      356|  3.560e+03|         -|      354|     -|    rewind|         -|         -|    38 (~0%)|    115 (~0%)|    -|
+    |    o VITIS_LOOP_115_1                     |     -|  8.00|      354|  3.540e+03|         3|        1|   353|       yes|         -|         -|           -|            -|    -|
+    | + dense_relu                              |     -|  2.72|      625|  6.250e+03|         -|      625|     -|        no|         -|   1 (~0%)|   125 (~0%)|    404 (~0%)|    -|
+    |  o D1_U                                   |     -|  8.00|      624|  6.240e+03|        39|        -|    16|        no|         -|         -|           -|            -|    -|
+    |   + dense_relu_Pipeline_VITIS_LOOP_146_2  |     -|  2.72|       36|    360.000|         -|       34|     -|    rewind|         -|   1 (~0%)|    98 (~0%)|    252 (~0%)|    -|
+    |    o VITIS_LOOP_146_2                     |     -|  8.00|       34|    340.000|         5|        2|    16|       yes|         -|         -|           -|            -|    -|
+    | + dense_linear                            |     -|  2.88|       35|    350.000|         -|       34|     -|    rewind|         -|   1 (~0%)|    35 (~0%)|    244 (~0%)|    -|
+    |  o VITIS_LOOP_177_2                       |     -|  8.00|       33|    330.000|         4|        2|    16|       yes|         -|         -|           -|            -|    -|
+    | + exp_12_3_s                              |     -|  1.23|        5|     50.000|         -|        1|     -|       yes|         -|    3 (1%)|   354 (~0%)|    292 (~0%)|    -|
+    +-------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+----------+----------+------------+-------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* M_AXI
++----------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| Interface      | Read/Write | Data Width | Address Width | Latency | Offset | Register | Max Widen | Max Read     | Max Write    | Num Read    | Num Write   | Resource Estimate |
+|                |            | (SW->HW)   |               |         |        |          | Bitwidth  | Burst Length | Burst Length | Outstanding | Outstanding |                   |
++----------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| m_axi_INPUT_r  | READ_ONLY  | 12 -> 16   | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          | BRAM=2            |
+| m_axi_OUTPUT_r | WRITE_ONLY | 32 -> 32   | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          |                   |
++----------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+
+* S_AXILITE Interfaces
++------------+------------+---------------+--------+----------+
+| Interface  | Data Width | Address Width | Offset | Register |
++------------+------------+---------------+--------+----------+
+| s_axi_CTRL | 32         | 6             | 16     | 0        |
++------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++------------+--------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface  | Register     | Offset | Width | Access | Description                      | Bit Fields                                                           |
++------------+--------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_CTRL | CTRL         | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_CTRL | GIER         | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_CTRL | IP_IER       | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_CTRL | IP_ISR       | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_CTRL | input_r_r_1  | 0x10   | 32    | W      | Data signal of input_r_r         |                                                                      |
+| s_axi_CTRL | input_r_r_2  | 0x14   | 32    | W      | Data signal of input_r_r         |                                                                      |
+| s_axi_CTRL | output_r_r_1 | 0x1c   | 32    | W      | Data signal of output_r_r        |                                                                      |
+| s_axi_CTRL | output_r_r_2 | 0x20   | 32    | W      | Data signal of output_r_r        |                                                                      |
++------------+--------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+--------------------------------------+
+| Argument | Direction | Datatype                             |
++----------+-----------+--------------------------------------+
+| input    | in        | ap_fixed<12, 3, AP_TRN, AP_WRAP, 0>* |
+| output   | out       | ap_uint<32>*                         |
++----------+-----------+--------------------------------------+
+
+* SW-to-HW Mapping
++----------+----------------+-----------+----------+-----------+
+| Argument | HW Interface   | HW Type   | HW Usage | HW Info   |
++----------+----------------+-----------+----------+-----------+
+| input    | m_axi_INPUT_r  | interface |          | channel=0 |
+| input    | s_axi_CTRL     | interface | offset   |           |
+| output   | m_axi_OUTPUT_r | interface |          | channel=0 |
+| output   | s_axi_CTRL     | interface | offset   |           |
++----------+----------------+-----------+----------+-----------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+* All M_AXI Variable Accesses
++--------------+----------+----------------------+-----------+--------------+------------+-----------------------------+
+| HW Interface | Variable | Access Location      | Direction | Burst Status | Resolution | Problem                     |
++--------------+----------+----------------------+-----------+--------------+------------+-----------------------------+
+| m_axi_INPUT  | input    | ../ecg_cnn.cpp:41:22 | read      | Fail         | 214-231    | Access is clobbered by load |
++--------------+----------+----------------------+-----------+--------------+------------+-----------------------------+
+
+    * Resolution URL: docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=XXX-YYY.html (replace XXX-YYY with column value)
+
+================================================================
+== Bind Op Report
+================================================================
++------------------------------------------+-----+--------+---------------------+-----------+--------------------------+---------+
+| Name                                     | DSP | Pragma | Variable            | Op        | Impl                     | Latency |
++------------------------------------------+-----+--------+---------------------+-----------+--------------------------+---------+
+| + ecg_cnn                                | 58  |        |                     |           |                          |         |
+|   grp_exp_12_3_s_fu_594_x                |     |        | neg                 | sub       | fabric                   | 0       |
+|   add_ln248_fu_763_p2                    |     |        | add_ln248           | add       | fabric                   | 0       |
+|   sdiv_20ns_13s_20_24_seq_1_U293         |     |        | sdiv_ln248          | sdiv      | auto_seq                 | 23      |
+|   icmp_ln252_fu_813_p2                   |     |        | icmp_ln252          | setne     | auto                     | 0       |
+|   add_ln252_fu_819_p2                    |     |        | add_ln252           | add       | fabric                   | 0       |
+|   select_ln252_fu_825_p3                 |     |        | select_ln252        | select    | auto_sel                 | 0       |
+|   ref_tmp_i_i_0_fu_833_p3                |     |        | ref_tmp_i_i_0       | select    | auto_sel                 | 0       |
+|   label_fu_841_p2                        |     |        | label               | setgt     | auto                     | 0       |
+|  + conv1d_relu                           | 7   |        |                     |           |                          |         |
+|    icmp_ln35_fu_333_p2                   |     |        | icmp_ln35           | seteq     | auto                     | 0       |
+|    add_ln35_1_fu_339_p2                  |     |        | add_ln35_1          | add       | fabric                   | 0       |
+|    add_ln35_fu_622_p2                    |     |        | add_ln35            | add       | fabric                   | 0       |
+|    icmp_ln36_fu_353_p2                   |     |        | icmp_ln36           | seteq     | auto                     | 0       |
+|    select_ln35_fu_359_p3                 |     |        | select_ln35         | select    | auto_sel                 | 0       |
+|    select_ln35_1_fu_628_p3               |     |        | select_ln35_1       | select    | auto_sel                 | 0       |
+|    sparsemux_17_3_9_1_1_U1               |     |        | acc                 | sparsemux | compactencoding_dontcare | 0       |
+|    add_ln41_fu_379_p2                    |     |        | add_ln41            | add       | fabric                   | 0       |
+|    mac_muladd_12s_11s_18s_21_4_1_U2      | 1   |        | mul_ln41            | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11s_18s_21_4_1_U2      | 1   |        | add_ln41_1          | add       | dsp_slice                | 3       |
+|    add_ln41_2_fu_404_p2                  |     |        | add_ln41_2          | add       | fabric                   | 0       |
+|    add_ln41_3_fu_415_p2                  |     |        | add_ln41_3          | add       | fabric                   | 0       |
+|    add_ln41_4_fu_424_p2                  |     |        | add_ln41_4          | add       | fabric                   | 0       |
+|    mac_muladd_12s_10s_21ns_21_4_1_U3     | 1   |        | mul_ln41_1          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_10s_21ns_21_4_1_U3     | 1   |        | add_ln41_5          | add       | dsp_slice                | 3       |
+|    add_ln41_6_fu_449_p2                  |     |        | add_ln41_6          | add       | fabric                   | 0       |
+|    add_ln41_7_fu_458_p2                  |     |        | add_ln41_7          | add       | fabric                   | 0       |
+|    mac_muladd_12s_10s_21ns_21_4_1_U4     | 1   |        | mul_ln41_2          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_10s_21ns_21_4_1_U4     | 1   |        | add_ln41_8          | add       | dsp_slice                | 3       |
+|    add_ln41_9_fu_483_p2                  |     |        | add_ln41_9          | add       | fabric                   | 0       |
+|    add_ln41_10_fu_492_p2                 |     |        | add_ln41_10         | add       | fabric                   | 0       |
+|    mac_muladd_12s_10s_21ns_21_4_1_U5     | 1   |        | mul_ln41_3          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_10s_21ns_21_4_1_U5     | 1   |        | add_ln41_11         | add       | dsp_slice                | 3       |
+|    add_ln41_12_fu_517_p2                 |     |        | add_ln41_12         | add       | fabric                   | 0       |
+|    add_ln41_13_fu_526_p2                 |     |        | add_ln41_13         | add       | fabric                   | 0       |
+|    mac_muladd_12s_9s_21ns_21_4_1_U6      | 1   |        | mul_ln41_4          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_9s_21ns_21_4_1_U6      | 1   |        | add_ln41_14         | add       | dsp_slice                | 3       |
+|    add_ln41_15_fu_551_p2                 |     |        | add_ln41_15         | add       | fabric                   | 0       |
+|    add_ln41_16_fu_560_p2                 |     |        | add_ln41_16         | add       | fabric                   | 0       |
+|    mac_muladd_12s_10s_21ns_21_4_1_U7     | 1   |        | mul_ln41_5          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_10s_21ns_21_4_1_U7     | 1   |        | add_ln41_17         | add       | dsp_slice                | 3       |
+|    add_ln41_18_fu_585_p2                 |     |        | add_ln41_18         | add       | fabric                   | 0       |
+|    add_ln41_19_fu_594_p2                 |     |        | add_ln41_19         | add       | fabric                   | 0       |
+|    mac_muladd_12s_11s_21ns_21_4_1_U8     | 1   |        | mul_ln41_6          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11s_21ns_21_4_1_U8     | 1   |        | add_ln41_20         | add       | dsp_slice                | 3       |
+|    icmp_ln43_fu_908_p2                   |     |        | icmp_ln43           | setgt     | auto                     | 0       |
+|    select_ln43_fu_914_p3                 |     |        | select_ln43         | select    | auto_sel                 | 0       |
+|  + maxpool                               | 1   |        |                     |           |                          |         |
+|    icmp_ln55_fu_317_p2                   |     |        | icmp_ln55           | seteq     | auto                     | 0       |
+|    add_ln55_1_fu_323_p2                  |     |        | add_ln55_1          | add       | fabric                   | 0       |
+|    add_ln55_fu_371_p2                    |     |        | add_ln55            | add       | fabric                   | 0       |
+|    icmp_ln56_fu_337_p2                   |     |        | icmp_ln56           | seteq     | auto                     | 0       |
+|    select_ln55_fu_343_p3                 |     |        | select_ln55         | select    | auto_sel                 | 0       |
+|    select_ln55_1_fu_377_p3               |     |        | select_ln55_1       | select    | auto_sel                 | 0       |
+|    mul_9ns_11ns_19_1_1_U26               | 1   |        | mul_ln56            | mul       | auto                     | 0       |
+|    urem_9ns_4ns_3_13_1_U25               |     |        | urem_ln56           | urem      | auto                     | 12      |
+|    maxval_fu_457_p3                      |     |        | maxval              | select    | auto_sel                 | 0       |
+|    v_fu_464_p3                           |     |        | v                   | select    | auto_sel                 | 0       |
+|    icmp_ln62_fu_471_p2                   |     |        | icmp_ln62           | setgt     | auto                     | 0       |
+|    maxval_2_fu_477_p3                    |     |        | maxval_2            | select    | auto_sel                 | 0       |
+|    add_ln56_fu_357_p2                    |     |        | add_ln56            | add       | fabric                   | 0       |
+|  + conv1d_relu2                          | 45  |        |                     |           |                          |         |
+|    icmp_ln92_fu_2520_p2                  |     |        | icmp_ln92           | seteq     | auto                     | 0       |
+|    add_ln92_1_fu_2526_p2                 |     |        | add_ln92_1          | add       | fabric                   | 0       |
+|    add_ln92_fu_2557_p2                   |     |        | add_ln92            | add       | fabric                   | 0       |
+|    icmp_ln93_fu_2535_p2                  |     |        | icmp_ln93           | seteq     | auto                     | 0       |
+|    select_ln92_fu_2541_p3                |     |        | select_ln92         | select    | auto_sel                 | 0       |
+|    select_ln92_1_fu_2563_p3              |     |        | select_ln92_1       | select    | auto_sel                 | 0       |
+|    sparsemux_33_4_10_1_1_U87             |     |        | acc                 | sparsemux | compactencoding_dontcare | 0       |
+|    mul_9ns_11ns_19_1_1_U41               | 1   |        | mul_ln95            | mul       | auto                     | 0       |
+|    urem_9ns_4ns_3_13_1_U42               |     |        | urem_ln95           | urem      | auto                     | 12      |
+|    sparsemux_11_3_11_1_1_U47             |     |        | sext_ln99_s         | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_19s_21_4_1_U88    | 1   |        | mul_ln99            | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_19s_21_4_1_U88    | 1   |        | add_ln99            | add       | dsp_slice                | 3       |
+|    add_ln99_1_fu_2674_p2                 |     |        | add_ln99_1          | add       | fabric                   | 0       |
+|    mul_9ns_11ns_19_1_1_U43               | 1   |        | mul_ln99_40         | mul       | auto                     | 0       |
+|    sparsemux_11_3_11_1_1_U48             |     |        | sext_ln99_30        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U89   | 1   |        | mul_ln99_1          | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U89   | 1   |        | add_ln99_2          | add       | dsp_slice                | 3       |
+|    add_ln99_3_fu_2699_p2                 |     |        | add_ln99_3          | add       | fabric                   | 0       |
+|    mul_9ns_11ns_19_1_1_U44               | 1   |        | mul_ln99_41         | mul       | auto                     | 0       |
+|    sparsemux_11_3_11_1_1_U49             |     |        | sext_ln99_31        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U90   | 1   |        | mul_ln99_2          | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U90   | 1   |        | add_ln99_4          | add       | dsp_slice                | 3       |
+|    add_ln99_5_fu_2724_p2                 |     |        | add_ln99_5          | add       | fabric                   | 0       |
+|    mul_9ns_11ns_19_1_1_U45               | 1   |        | mul_ln99_42         | mul       | auto                     | 0       |
+|    sparsemux_11_3_11_1_1_U50             |     |        | sext_ln99_32        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U91   | 1   |        | mul_ln99_3          | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U91   | 1   |        | add_ln99_6          | add       | dsp_slice                | 3       |
+|    add_ln99_7_fu_2749_p2                 |     |        | add_ln99_7          | add       | fabric                   | 0       |
+|    mul_9ns_11ns_19_1_1_U46               | 1   |        | mul_ln99_43         | mul       | auto                     | 0       |
+|    sparsemux_11_3_11_1_1_U51             |     |        | sext_ln99_33        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U92   | 1   |        | mul_ln99_4          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U92   | 1   |        | add_ln99_8          | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U52             |     |        | sext_ln99_34        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U93   | 1   |        | mul_ln99_5          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U93   | 1   |        | add_ln99_9          | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U53             |     |        | sext_ln99_35        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U94   | 1   |        | mul_ln99_6          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U94   | 1   |        | add_ln99_10         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U54             |     |        | sext_ln99_36        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U95   | 1   |        | mul_ln99_7          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U95   | 1   |        | add_ln99_11         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U55             |     |        | sext_ln99_37        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U96   | 1   |        | mul_ln99_8          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U96   | 1   |        | add_ln99_12         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U56             |     |        | sext_ln99_38        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U97   | 1   |        | mul_ln99_9          | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U97   | 1   |        | add_ln99_13         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U57             |     |        | sext_ln99_39        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U98   | 1   |        | mul_ln99_10         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U98   | 1   |        | add_ln99_14         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U58             |     |        | sext_ln99_40        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U99   | 1   |        | mul_ln99_11         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U99   | 1   |        | add_ln99_15         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U59             |     |        | sext_ln99_41        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U100  | 1   |        | mul_ln99_12         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U100  | 1   |        | add_ln99_16         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U60             |     |        | sext_ln99_42        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U101  | 1   |        | mul_ln99_13         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U101  | 1   |        | add_ln99_17         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U61             |     |        | sext_ln99_43        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U102  | 1   |        | mul_ln99_14         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U102  | 1   |        | add_ln99_18         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U62             |     |        | sext_ln99_44        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U103  | 1   |        | mul_ln99_15         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U103  | 1   |        | add_ln99_19         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U63             |     |        | sext_ln99_45        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U104  | 1   |        | mul_ln99_16         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U104  | 1   |        | add_ln99_20         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U64             |     |        | sext_ln99_46        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U105  | 1   |        | mul_ln99_17         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U105  | 1   |        | add_ln99_21         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U65             |     |        | sext_ln99_47        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U106  | 1   |        | mul_ln99_18         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U106  | 1   |        | add_ln99_22         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U66             |     |        | sext_ln99_48        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U107  | 1   |        | mul_ln99_19         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U107  | 1   |        | add_ln99_23         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U67             |     |        | sext_ln99_49        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U108  | 1   |        | mul_ln99_20         | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U108  | 1   |        | add_ln99_24         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U68             |     |        | sext_ln99_50        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U109  | 1   |        | mul_ln99_21         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U109  | 1   |        | add_ln99_25         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U69             |     |        | sext_ln99_51        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U110  | 1   |        | mul_ln99_22         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U110  | 1   |        | add_ln99_26         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U70             |     |        | sext_ln99_52        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U111  | 1   |        | mul_ln99_23         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U111  | 1   |        | add_ln99_27         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U71             |     |        | sext_ln99_53        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U112  | 1   |        | mul_ln99_24         | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U112  | 1   |        | add_ln99_28         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U72             |     |        | sext_ln99_54        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U113  | 1   |        | mul_ln99_25         | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U113  | 1   |        | add_ln99_29         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U73             |     |        | sext_ln99_55        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U114  | 1   |        | mul_ln99_26         | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U114  | 1   |        | add_ln99_30         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U74             |     |        | sext_ln99_56        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U115  | 1   |        | mul_ln99_27         | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U115  | 1   |        | add_ln99_31         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U75             |     |        | sext_ln99_57        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U116  | 1   |        | mul_ln99_28         | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U116  | 1   |        | add_ln99_32         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U76             |     |        | sext_ln99_58        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U117  | 1   |        | mul_ln99_29         | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U117  | 1   |        | add_ln99_33         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U77             |     |        | sext_ln99_59        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U118  | 1   |        | mul_ln99_30         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U118  | 1   |        | add_ln99_34         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U78             |     |        | sext_ln99_60        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U119  | 1   |        | mul_ln99_31         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U119  | 1   |        | add_ln99_35         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U79             |     |        | sext_ln99_61        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U120  | 1   |        | mul_ln99_32         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U120  | 1   |        | add_ln99_36         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U80             |     |        | sext_ln99_62        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U121  | 1   |        | mul_ln99_33         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U121  | 1   |        | add_ln99_37         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U81             |     |        | sext_ln99_63        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U122  | 1   |        | mul_ln99_34         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U122  | 1   |        | add_ln99_38         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U82             |     |        | sext_ln99_64        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U123  | 1   |        | mul_ln99_35         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U123  | 1   |        | add_ln99_39         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U83             |     |        | sext_ln99_65        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U124  | 1   |        | mul_ln99_36         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U124  | 1   |        | add_ln99_40         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U84             |     |        | sext_ln99_66        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U125  | 1   |        | mul_ln99_37         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U125  | 1   |        | add_ln99_41         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U85             |     |        | sext_ln99_67        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U126  | 1   |        | mul_ln99_38         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_10s_21ns_21_4_1_U126  | 1   |        | add_ln99_42         | add       | dsp_slice                | 3       |
+|    sparsemux_11_3_11_1_1_U86             |     |        | sext_ln99_68        | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U127  | 1   |        | mul_ln99_39         | mul       | dsp_slice                | 3       |
+|    mac_muladd_11ns_11s_21ns_21_4_1_U127  | 1   |        | add_ln99_43         | add       | dsp_slice                | 3       |
+|    icmp_ln102_fu_5303_p2                 |     |        | icmp_ln102          | setgt     | auto                     | 0       |
+|    select_ln102_fu_5309_p3               |     |        | select_ln102        | select    | auto_sel                 | 0       |
+|  + gap                                   | 0   |        |                     |           |                          |         |
+|    icmp_ln113_fu_249_p2                  |     |        | icmp_ln113          | seteq     | auto                     | 0       |
+|    add_ln113_fu_255_p2                   |     |        | add_ln113           | add       | fabric                   | 0       |
+|   + gap_Pipeline_VITIS_LOOP_115_1        | 0   |        |                     |           |                          |         |
+|     icmp_ln115_fu_158_p2                 |     |        | icmp_ln115          | seteq     | auto                     | 0       |
+|     add_ln115_fu_164_p2                  |     |        | add_ln115           | add       | fabric                   | 0       |
+|     sparsemux_9_2_11_1_1_U172            |     |        | tmp                 | sparsemux | compactencoding_dontcare | 0       |
+|     sum_1_fu_220_p2                      |     |        | sum_1               | add       | fabric                   | 0       |
+|  + dense_relu                            | 1   |        |                     |           |                          |         |
+|    icmp_ln144_fu_419_p2                  |     |        | icmp_ln144          | seteq     | auto                     | 0       |
+|    add_ln144_fu_425_p2                   |     |        | add_ln144           | add       | fabric                   | 0       |
+|    sparsemux_33_4_8_1_1_U230             |     |        | acc                 | sparsemux | compactencoding_dontcare | 0       |
+|    icmp_ln150_fu_516_p2                  |     |        | icmp_ln150          | setgt     | auto                     | 0       |
+|    select_ln150_fu_522_p3                |     |        | select_ln150        | select    | auto_sel                 | 0       |
+|   + dense_relu_Pipeline_VITIS_LOOP_146_2 | 1   |        |                     |           |                          |         |
+|     icmp_ln146_fu_345_p2                 |     |        | icmp_ln146          | seteq     | auto                     | 0       |
+|     add_ln146_fu_351_p2                  |     |        | add_ln146           | add       | fabric                   | 0       |
+|     sparsemux_33_4_12_1_1_U201           |     |        | tmp                 | sparsemux | compactencoding_dontcare | 0       |
+|     sparsemux_9_2_12_1_1_U202            |     |        | tmp_s               | sparsemux | compactencoding_dontcare | 0       |
+|     mac_muladd_12s_12s_21ns_21_4_1_U203  | 1   |        | mul_ln148           | mul       | dsp_slice                | 3       |
+|     mac_muladd_12s_12s_21ns_21_4_1_U203  | 1   |        | add_ln148           | add       | dsp_slice                | 3       |
+|  + dense_linear                          | 1   |        |                     |           |                          |         |
+|    icmp_ln177_fu_270_p2                  |     |        | icmp_ln177          | seteq     | auto                     | 0       |
+|    add_ln177_fu_276_p2                   |     |        | add_ln177           | add       | fabric                   | 0       |
+|    sparsemux_33_4_11_1_1_U264            |     |        | sext_ln             | sparsemux | compactencoding_dontcare | 0       |
+|    sparsemux_33_4_12_1_1_x_U265          |     |        | tmp_s               | sparsemux | compactencoding_dontcare | 0       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U266  | 1   |        | mul_ln179           | mul       | dsp_slice                | 3       |
+|    mac_muladd_12s_11ns_21ns_21_4_1_U266  | 1   |        | add_ln179           | add       | dsp_slice                | 3       |
+|  + exp_12_3_s                            | 3   |        |                     |           |                          |         |
+|    mul_25ns_18ns_43_1_0_U286             | 1   |        | f_x_msb_2_lsb       | mul       | auto                     | 0       |
+|    add_ln223_fu_242_p2                   |     |        | add_ln223           | add       | fabric                   | 0       |
+|    exp_x_msb_2_lsb_m_1_fu_252_p2         |     |        | exp_x_msb_2_lsb_m_1 | add       | fabric                   | 0       |
+|    mul_25ns_25ns_50_1_0_U285             | 2   |        | y_lo                | mul       | auto                     | 0       |
+|    y_l_fu_275_p2                         |     |        | y_l                 | add       | fabric                   | 0       |
+|    or_ln245_fu_351_p2                    |     |        | or_ln245            | or        | auto                     | 0       |
+|    or_ln245_1_fu_357_p2                  |     |        | or_ln245_1          | or        | auto                     | 0       |
+|    or_ln245_2_fu_363_p2                  |     |        | or_ln245_2          | or        | auto                     | 0       |
+|    or_ln245_3_fu_369_p2                  |     |        | or_ln245_3          | or        | auto                     | 0       |
+|    or_ln245_4_fu_375_p2                  |     |        | or_ln245_4          | or        | auto                     | 0       |
+|    or_ln245_5_fu_381_p2                  |     |        | or_ln245_5          | or        | auto                     | 0       |
+|    or_ln245_6_fu_387_p2                  |     |        | or_ln245_6          | or        | auto                     | 0       |
+|    overf_1_fu_393_p2                     |     |        | overf_1             | or        | auto                     | 0       |
+|    select_ln259_fu_409_p3                |     |        | select_ln259        | select    | auto_sel                 | 0       |
++------------------------------------------+-----+--------+---------------------+-----------+--------------------------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++------------------------------------------+---------------+-----------+------+------+--------+-----------------------+------+---------+------------------+
+| Name                                     | Usage         | Type      | BRAM | URAM | Pragma | Variable              | Impl | Latency | Bitwidth, Depth, |
+|                                          |               |           |      |      |        |                       |      |         | Banks            |
++------------------------------------------+---------------+-----------+------+------+--------+-----------------------+------+---------+------------------+
+| + ecg_cnn                                |               |           | 53   | 0    |        |                       |      |         |                  |
+|   CTRL_s_axi_U                           | interface     | s_axilite |      |      |        |                       |      |         |                  |
+|   INPUT_r_m_axi_U                        | interface     | m_axi     | 2    |      |        |                       |      |         |                  |
+|   OUTPUT_r_m_axi_U                       | interface     | m_axi     |      |      |        |                       |      |         |                  |
+|   conv1_out_U                            | ram_t2p array |           | 3    |      | yes    | conv1_out             | bram | 1       | 11, 2856, 1      |
+|   conv1_out_1_U                          | ram_t2p array |           | 3    |      | yes    | conv1_out_1           | bram | 1       | 11, 2856, 1      |
+|   pool1_out_U                            | ram_t2p array |           | 1    |      | yes    | pool1_out             | bram | 1       | 11, 288, 1       |
+|   pool1_out_1_U                          | ram_t2p array |           | 1    |      | yes    | pool1_out_1           | bram | 1       | 11, 288, 1       |
+|   pool1_out_2_U                          | ram_t2p array |           | 1    |      | yes    | pool1_out_2           | bram | 1       | 11, 288, 1       |
+|   pool1_out_3_U                          | ram_t2p array |           | 1    |      | yes    | pool1_out_3           | bram | 1       | 11, 288, 1       |
+|   pool1_out_4_U                          | ram_t2p array |           | 1    |      | yes    | pool1_out_4           | bram | 1       | 11, 288, 1       |
+|   pool1_out_5_U                          | ram_t2p array |           | 1    |      | yes    | pool1_out_5           | bram | 1       | 11, 288, 1       |
+|   pool1_out_6_U                          | ram_t2p array |           | 1    |      | yes    | pool1_out_6           | bram | 1       | 11, 288, 1       |
+|   pool1_out_7_U                          | ram_t2p array |           | 1    |      | yes    | pool1_out_7           | bram | 1       | 11, 288, 1       |
+|   pool1_out_8_U                          | ram_t2p array |           | 1    |      | yes    | pool1_out_8           | bram | 1       | 11, 288, 1       |
+|   pool1_out_9_U                          | ram_t2p array |           | 1    |      | yes    | pool1_out_9           | bram | 1       | 11, 288, 1       |
+|   conv2_out_U                            | ram_t2p array |           | 2    |      | yes    | conv2_out             | bram | 1       | 11, 1412, 1      |
+|   conv2_out_1_U                          | ram_t2p array |           | 2    |      | yes    | conv2_out_1           | bram | 1       | 11, 1412, 1      |
+|   conv2_out_2_U                          | ram_t2p array |           | 2    |      | yes    | conv2_out_2           | bram | 1       | 11, 1412, 1      |
+|   conv2_out_3_U                          | ram_t2p array |           | 2    |      | yes    | conv2_out_3           | bram | 1       | 11, 1412, 1      |
+|  + conv1d_relu                           |               |           | 7    | 0    |        |                       |      |         |                  |
+|    w_local_0_U                           | ram_t2p       |           | 1    |      | pragma | w_local_0             | bram | 1       | 11, 8, 1         |
+|    w_local_1_U                           | ram_t2p       |           | 1    |      | pragma | w_local_1             | bram | 1       | 10, 8, 1         |
+|    w_local_2_U                           | ram_t2p       |           | 1    |      | pragma | w_local_2             | bram | 1       | 10, 8, 1         |
+|    w_local_3_U                           | ram_t2p       |           | 1    |      | pragma | w_local_3             | bram | 1       | 10, 8, 1         |
+|    w_local_4_U                           | ram_t2p       |           | 1    |      | pragma | w_local_4             | bram | 1       | 9, 8, 1          |
+|    w_local_5_U                           | ram_t2p       |           | 1    |      | pragma | w_local_5             | bram | 1       | 10, 8, 1         |
+|    w_local_6_U                           | ram_t2p       |           | 1    |      | pragma | w_local_6             | bram | 1       | 11, 8, 1         |
+|  + conv1d_relu2                          |               |           | 20   | 0    |        |                       |      |         |                  |
+|    w_local_80_0_0_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_0_0        | bram | 1       | 12, 32, 1        |
+|    w_local_80_0_1_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_0_1        | bram | 1       | 11, 32, 1        |
+|    w_local_80_0_2_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_0_2        | bram | 1       | 11, 32, 1        |
+|    w_local_80_0_3_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_0_3        | bram | 1       | 10, 32, 1        |
+|    w_local_80_0_4_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_0_4        | bram | 1       | 12, 32, 1        |
+|    w_local_80_1_0_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_1_0        | bram | 1       | 12, 32, 1        |
+|    w_local_80_1_1_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_1_1        | bram | 1       | 12, 32, 1        |
+|    w_local_80_1_2_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_1_2        | bram | 1       | 12, 32, 1        |
+|    w_local_80_1_3_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_1_3        | bram | 1       | 12, 32, 1        |
+|    w_local_80_1_4_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_1_4        | bram | 1       | 12, 32, 1        |
+|    w_local_80_2_0_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_2_0        | bram | 1       | 11, 32, 1        |
+|    w_local_80_2_1_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_2_1        | bram | 1       | 11, 32, 1        |
+|    w_local_80_2_2_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_2_2        | bram | 1       | 11, 32, 1        |
+|    w_local_80_2_3_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_2_3        | bram | 1       | 10, 32, 1        |
+|    w_local_80_2_4_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_2_4        | bram | 1       | 10, 32, 1        |
+|    w_local_80_3_0_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_3_0        | bram | 1       | 11, 32, 1        |
+|    w_local_80_3_1_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_3_1        | bram | 1       | 11, 32, 1        |
+|    w_local_80_3_2_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_3_2        | bram | 1       | 10, 32, 1        |
+|    w_local_80_3_3_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_3_3        | bram | 1       | 10, 32, 1        |
+|    w_local_80_3_4_U                      | ram_t2p       |           | 1    |      | pragma | w_local_80_3_4        | bram | 1       | 11, 32, 1        |
+|  + dense_relu                            |               |           | 0    | 0    |        |                       |      |         |                  |
+|   + dense_relu_Pipeline_VITIS_LOOP_146_2 |               |           | 0    | 0    |        |                       |      |         |                  |
+|     w_local_82_0_U                       | rom_1p        |           |      |      |        | w_local_82_0          | auto | 1       | 12, 64, 1        |
+|     w_local_82_1_U                       | rom_1p        |           |      |      |        | w_local_82_1          | auto | 1       | 12, 64, 1        |
+|     w_local_82_2_U                       | rom_1p        |           |      |      |        | w_local_82_2          | auto | 1       | 12, 64, 1        |
+|     w_local_82_3_U                       | rom_1p        |           |      |      |        | w_local_82_3          | auto | 1       | 11, 64, 1        |
+|  + exp_12_3_s                            |               |           | 0    | 0    |        |                       |      |         |                  |
+|    f_x_lsb_table_U                       | rom_1p        |           |      |      |        | f_x_lsb_table         | auto | 1       | 11, 32, 1        |
+|    exp_x_msb_2_m_1_table_U               | rom_1p        |           |      |      |        | exp_x_msb_2_m_1_table | auto | 1       | 25, 32, 1        |
+|    exp_x_msb_1_table_U                   | rom_1p        |           |      |      |        | exp_x_msb_1_table     | auto | 1       | 25, 32, 1        |
++------------------------------------------+---------------+-----------+------+------+--------+-----------------------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Inferred Pragmas
++-----------------+-------------------------------------------------+----------------------------------------------------+----------------------------+
+| Type            | Options                                         | Location                                           | Inferred From              |
++-----------------+-------------------------------------------------+----------------------------------------------------+----------------------------+
+| ARRAY_PARTITION | dim=1 type=cyclic factor=5 variable=pool1_out_0 | variable pool1_out_0 in ecg_cnn ../ecg_cnn.cpp:221 | pipeline ../ecg_cnn.cpp:94 |
++-----------------+-------------------------------------------------+----------------------------------------------------+----------------------------+
+
+* Valid Pragma Syntax
++-----------------+------------------------------------------------------+---------------------------------------------+
+| Type            | Options                                              | Location                                    |
++-----------------+------------------------------------------------------+---------------------------------------------+
+| INLINE          | off                                                  | ../ecg_cnn.cpp:18 in conv1d_relu            |
+| BIND_STORAGE    | variable=w_local type=ram_t2p impl=bram              | ../ecg_cnn.cpp:21 in conv1d_relu, w_local   |
+| ARRAY_PARTITION | variable=w_local complete dim=3                      | ../ecg_cnn.cpp:22 in conv1d_relu, w_local   |
+| ARRAY_PARTITION | variable=b_local complete                            | ../ecg_cnn.cpp:23 in conv1d_relu, b_local   |
+| PIPELINE        | ii=1                                                 | ../ecg_cnn.cpp:29 in conv1d_relu            |
+| PIPELINE        | ii=1                                                 | ../ecg_cnn.cpp:37 in conv1d_relu            |
+| UNROLL          |                                                      | ../ecg_cnn.cpp:40 in conv1d_relu            |
+| INLINE          | off                                                  | ../ecg_cnn.cpp:51 in maxpool                |
+| ARRAY_PARTITION | variable=input cyclic factor=2 dim=2                 | ../ecg_cnn.cpp:52 in maxpool, input         |
+| ARRAY_PARTITION | variable=output cyclic factor=2 dim=2                | ../ecg_cnn.cpp:53 in maxpool, output        |
+| PIPELINE        | ii=1                                                 | ../ecg_cnn.cpp:57 in maxpool                |
+| UNROLL          |                                                      | ../ecg_cnn.cpp:60 in maxpool                |
+| INLINE          | off                                                  | ../ecg_cnn.cpp:74 in conv1d_relu2           |
+| BIND_STORAGE    | variable=w_local type=ram_t2p impl=bram              | ../ecg_cnn.cpp:77 in conv1d_relu2, w_local  |
+| ARRAY_PARTITION | variable=w_local complete dim=3                      | ../ecg_cnn.cpp:78 in conv1d_relu2, w_local  |
+| ARRAY_PARTITION | variable=w_local cyclic factor=4 dim=2               | ../ecg_cnn.cpp:79 in conv1d_relu2, w_local  |
+| ARRAY_PARTITION | variable=b_local complete                            | ../ecg_cnn.cpp:80 in conv1d_relu2, b_local  |
+| PIPELINE        | ii=1                                                 | ../ecg_cnn.cpp:86 in conv1d_relu2           |
+| PIPELINE        | ii=1                                                 | ../ecg_cnn.cpp:94 in conv1d_relu2           |
+| UNROLL          | factor=5                                             | ../ecg_cnn.cpp:98 in conv1d_relu2           |
+| INLINE          | off                                                  | ../ecg_cnn.cpp:110 in gap                   |
+| ARRAY_PARTITION | variable=output complete                             | ../ecg_cnn.cpp:111 in gap, output           |
+| PIPELINE        | ii=1                                                 | ../ecg_cnn.cpp:116 in gap                   |
+| INLINE          | off                                                  | ../ecg_cnn.cpp:128 in dense_relu            |
+| ARRAY_PARTITION | variable=w_local cyclic factor=4 dim=2               | ../ecg_cnn.cpp:131 in dense_relu, w_local   |
+| ARRAY_PARTITION | variable=b_local complete                            | ../ecg_cnn.cpp:132 in dense_relu, b_local   |
+| ARRAY_PARTITION | variable=input complete                              | ../ecg_cnn.cpp:133 in dense_relu, input     |
+| ARRAY_PARTITION | variable=output complete                             | ../ecg_cnn.cpp:134 in dense_relu, output    |
+| PIPELINE        | ii=1                                                 | ../ecg_cnn.cpp:139 in dense_relu            |
+| PIPELINE        | ii=2                                                 | ../ecg_cnn.cpp:147 in dense_relu            |
+| INLINE          | off                                                  | ../ecg_cnn.cpp:159 in dense_linear          |
+| ARRAY_PARTITION | variable=w_local complete dim=2                      | ../ecg_cnn.cpp:162 in dense_linear, w_local |
+| ARRAY_PARTITION | variable=b_local complete                            | ../ecg_cnn.cpp:163 in dense_linear, b_local |
+| ARRAY_PARTITION | variable=input complete                              | ../ecg_cnn.cpp:164 in dense_linear, input   |
+| ARRAY_PARTITION | variable=output complete                             | ../ecg_cnn.cpp:165 in dense_linear, output  |
+| PIPELINE        | ii=1                                                 | ../ecg_cnn.cpp:170 in dense_linear          |
+| PIPELINE        | ii=2                                                 | ../ecg_cnn.cpp:178 in dense_linear          |
+| INTERFACE       | m_axi port=input offset=slave bundle=INPUT depth=720 | ../ecg_cnn.cpp:190 in ecg_cnn, input        |
+| INTERFACE       | m_axi port=output offset=slave bundle=OUTPUT depth=1 | ../ecg_cnn.cpp:191 in ecg_cnn, output       |
+| INTERFACE       | s_axilite port=input bundle=CTRL                     | ../ecg_cnn.cpp:194 in ecg_cnn, input        |
+| INTERFACE       | s_axilite port=output bundle=CTRL                    | ../ecg_cnn.cpp:195 in ecg_cnn, output       |
+| INTERFACE       | s_axilite port=return bundle=CTRL                    | ../ecg_cnn.cpp:196 in ecg_cnn, return       |
+| STABLE          | variable=ROM_conv1_w                                 | ../ecg_cnn.cpp:200 in ecg_cnn, ROM_conv1_w  |
+| STABLE          | variable=ROM_conv1_b                                 | ../ecg_cnn.cpp:201 in ecg_cnn, ROM_conv1_b  |
+| STABLE          | variable=ROM_conv2_w                                 | ../ecg_cnn.cpp:202 in ecg_cnn, ROM_conv2_w  |
+| STABLE          | variable=ROM_conv2_b                                 | ../ecg_cnn.cpp:203 in ecg_cnn, ROM_conv2_b  |
+| STABLE          | variable=ROM_dense1_w                                | ../ecg_cnn.cpp:204 in ecg_cnn, ROM_dense1_w |
+| STABLE          | variable=ROM_dense1_b                                | ../ecg_cnn.cpp:205 in ecg_cnn, ROM_dense1_b |
+| STABLE          | variable=ROM_dense2_w                                | ../ecg_cnn.cpp:206 in ecg_cnn, ROM_dense2_w |
+| STABLE          | variable=ROM_dense2_b                                | ../ecg_cnn.cpp:207 in ecg_cnn, ROM_dense2_b |
+| BIND_STORAGE    | variable=ROM_conv1_w type=rom_1p impl=bram           | ../ecg_cnn.cpp:210 in ecg_cnn, ROM_conv1_w  |
+| BIND_STORAGE    | variable=ROM_conv1_b type=rom_1p impl=bram           | ../ecg_cnn.cpp:211 in ecg_cnn, ROM_conv1_b  |
+| BIND_STORAGE    | variable=ROM_conv2_w type=rom_1p impl=bram           | ../ecg_cnn.cpp:212 in ecg_cnn, ROM_conv2_w  |
+| BIND_STORAGE    | variable=ROM_conv2_b type=rom_1p impl=bram           | ../ecg_cnn.cpp:213 in ecg_cnn, ROM_conv2_b  |
+| BIND_STORAGE    | variable=ROM_dense1_w type=rom_1p impl=bram          | ../ecg_cnn.cpp:214 in ecg_cnn, ROM_dense1_w |
+| BIND_STORAGE    | variable=ROM_dense1_b type=rom_1p impl=bram          | ../ecg_cnn.cpp:215 in ecg_cnn, ROM_dense1_b |
+| BIND_STORAGE    | variable=ROM_dense2_w type=rom_1p impl=bram          | ../ecg_cnn.cpp:216 in ecg_cnn, ROM_dense2_w |
+| BIND_STORAGE    | variable=ROM_dense2_b type=rom_1p impl=bram          | ../ecg_cnn.cpp:217 in ecg_cnn, ROM_dense2_b |
+| BIND_STORAGE    | variable=conv1_out type=ram_t2p impl=bram            | ../ecg_cnn.cpp:227 in ecg_cnn, conv1_out    |
+| BIND_STORAGE    | variable=pool1_out type=ram_t2p impl=bram            | ../ecg_cnn.cpp:228 in ecg_cnn, pool1_out    |
+| BIND_STORAGE    | variable=conv2_out type=ram_t2p impl=bram            | ../ecg_cnn.cpp:229 in ecg_cnn, conv2_out    |
+| ARRAY_PARTITION | variable=conv1_out cyclic factor=2 dim=2             | ../ecg_cnn.cpp:230 in ecg_cnn, conv1_out    |
+| ARRAY_PARTITION | variable=pool1_out cyclic factor=2 dim=2             | ../ecg_cnn.cpp:231 in ecg_cnn, pool1_out    |
+| ARRAY_PARTITION | variable=conv2_out cyclic factor=4 dim=2             | ../ecg_cnn.cpp:232 in ecg_cnn, conv2_out    |
+| ARRAY_PARTITION | variable=gap_out complete                            | ../ecg_cnn.cpp:233 in ecg_cnn, gap_out      |
+| ARRAY_PARTITION | variable=dense1_out complete                         | ../ecg_cnn.cpp:234 in ecg_cnn, dense1_out   |
+| ARRAY_PARTITION | variable=logits complete                             | ../ecg_cnn.cpp:235 in ecg_cnn, logits       |
++-----------------+------------------------------------------------------+---------------------------------------------+
+
+

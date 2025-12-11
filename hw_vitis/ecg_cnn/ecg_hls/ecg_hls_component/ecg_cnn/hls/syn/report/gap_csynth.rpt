@@ -1,0 +1,190 @@
+
+
+================================================================
+== Vitis HLS Report for 'gap'
+================================================================
+* Date:           Thu Dec 11 00:00:18 2025
+
+* Version:        2025.1 (Build 6135595 on May 21 2025)
+* Project:        ecg_cnn
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: artix7
+* Target device:  xc7a100t-csg324-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.339 ns|     2.00 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     5745|     5745|  57.450 us|  57.450 us|  5745|  5745|       no|
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        +------------------------------------------+-------------------------------+---------+---------+----------+----------+-----+-----+------------------------------------------------+
+        |                                          |                               |  Latency (cycles) |  Latency (absolute) |  Interval |                    Pipeline                    |
+        |                 Instance                 |             Module            |   min   |   max   |    min   |    max   | min | max |                      Type                      |
+        +------------------------------------------+-------------------------------+---------+---------+----------+----------+-----+-----+------------------------------------------------+
+        |grp_gap_Pipeline_VITIS_LOOP_115_1_fu_226  |gap_Pipeline_VITIS_LOOP_115_1  |      356|      356|  3.560 us|  3.560 us|  354|  354|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        +------------------------------------------+-------------------------------+---------+---------+----------+----------+-----+-----+------------------------------------------------+
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |- GAP_F   |     5744|     5744|       359|          -|          -|    16|        no|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     27|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|      38|    115|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|     30|    -|
+|Register         |        -|    -|      23|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|      61|    172|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      270|  240|  126800|  63400|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +------------------------------------------+-------------------------------+---------+----+----+-----+-----+
+    |                 Instance                 |             Module            | BRAM_18K| DSP| FF | LUT | URAM|
+    +------------------------------------------+-------------------------------+---------+----+----+-----+-----+
+    |grp_gap_Pipeline_VITIS_LOOP_115_1_fu_226  |gap_Pipeline_VITIS_LOOP_115_1  |        0|   0|  38|  115|    0|
+    +------------------------------------------+-------------------------------+---------+----+----+-----+-----+
+    |Total                                     |                               |        0|   0|  38|  115|    0|
+    +------------------------------------------+-------------------------------+---------+----+----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------+----------+----+---+----+------------+------------+
+    |     Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------+----------+----+---+----+------------+------------+
+    |add_ln113_fu_255_p2   |         +|   0|  0|  13|           5|           1|
+    |icmp_ln113_fu_249_p2  |      icmp|   0|  0|  14|           5|           6|
+    +----------------------+----------+----+---+----+------------+------------+
+    |Total                 |          |   0|  0|  27|          10|           7|
+    +----------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------+----+-----------+-----+-----------+
+    |    Name   | LUT| Input Size| Bits| Total Bits|
+    +-----------+----+-----------+-----+-----------+
+    |ap_NS_fsm  |  21|          5|    1|          5|
+    |f_fu_106   |   9|          2|    5|         10|
+    +-----------+----+-----------+-----+-----------+
+    |Total      |  30|          7|    6|         15|
+    +-----------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------------------------------------+---+----+-----+-----------+
+    |                          Name                         | FF| LUT| Bits| Const Bits|
+    +-------------------------------------------------------+---+----+-----+-----------+
+    |add_ln113_reg_353                                      |  5|   0|    5|          0|
+    |ap_CS_fsm                                              |  4|   0|    4|          0|
+    |f_fu_106                                               |  5|   0|    5|          0|
+    |grp_gap_Pipeline_VITIS_LOOP_115_1_fu_226_ap_start_reg  |  1|   0|    1|          0|
+    |lshr_ln_reg_368                                        |  2|   0|    2|          0|
+    |trunc_ln113_1_reg_363                                  |  2|   0|    2|          0|
+    |trunc_ln113_reg_358                                    |  4|   0|    4|          0|
+    +-------------------------------------------------------+---+----+-----+-----------+
+    |Total                                                  | 23|   0|   23|          0|
+    +-------------------------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------+-----+-----+------------+--------------+--------------+
+|     RTL Ports    | Dir | Bits|  Protocol  | Source Object|    C Type    |
++------------------+-----+-----+------------+--------------+--------------+
+|ap_clk            |   in|    1|  ap_ctrl_hs|           gap|  return value|
+|ap_rst            |   in|    1|  ap_ctrl_hs|           gap|  return value|
+|ap_start          |   in|    1|  ap_ctrl_hs|           gap|  return value|
+|ap_done           |  out|    1|  ap_ctrl_hs|           gap|  return value|
+|ap_idle           |  out|    1|  ap_ctrl_hs|           gap|  return value|
+|ap_ready          |  out|    1|  ap_ctrl_hs|           gap|  return value|
+|input_0_address0  |  out|   11|   ap_memory|       input_0|         array|
+|input_0_ce0       |  out|    1|   ap_memory|       input_0|         array|
+|input_0_q0        |   in|   11|   ap_memory|       input_0|         array|
+|input_1_address0  |  out|   11|   ap_memory|       input_1|         array|
+|input_1_ce0       |  out|    1|   ap_memory|       input_1|         array|
+|input_1_q0        |   in|   11|   ap_memory|       input_1|         array|
+|input_2_address0  |  out|   11|   ap_memory|       input_2|         array|
+|input_2_ce0       |  out|    1|   ap_memory|       input_2|         array|
+|input_2_q0        |   in|   11|   ap_memory|       input_2|         array|
+|input_3_address0  |  out|   11|   ap_memory|       input_3|         array|
+|input_3_ce0       |  out|    1|   ap_memory|       input_3|         array|
+|input_3_q0        |   in|   11|   ap_memory|       input_3|         array|
+|output_0          |  out|   12|      ap_vld|      output_0|       pointer|
+|output_0_ap_vld   |  out|    1|      ap_vld|      output_0|       pointer|
+|output_1          |  out|   12|      ap_vld|      output_1|       pointer|
+|output_1_ap_vld   |  out|    1|      ap_vld|      output_1|       pointer|
+|output_2          |  out|   12|      ap_vld|      output_2|       pointer|
+|output_2_ap_vld   |  out|    1|      ap_vld|      output_2|       pointer|
+|output_3          |  out|   12|      ap_vld|      output_3|       pointer|
+|output_3_ap_vld   |  out|    1|      ap_vld|      output_3|       pointer|
+|output_4          |  out|   12|      ap_vld|      output_4|       pointer|
+|output_4_ap_vld   |  out|    1|      ap_vld|      output_4|       pointer|
+|output_5          |  out|   12|      ap_vld|      output_5|       pointer|
+|output_5_ap_vld   |  out|    1|      ap_vld|      output_5|       pointer|
+|output_6          |  out|   12|      ap_vld|      output_6|       pointer|
+|output_6_ap_vld   |  out|    1|      ap_vld|      output_6|       pointer|
+|output_7          |  out|   12|      ap_vld|      output_7|       pointer|
+|output_7_ap_vld   |  out|    1|      ap_vld|      output_7|       pointer|
+|output_8          |  out|   12|      ap_vld|      output_8|       pointer|
+|output_8_ap_vld   |  out|    1|      ap_vld|      output_8|       pointer|
+|output_9          |  out|   12|      ap_vld|      output_9|       pointer|
+|output_9_ap_vld   |  out|    1|      ap_vld|      output_9|       pointer|
+|output_10         |  out|   12|      ap_vld|     output_10|       pointer|
+|output_10_ap_vld  |  out|    1|      ap_vld|     output_10|       pointer|
+|output_11         |  out|   12|      ap_vld|     output_11|       pointer|
+|output_11_ap_vld  |  out|    1|      ap_vld|     output_11|       pointer|
+|output_12         |  out|   12|      ap_vld|     output_12|       pointer|
+|output_12_ap_vld  |  out|    1|      ap_vld|     output_12|       pointer|
+|output_13         |  out|   12|      ap_vld|     output_13|       pointer|
+|output_13_ap_vld  |  out|    1|      ap_vld|     output_13|       pointer|
+|output_14         |  out|   12|      ap_vld|     output_14|       pointer|
+|output_14_ap_vld  |  out|    1|      ap_vld|     output_14|       pointer|
+|output_15         |  out|   12|      ap_vld|     output_15|       pointer|
+|output_15_ap_vld  |  out|    1|      ap_vld|     output_15|       pointer|
++------------------+-----+-----+------------+--------------+--------------+
+

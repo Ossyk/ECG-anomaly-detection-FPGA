@@ -7,7 +7,6 @@ import os
 import numpy as np
 import json, random
 
-########################## EXPORTING CNN ##########################
 SEED = 42
 np.random.seed(SEED)
 tf.random.set_seed(SEED)
@@ -23,12 +22,9 @@ y_val   = np.load(os.path.join(processed_data_dir, "y_val.npy"))
 X_test  = np.load(os.path.join(processed_data_dir, "X_test.npy"))
 y_test  = np.load(os.path.join(processed_data_dir, "y_test.npy"))
 
-# Load your trained model
 model = tf.keras.models.load_model("cnn_model.h5")
-#define path to exported weights
 export_dir = r"C:\Users\oussk\OneDrive\Desktop\ECG_CNN_PROJECT_ALD\ml\exported_model"
 os.makedirs(export_dir, exist_ok=True)
-# Helper function: quantize to int8
 def quantize(arr, num_bits=8):
     """Quantize array to signed int with given bit width (two's complement)."""
     max_val = np.max(np.abs(arr))
@@ -129,7 +125,6 @@ with open(os.path.join(export_dir, "cnn_config.json"), "w") as f:
 print("✅ Export complete! Weights and configs saved in:", export_dir)
 
 
-##################### Verify quantized model in Python ##################
 def read_mem_as_int8(path):
     """Read .mem file as signed int8 (two's complement)."""
     vals = []
@@ -172,7 +167,7 @@ def run_quantized_inference(model, X, layer_configs, export_dir, debug=False):
                                stride=cfg["stride"][0], padding="VALID")
             out = tf.nn.bias_add(out, biases)
 
-            # ✅ Apply activation
+            # apply activation
             if cfg.get("activation") == "relu":
                 out = tf.nn.relu(out)
 
@@ -214,10 +209,10 @@ def run_quantized_inference(model, X, layer_configs, export_dir, debug=False):
 import numpy as np
 from sklearn.metrics import roc_curve, precision_recall_curve, f1_score, classification_report, confusion_matrix
 
-# Get quantized probabilities on VALIDATION set (use your quantized pipeline)
+# Get quantized probabilities on VALIDATION set
 q_val = run_quantized_inference(model, X_val.reshape(-1,720,1), layer_configs, export_dir).ravel()
 
-# Threshold that maximizes F1 for class 1 on PR curve ---
+# Threshold that maximizes F1 for class 1
 prec, rec, th_pr = precision_recall_curve(y_val, q_val)
 
 f1s = 2 * (prec[1:] * rec[1:]) / (prec[1:] + rec[1:] + 1e-12)

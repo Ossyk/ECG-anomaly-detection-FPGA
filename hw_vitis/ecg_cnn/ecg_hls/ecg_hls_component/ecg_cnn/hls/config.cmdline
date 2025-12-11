@@ -1,3 +1,3 @@
-relativeroot=C:/Users/oussk/OneDrive/Desktop/ECG_CNN_PROJECT_ALD/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component
-original_argv=--mode hls --csim --config C:\Users\oussk\OneDrive\Desktop\ECG_CNN_PROJECT_ALD\hw_vitis\ecg_cnn\ecg_hls\ecg_hls_component\..\hls_config.cfg --work_dir ecg_cnn 
+relativeroot=C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component
+original_argv=--mode hls --package --config C:\Users\oussk\Downloads\ald_v2\hw_vitis\ecg_cnn\ecg_hls\ecg_hls_component\..\hls_config.cfg --work_dir ecg_cnn 
 

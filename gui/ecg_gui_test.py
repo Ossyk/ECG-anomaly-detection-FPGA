@@ -90,9 +90,9 @@ class FPGA:
         time.sleep(0.05)
         n = len(seg_int16)
         pkt = bytearray([0xA5, ord('S'), n & 0xFF, (n >> 8) & 0xFF])
+
         for v in seg_int16:
             pkt += struct.pack('<h', int(v))
-        
         
         print(f"→ [S] Sending {n} samples ({len(pkt)} bytes)")
        
@@ -264,7 +264,7 @@ def welcome_window(fpga):
 # ======================================================
 if __name__ == "__main__":
     simulate = False
-    fpga_port = "COM5"  
+    fpga_port = "COM4"  
     fpga = FPGA(fpga_port, simulate=simulate)
     welcome_window(fpga)
 

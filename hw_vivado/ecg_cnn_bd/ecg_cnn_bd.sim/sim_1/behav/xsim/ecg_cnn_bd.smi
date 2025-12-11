@@ -11,33 +11,23 @@
 
 <MemInfoSimulation Version="1" Minor="1">
   <Processor Endianness="Little" InstPath="system_bd_i/microblaze_0">
-    <AddressSpace Name="system_bd_i_microblaze_0.system_bd_i_microblaze_0_local_memory_lmb_bram_ADDR_SPACE" ECC="NONE" Begin="0" End="131071">
+    <AddressSpace Name="system_bd_i_microblaze_0.system_bd_i_microblaze_0_local_memory_lmb_bram_64K_2_ADDR_SPACE" ECC="NONE" Begin="0" End="65535">
       <BusBlock>
-        <BitLane MemType="microblaze_0_local_memory_lmb_bram_MEM_DEVICE" MemType_DataWidth="32" MemType_AddressDepth="131071">
+        <BitLane MemType="microblaze_0_local_memory_lmb_bram_64K_2_MEM_DEVICE" MemType_DataWidth="32" MemType_AddressDepth="65535">
           <DataWidth MSB="63" LSB="0"/>
-          <AddressRange Begin="0" End="16383"/>
+          <AddressRange Begin="0" End="8191"/>
           <Parity ON="false" NumBits="0"/>
           <MemFile Name="system_bd_lmb_bram_0.mem"/>
         </BitLane>
       </BusBlock>
     </AddressSpace>
-    <AddressSpace Name="system_bd_i_microblaze_0.system_bd_i_blk_mem_gen_0_ADDR_SPACE" ECC="NONE" Begin="3221225472" End="3221487615">
+    <AddressSpace Name="system_bd_i_microblaze_0.system_bd_i_blk_mem_gen_0_64K_2_ADDR_SPACE" ECC="NONE" Begin="3221225472" End="3221291007">
       <BusBlock>
-        <BitLane MemType="blk_mem_gen_0_MEM_DEVICE" MemType_DataWidth="32" MemType_AddressDepth="3221487615">
-          <DataWidth MSB="63" LSB="0"/>
-          <AddressRange Begin="0" End="32767"/>
+        <BitLane MemType="blk_mem_gen_0_64K_2_MEM_DEVICE" MemType_DataWidth="32" MemType_AddressDepth="3221291007">
+          <DataWidth MSB="31" LSB="0"/>
+          <AddressRange Begin="0" End="16383"/>
           <Parity ON="false" NumBits="0"/>
           <MemFile Name="system_bd_blk_mem_gen_0_1.mem"/>
-        </BitLane>
-      </BusBlock>
-    </AddressSpace>
-    <AddressSpace Name="system_bd_i_microblaze_0.system_bd_i_blk_mem_gen_1_ADDR_SPACE" ECC="NONE" Begin="3222274048" End="3222405119">
-      <BusBlock>
-        <BitLane MemType="blk_mem_gen_1_MEM_DEVICE" MemType_DataWidth="32" MemType_AddressDepth="3222405119">
-          <DataWidth MSB="127" LSB="0"/>
-          <AddressRange Begin="0" End="8191"/>
-          <Parity ON="false" NumBits="0"/>
-          <MemFile Name="system_bd_blk_mem_gen_0_2.mem"/>
         </BitLane>
       </BusBlock>
     </AddressSpace>

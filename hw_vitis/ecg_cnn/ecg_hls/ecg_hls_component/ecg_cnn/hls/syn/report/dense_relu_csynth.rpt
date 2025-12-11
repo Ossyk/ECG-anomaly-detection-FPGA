@@ -1,0 +1,196 @@
+
+
+================================================================
+== Vitis HLS Report for 'dense_relu'
+================================================================
+* Date:           Thu Dec 11 00:00:19 2025
+
+* Version:        2025.1 (Build 6135595 on May 21 2025)
+* Project:        ecg_cnn
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: artix7
+* Target device:  xc7a100t-csg324-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.277 ns|     2.00 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |      625|      625|  6.250 us|  6.250 us|  625|  625|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +-------------------------------------------------+--------------------------------------+---------+---------+----------+----------+-----+-----+------------------------------------------------+
+        |                                                 |                                      |  Latency (cycles) |  Latency (absolute) |  Interval |                    Pipeline                    |
+        |                     Instance                    |                Module                |   min   |   max   |    min   |    max   | min | max |                      Type                      |
+        +-------------------------------------------------+--------------------------------------+---------+---------+----------+----------+-----+-----+------------------------------------------------+
+        |grp_dense_relu_Pipeline_VITIS_LOOP_146_2_fu_380  |dense_relu_Pipeline_VITIS_LOOP_146_2  |       36|       36|  0.360 us|  0.360 us|   34|   34|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        +-------------------------------------------------+--------------------------------------+---------+---------+----------+----------+-----+-----+------------------------------------------------+
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |- D1_U    |      624|      624|        39|          -|          -|    16|        no|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     57|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        0|    1|      98|    317|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|     30|    -|
+|Register         |        -|    -|      27|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    1|     125|    404|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      270|  240|  126800|  63400|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|   ~0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-------------------------------------------------+--------------------------------------+---------+----+----+-----+-----+
+    |                     Instance                    |                Module                | BRAM_18K| DSP| FF | LUT | URAM|
+    +-------------------------------------------------+--------------------------------------+---------+----+----+-----+-----+
+    |grp_dense_relu_Pipeline_VITIS_LOOP_146_2_fu_380  |dense_relu_Pipeline_VITIS_LOOP_146_2  |        0|   1|  98|  252|    0|
+    |sparsemux_33_4_8_1_1_U230                        |sparsemux_33_4_8_1_1                  |        0|   0|   0|   65|    0|
+    +-------------------------------------------------+--------------------------------------+---------+----+----+-----+-----+
+    |Total                                            |                                      |        0|   1|  98|  317|    0|
+    +-------------------------------------------------+--------------------------------------+---------+----+----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------------+----------+----+---+----+------------+------------+
+    |      Variable Name     | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------+----------+----+---+----+------------+------------+
+    |add_ln144_fu_425_p2     |         +|   0|  0|  13|           5|           1|
+    |icmp_ln144_fu_419_p2    |      icmp|   0|  0|  14|           5|           6|
+    |icmp_ln150_fu_516_p2    |      icmp|   0|  0|  19|          12|           1|
+    |select_ln150_fu_522_p3  |    select|   0|  0|  11|           1|          11|
+    +------------------------+----------+----+---+----+------------+------------+
+    |Total                   |          |   0|  0|  57|          23|          19|
+    +------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------+----+-----------+-----+-----------+
+    |    Name   | LUT| Input Size| Bits| Total Bits|
+    +-----------+----+-----------+-----+-----------+
+    |ap_NS_fsm  |  21|          5|    1|          5|
+    |u_fu_164   |   9|          2|    5|         10|
+    +-----------+----+-----------+-----+-----------+
+    |Total      |  30|          7|    6|         15|
+    +-----------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------------------------------------+---+----+-----+-----------+
+    |                             Name                             | FF| LUT| Bits| Const Bits|
+    +--------------------------------------------------------------+---+----+-----+-----------+
+    |acc_reg_690                                                   |  8|   0|    8|          0|
+    |add_ln144_reg_679                                             |  5|   0|    5|          0|
+    |ap_CS_fsm                                                     |  4|   0|    4|          0|
+    |grp_dense_relu_Pipeline_VITIS_LOOP_146_2_fu_380_ap_start_reg  |  1|   0|    1|          0|
+    |trunc_ln144_reg_684                                           |  4|   0|    4|          0|
+    |u_fu_164                                                      |  5|   0|    5|          0|
+    +--------------------------------------------------------------+---+----+-----+-----------+
+    |Total                                                         | 27|   0|   27|          0|
+    +--------------------------------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------+-----+-----+------------+--------------+--------------+
+|     RTL Ports    | Dir | Bits|  Protocol  | Source Object|    C Type    |
++------------------+-----+-----+------------+--------------+--------------+
+|ap_clk            |   in|    1|  ap_ctrl_hs|    dense_relu|  return value|
+|ap_rst            |   in|    1|  ap_ctrl_hs|    dense_relu|  return value|
+|ap_start          |   in|    1|  ap_ctrl_hs|    dense_relu|  return value|
+|ap_done           |  out|    1|  ap_ctrl_hs|    dense_relu|  return value|
+|ap_idle           |  out|    1|  ap_ctrl_hs|    dense_relu|  return value|
+|ap_ready          |  out|    1|  ap_ctrl_hs|    dense_relu|  return value|
+|input_0_val       |   in|   12|     ap_none|   input_0_val|        scalar|
+|input_1_val       |   in|   12|     ap_none|   input_1_val|        scalar|
+|input_2_val       |   in|   12|     ap_none|   input_2_val|        scalar|
+|input_3_val       |   in|   12|     ap_none|   input_3_val|        scalar|
+|input_4_val       |   in|   12|     ap_none|   input_4_val|        scalar|
+|input_5_val       |   in|   12|     ap_none|   input_5_val|        scalar|
+|input_6_val       |   in|   12|     ap_none|   input_6_val|        scalar|
+|input_7_val       |   in|   12|     ap_none|   input_7_val|        scalar|
+|input_8_val       |   in|   12|     ap_none|   input_8_val|        scalar|
+|input_9_val       |   in|   12|     ap_none|   input_9_val|        scalar|
+|input_10_val      |   in|   12|     ap_none|  input_10_val|        scalar|
+|input_11_val      |   in|   12|     ap_none|  input_11_val|        scalar|
+|input_12_val      |   in|   12|     ap_none|  input_12_val|        scalar|
+|input_13_val      |   in|   12|     ap_none|  input_13_val|        scalar|
+|input_14_val      |   in|   12|     ap_none|  input_14_val|        scalar|
+|input_15_val      |   in|   12|     ap_none|  input_15_val|        scalar|
+|output_0          |  out|   11|      ap_vld|      output_0|       pointer|
+|output_0_ap_vld   |  out|    1|      ap_vld|      output_0|       pointer|
+|output_1          |  out|   11|      ap_vld|      output_1|       pointer|
+|output_1_ap_vld   |  out|    1|      ap_vld|      output_1|       pointer|
+|output_2          |  out|   11|      ap_vld|      output_2|       pointer|
+|output_2_ap_vld   |  out|    1|      ap_vld|      output_2|       pointer|
+|output_3          |  out|   11|      ap_vld|      output_3|       pointer|
+|output_3_ap_vld   |  out|    1|      ap_vld|      output_3|       pointer|
+|output_4          |  out|   11|      ap_vld|      output_4|       pointer|
+|output_4_ap_vld   |  out|    1|      ap_vld|      output_4|       pointer|
+|output_5          |  out|   11|      ap_vld|      output_5|       pointer|
+|output_5_ap_vld   |  out|    1|      ap_vld|      output_5|       pointer|
+|output_6          |  out|   11|      ap_vld|      output_6|       pointer|
+|output_6_ap_vld   |  out|    1|      ap_vld|      output_6|       pointer|
+|output_7          |  out|   11|      ap_vld|      output_7|       pointer|
+|output_7_ap_vld   |  out|    1|      ap_vld|      output_7|       pointer|
+|output_8          |  out|   11|      ap_vld|      output_8|       pointer|
+|output_8_ap_vld   |  out|    1|      ap_vld|      output_8|       pointer|
+|output_9          |  out|   11|      ap_vld|      output_9|       pointer|
+|output_9_ap_vld   |  out|    1|      ap_vld|      output_9|       pointer|
+|output_10         |  out|   11|      ap_vld|     output_10|       pointer|
+|output_10_ap_vld  |  out|    1|      ap_vld|     output_10|       pointer|
+|output_11         |  out|   11|      ap_vld|     output_11|       pointer|
+|output_11_ap_vld  |  out|    1|      ap_vld|     output_11|       pointer|
+|output_12         |  out|   11|      ap_vld|     output_12|       pointer|
+|output_12_ap_vld  |  out|    1|      ap_vld|     output_12|       pointer|
+|output_13         |  out|   11|      ap_vld|     output_13|       pointer|
+|output_13_ap_vld  |  out|    1|      ap_vld|     output_13|       pointer|
+|output_14         |  out|   11|      ap_vld|     output_14|       pointer|
+|output_14_ap_vld  |  out|    1|      ap_vld|     output_14|       pointer|
+|output_15         |  out|   11|      ap_vld|     output_15|       pointer|
+|output_15_ap_vld  |  out|    1|      ap_vld|     output_15|       pointer|
++------------------+-----+-----+------------+--------------+--------------+
+

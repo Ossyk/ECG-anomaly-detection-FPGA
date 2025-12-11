@@ -1,0 +1,1347 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init
+    DebugLoc:        { File: ../weights_rom.h, Line: 5, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+    DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.1
+    DebugLoc:        { File: ../weights_rom.h, Line: 18, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+    DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.2
+    DebugLoc:        { File: ../weights_rom.h, Line: 22, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+    DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.3
+    DebugLoc:        { File: ../weights_rom.h, Line: 201, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+    DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.4
+    DebugLoc:        { File: ../weights_rom.h, Line: 205, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+    DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.5
+    DebugLoc:        { File: ../weights_rom.h, Line: 256, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+    DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.6
+    DebugLoc:        { File: ../weights_rom.h, Line: 260, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+    DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.7
+    DebugLoc:        { File: ../weights_rom.h, Line: 266, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+    DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.9
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 9, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_ecg_cnn.pp.0.cpp
+    DebugLoc:        { File: 'C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_hls/ecg_hls_component/ecg_cnn/hls/.autopilot/db\ecg_cnn.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h', 
+                   Line: 1178, Column: 12 }
+Function:        _ZN3hls3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - Callee:          'ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> exp_reduce::exp<12, 3>(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                       Line: 14, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> hls::exp<12, 3>(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h', 
+                       Line: 1177, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 237, Column: 2 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'conv1d_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [1][7], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 17, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 238, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'maxpool(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 50, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 239, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'conv1d_relu2(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [8][5], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [16])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 240, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'gap(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [16], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 109, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 241, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'dense_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [16], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 127, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 242, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'dense_linear(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [16], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 158, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 247, Column: 16 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> hls::exp<12, 3>(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h', 
+                       Line: 1177, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                   Line: 253, Column: 36 }
+Function:        _ZN10exp_reduce3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_253_11
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                   Line: 249, Column: 36 }
+Function:        _ZN10exp_reduce3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_249_10
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                   Line: 243, Column: 31 }
+Function:        _ZN10exp_reduce3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_243_9
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                   Line: 178, Column: 35 }
+Function:        _ZN10exp_reduce3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_178_8
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                   Line: 170, Column: 27 }
+Function:        _ZN10exp_reduce3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_170_7
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 96, Column: 30 }
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_96_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 97, Column: 34 }
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_97_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 59, Column: 30 }
+Function:        _Z7maxpoolPA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_59_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 39, Column: 30 }
+Function:        _Z11conv1d_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA1_A7_KS2_PS4_PA8_S2_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_39_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                   Line: 14, Column: 0 }
+Function:        _ZN10exp_reduce3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_253_11
+  - String:          ''' ('
+  - LoopLoc:         'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h:253:36'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'exp_reduce::exp<12, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '13'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                   Line: 14, Column: 0 }
+Function:        _ZN10exp_reduce3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_249_10
+  - String:          ''' ('
+  - LoopLoc:         'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h:249:36'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'exp_reduce::exp<12, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '9'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                   Line: 14, Column: 0 }
+Function:        _ZN10exp_reduce3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_243_9
+  - String:          ''' ('
+  - LoopLoc:         'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h:243:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'exp_reduce::exp<12, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '9'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                   Line: 14, Column: 0 }
+Function:        _ZN10exp_reduce3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_178_8
+  - String:          ''' ('
+  - LoopLoc:         'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h:178:35'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'exp_reduce::exp<12, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '22'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                   Line: 14, Column: 0 }
+Function:        _ZN10exp_reduce3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_170_7
+  - String:          ''' ('
+  - LoopLoc:         'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h:170:27'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'exp_reduce::exp<12, 3>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_96_3
+  - String:          ''' ('
+  - LoopLoc:         '../ecg_cnn.cpp:96:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          conv1d_relu2
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_4
+  - String:          ''' ('
+  - LoopLoc:         '../ecg_cnn.cpp:97:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          conv1d_relu2
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_4
+  - String:          ''' ('
+  - LoopLoc:         '../ecg_cnn.cpp:97:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          conv1d_relu2
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_4
+  - String:          ''' ('
+  - LoopLoc:         '../ecg_cnn.cpp:97:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          conv1d_relu2
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_4
+  - String:          ''' ('
+  - LoopLoc:         '../ecg_cnn.cpp:97:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          conv1d_relu2
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_4
+  - String:          ''' ('
+  - LoopLoc:         '../ecg_cnn.cpp:97:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          conv1d_relu2
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_4
+  - String:          ''' ('
+  - LoopLoc:         '../ecg_cnn.cpp:97:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          conv1d_relu2
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_4
+  - String:          ''' ('
+  - LoopLoc:         '../ecg_cnn.cpp:97:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          conv1d_relu2
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_97_4
+  - String:          ''' ('
+  - LoopLoc:         '../ecg_cnn.cpp:97:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          conv1d_relu2
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 50, Column: 0 }
+Function:        _Z7maxpoolPA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_59_1
+  - String:          ''' ('
+  - LoopLoc:         '../ecg_cnn.cpp:59:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          maxpool
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 17, Column: 0 }
+Function:        _Z11conv1d_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA1_A7_KS2_PS4_PA8_S2_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_39_2
+  - String:          ''' ('
+  - LoopLoc:         '../ecg_cnn.cpp:39:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          conv1d_relu
+  - String:          ''' completely with a factor of '
+  - Factor:          '7'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h', 
+                   Line: 1178, Column: 12 }
+Function:        _ZN3hls3expILi12ELi3EEE8ap_fixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EES4_
+Args:            
+  - Callee:          'ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> exp_reduce::exp<12, 3>(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                       Line: 14, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> hls::exp<12, 3>(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h', 
+                       Line: 1177, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 237, Column: 2 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'conv1d_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [1][7], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 17, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 238, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'maxpool(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 50, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 239, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'conv1d_relu2(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [8][5], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [16])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 240, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'gap(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [16], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 109, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 241, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'dense_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [16], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 127, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 242, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'dense_linear(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [16], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 158, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 247, Column: 16 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> hls::exp<12, 3>(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h', 
+                       Line: 1177, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_ecg_cnn_ir
+Args:            
+  - Callee:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_ecg_cnn_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> hls::exp<12, 3>(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h', 
+                       Line: 1177, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _Z12dense_linearP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA16_KS2_PS4_S3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          w_local.84
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _Z10dense_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA16_KS2_PS4_S3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          b_local.81
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _Z10dense_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA16_KS2_PS4_S3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          w_local.82
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '4'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          b_local.79
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _Z12conv1d_relu2PA8_8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA8_A5_KS2_PS5_PA16_S2_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          w_local.80
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '4'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '3'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _Z11conv1d_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA1_A7_KS2_PS4_PA8_S2_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          b_local
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _Z11conv1d_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA1_A7_KS2_PS4_PA8_S2_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          w_local
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '3'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 220, Column: 9 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          conv1_out
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 221, Column: 12 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          pool1_out
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 222, Column: 12 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          conv2_out
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '4'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 223, Column: 12 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          gap_out
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 224, Column: 12 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          dense1_out
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 225, Column: 12 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          logits
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            AccessClobbered
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+Function:        _Z11conv1d_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA1_A7_KS2_PS4_PA8_S2_
+Args:            
+  - String:          'Access is clobbered by '
+  - ClobberedBy:     load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          VITIS_LOOP_39_2.load.7
+  - ArrayName:       input
+  - String:          ' '
+  - BundleName:      INPUT
+  - String:          ' '
+  - Function:        'conv1d_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [1][7], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 17, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            AccessClobbered
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+Function:        _Z11conv1d_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA1_A7_KS2_PS4_PA8_S2_
+Args:            
+  - String:          'Access is clobbered by '
+  - ClobberedBy:     load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          VITIS_LOOP_39_2.load.22
+  - ArrayName:       input
+  - String:          ' '
+  - BundleName:      INPUT
+  - String:          ' '
+  - Function:        'conv1d_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [1][7], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 17, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            AccessClobbered
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+Function:        _Z11conv1d_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA1_A7_KS2_PS4_PA8_S2_
+Args:            
+  - String:          'Access is clobbered by '
+  - ClobberedBy:     load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          VITIS_LOOP_39_2.load.42
+  - ArrayName:       input
+  - String:          ' '
+  - BundleName:      INPUT
+  - String:          ' '
+  - Function:        'conv1d_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [1][7], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 17, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            AccessClobbered
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+Function:        _Z11conv1d_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA1_A7_KS2_PS4_PA8_S2_
+Args:            
+  - String:          'Access is clobbered by '
+  - ClobberedBy:     load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          VITIS_LOOP_39_2.load.62
+  - ArrayName:       input
+  - String:          ' '
+  - BundleName:      INPUT
+  - String:          ' '
+  - Function:        'conv1d_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [1][7], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 17, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            AccessClobbered
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+Function:        _Z11conv1d_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA1_A7_KS2_PS4_PA8_S2_
+Args:            
+  - String:          'Access is clobbered by '
+  - ClobberedBy:     load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          VITIS_LOOP_39_2.load.82
+  - ArrayName:       input
+  - String:          ' '
+  - BundleName:      INPUT
+  - String:          ' '
+  - Function:        'conv1d_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [1][7], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 17, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            AccessClobbered
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+Function:        _Z11conv1d_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA1_A7_KS2_PS4_PA8_S2_
+Args:            
+  - String:          'Access is clobbered by '
+  - ClobberedBy:     load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          VITIS_LOOP_39_2.load.102
+  - ArrayName:       input
+  - String:          ' '
+  - BundleName:      INPUT
+  - String:          ' '
+  - Function:        'conv1d_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [1][7], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 17, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            AccessClobbered
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+Function:        _Z11conv1d_reluP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEPA1_A7_KS2_PS4_PA8_S2_
+Args:            
+  - String:          'Access is clobbered by '
+  - ClobberedBy:     load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 41, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          VITIS_LOOP_39_2.load.122
+  - ArrayName:       input
+  - String:          ' '
+  - BundleName:      INPUT
+  - String:          ' '
+  - Function:        'conv1d_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [1][7], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 17, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 221, Column: 12 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=5 variable=pool1_out_0'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  ecg_cnn
+  - String:          ' '
+  - varLoc:          '../ecg_cnn.cpp:221:12'
+  - String:          ' '
+  - PragmaSrcLoc:    '../ecg_cnn.cpp:94:9'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 94, Column: 9 }
+  - VarName:         pool1_out_0
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 94, Column: 9 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '5'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            pool1_out_0
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 221, Column: 12 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=5 variable=pool1_out_1'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  ecg_cnn
+  - String:          ' '
+  - varLoc:          '../ecg_cnn.cpp:221:12'
+  - String:          ' '
+  - PragmaSrcLoc:    '../ecg_cnn.cpp:94:9'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 94, Column: 9 }
+  - VarName:         pool1_out_1
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 94, Column: 9 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '5'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            pool1_out_1
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 221, Column: 12 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          pool1_out_0
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '5'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 221, Column: 12 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          pool1_out_1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '5'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 237, Column: 2 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'conv1d_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [1][7], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8]) (.1)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 17, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 238, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'maxpool(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 50, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 239, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'conv1d_relu2(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [8], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [8][5], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [16])'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 73, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 240, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'gap(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> (*) [16], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 109, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 241, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'dense_relu(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [16], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 127, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../ecg_cnn.cpp, Line: 242, Column: 5 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'dense_linear(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const (*) [16], ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> const*, ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 158, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h', 
+                   Line: 1178, Column: 12 }
+Function:        _Z7ecg_cnnP8ap_fixedILi12ELi3EL9ap_q_mode5EL9ap_o_mode3ELi0EEP7ap_uintILi32EE
+Args:            
+  - Callee:          'ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0> exp_reduce::exp<12, 3>(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: 'C:/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/hls_exp_apfixed.h', 
+                       Line: 14, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'ecg_cnn(ap_fixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_uint<32>*)'
+    DebugLoc:        { File: ../ecg_cnn.cpp, Line: 187, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...

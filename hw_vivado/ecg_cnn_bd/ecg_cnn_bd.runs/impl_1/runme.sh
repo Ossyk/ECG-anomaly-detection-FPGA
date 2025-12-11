@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.runs/impl_1'
+HD_PWD='C:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

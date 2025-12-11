@@ -1,0 +1,9 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <name>
+        <value string="hls"/>
+    </name>
+    <project>
+        <value string="ecg_cnn"/>
+    </project>
+</AutoPilot:solution>
+

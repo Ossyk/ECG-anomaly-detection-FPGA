@@ -1,0 +1,52 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'ecg_cnn'" level="0">
+<item name = "Date">Thu Dec 11 00:00:07 2025
+</item>
+<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
+<item name = "Project">ecg_cnn</item>
+<item name = "Solution">hls (Vivado IP Flow Target)</item>
+<item name = "Product family">artix7</item>
+<item name = "Target device">xc7a100t-csg324-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 8.000 ns, 2.00 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">60677, 60677, 0.607 ms, 0.607 ms, 60678, 60678, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_conv1d_relu_fu_406">conv1d_relu, 40000, 40000, 0.400 ms, 0.400 ms, 39991, 39991, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_maxpool_fu_432">maxpool, 2871, 2871, 28.710 us, 28.710 us, 2857, 2857, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_conv1d_relu2_fu_448">conv1d_relu2, 11354, 11354, 0.114 ms, 0.114 ms, 11298, 11298, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_gap_fu_506">gap, 5745, 5745, 57.450 us, 57.450 us, 5745, 5745, no</column>
+<column name="grp_dense_relu_fu_530">dense_relu, 625, 625, 6.250 us, 6.250 us, 625, 625, no</column>
+<column name="grp_dense_linear_fu_574">dense_linear, 35, 35, 0.350 us, 0.350 us, 34, 34, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_exp_12_3_s_fu_594">exp_12_3_s, 5, 5, 50.000 ns, 50.000 ns, 1, 1, yes</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

@@ -1,0 +1,16 @@
+// Mem file initialization records.
+//
+// SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+// Vivado v2025.1 (64-bit)
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+// Created on Thursday December 11, 2025 - 12:37:14 am, from:
+//
+//     Map file     - c:\Users\oussk\Downloads\ald_v2\hw_vivado\ecg_cnn_bd\ecg_cnn_bd.gen\sources_1\bd\system_bd\system_bd.bmm
+//     Data file(s) - c:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_microblaze_0_0/data/mb_bootloop_le.elf
+//
+// Address space 'system_bd_microblaze_0.system_bd_blk_mem_gen_0_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    B8000000

@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.runs/impl_1/system_bd_wrapper.tcl"
+  variable script "C:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.runs/impl_1/system_bd_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -107,7 +107,6 @@ set rc [catch {
   set_param chipscope.maxJobs 3
   set_param general.usePosixSpawnForFork 1
   set_param bd.open.in_stealth_mode 1
-  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 6  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a100tcsg324-1
@@ -115,22 +114,22 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.cache/wt [current_project]
-  set_property parent.project_path C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.xpr [current_project]
-  set_property ip_repo_paths C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw_HLS_backup/ecg_cnn_PACKAGE [current_project]
+  set_property webtalk.parent_dir C:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.cache/wt [current_project]
+  set_property parent.project_path C:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.xpr [current_project]
+  set_property ip_repo_paths C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn_package_v2 [current_project]
   update_ip_catalog
-  set_property ip_output_repo C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.cache/ip [current_project]
+  set_property ip_output_repo C:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.runs/synth_1/system_bd_wrapper.dcp
+  add_files -quiet C:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.runs/synth_1/system_bd_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd
+  add_files C:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.srcs/sources_1/bd/system_bd/system_bd.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/oussk/Downloads/ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.srcs/constrs_1/imports/ecg_cnn_nexys_bd/nexys4.xdc
+  read_xdc C:/Users/oussk/Downloads/ald_v2/hw_vivado/ecg_cnn_bd/ecg_cnn_bd.srcs/constrs_1/imports/ecg_cnn_nexys_bd/nexys4.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }

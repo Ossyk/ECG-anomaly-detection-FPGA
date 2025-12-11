@@ -5,7 +5,7 @@
     "cell_name": "xlconstant_0",
     "component_reference": "xilinx.com:ip:xlconstant:1.1",
     "ip_revision": "10",
-    "gen_directory": "../../../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_xlconstant_0_2",
+    "gen_directory": ".",
     "parameters": {
       "component_parameters": {
         "Component_Name": [ { "value": "system_bd_xlconstant_0_2", "resolve_type": "user", "usage": "all" } ],
@@ -32,8 +32,9 @@
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
         "IPREVISION": [ { "value": "10" } ],
+        "LOCKEDBYUSER": [ { "value": "TRUE" } ],
         "MANAGED": [ { "value": "TRUE" } ],
-        "OUTPUTDIR": [ { "value": "../../../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ip/system_bd_xlconstant_0_2" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
         "SWVERSION": [ { "value": "2025.1" } ],

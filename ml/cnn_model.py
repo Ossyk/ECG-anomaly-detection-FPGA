@@ -15,9 +15,7 @@ tf.random.set_seed(SEED)
 random.seed(SEED)
 
 
-########################## TRAINING CNN ##########################
-
-
+#TRAINING CNN
 processed_data_dir = r"C:\Users\oussk\OneDrive\Desktop\02y02s\ALD\ecg-project\data\processed"
 X_train = np.load(os.path.join(processed_data_dir, "X_train.npy"))
 y_train = np.load(os.path.join(processed_data_dir, "y_train.npy"))
@@ -42,7 +40,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy',
                        tf.keras.metrics.Precision(),
                        tf.keras.metrics.Recall()])
-model.summary() #forces the model to “build” (initialize weights).
+model.summary() 
 callbacks = [
     EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True),
     ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=3, min_lr=1e-5)

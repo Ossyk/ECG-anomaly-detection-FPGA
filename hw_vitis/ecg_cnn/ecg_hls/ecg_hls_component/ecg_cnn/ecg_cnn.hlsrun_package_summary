@@ -1,0 +1,43 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\ecg_cnn.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "12/11/25 00:02:22",
+ "timestampMillis": "1765407742430",
+ "buildStep": {
+  "cmdId": "4deae386-4f37-46dc-a90c-670011a44954",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\ecg_cnn\\logs\\ecg_cnn.steps.log",
+  "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\..\\hls_config.cfg --work_dir ecg_cnn ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "C:\\Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component\\..\\hls_config.cfg",
+   "--work_dir",
+   "ecg_cnn"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\oussk\\Downloads\\ald_v2\\hw_vitis\\ecg_cnn\\ecg_hls\\ecg_hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/11/25 00:02:22",
+ "timestampMillis": "1765407742431",
+ "status": {
+  "cmdId": "4deae386-4f37-46dc-a90c-670011a44954",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>

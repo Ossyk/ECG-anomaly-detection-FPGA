@@ -1,98 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1763339721">
-  <File Type="PA-TCL" Name="system_bd_wrapper.tcl"/>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1765410048">
   <File Type="REPORTS-TCL" Name="system_bd_wrapper_reports.tcl"/>
-  <File Type="INIT-TIMING" Name="system_bd_wrapper_timing_summary_init.rpt"/>
-  <File Type="OPT-DCP" Name="system_bd_wrapper_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="system_bd_wrapper_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="system_bd_wrapper.mmi"/>
   <File Type="OPT-DRC" Name="system_bd_wrapper_drc_opted.rpt"/>
-  <File Type="OPT-UTIL" Name="system_bd_wrapper_utilization_opted.rpt"/>
-  <File Type="OPT-UTIL-PB" Name="system_bd_wrapper_utilization_opted.pb"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="system_bd_wrapper_methodology_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="system_bd_wrapper.hwdef"/>
-  <File Type="OPT-TIMING" Name="system_bd_wrapper_timing_summary_opted.rpt"/>
-  <File Type="OPT-RQA-PB" Name="system_bd_wrapper_rqa_opted.pb"/>
-  <File Type="PWROPT-DCP" Name="system_bd_wrapper_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="system_bd_wrapper_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="system_bd_wrapper_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="system_bd_wrapper_placed.dcp"/>
-  <File Type="PLACE-IO" Name="system_bd_wrapper_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="system_bd_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="BG-DRC" Name="system_bd_wrapper.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="system_bd_wrapper_route_status.pb"/>
+  <File Type="BG-BGN" Name="system_bd_wrapper.bgn"/>
   <File Type="PLACE-UTIL" Name="system_bd_wrapper_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="system_bd_wrapper_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="system_bd_wrapper_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="system_bd_wrapper_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="system_bd_wrapper_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="system_bd_wrapper_timing_summary_placed.rpt"/>
-  <File Type="PLACE-RQA-PB" Name="system_bd_wrapper_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="system_bd_wrapper_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="system_bd_wrapper_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="system_bd_wrapper_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="system_bd_wrapper_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="system_bd_wrapper_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="system_bd_wrapper_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="system_bd_wrapper_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="system_bd_wrapper_routed_bb.dcp"/>
-  <File Type="ROUTE-UTIL" Name="system_bd_wrapper_utilization_routed.rpt"/>
-  <File Type="ROUTE-UTIL-PB" Name="system_bd_wrapper_utilization_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="system_bd_wrapper_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="system_bd_wrapper_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="system_bd_wrapper_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="system_bd_wrapper_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="system_bd_wrapper_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="system_bd_wrapper_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="system_bd_wrapper_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="system_bd_wrapper_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="system_bd_wrapper_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="system_bd_wrapper_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="system_bd_wrapper_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="system_bd_wrapper_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="system_bd_wrapper_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="system_bd_wrapper_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="system_bd_wrapper_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="system_bd_wrapper_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="system_bd_wrapper_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="system_bd_wrapper_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="system_bd_wrapper_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-RQS-PB" Name="system_bd_wrapper_rqs_routed.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="system_bd_wrapper_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="system_bd_wrapper_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="system_bd_wrapper_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="system_bd_wrapper_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="system_bd_wrapper_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="system_bd_wrapper_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="system_bd_wrapper_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="system_bd_wrapper_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BG-BIT" Name="system_bd_wrapper.bit"/>
+  <File Type="PLACE-IO" Name="system_bd_wrapper_io_placed.rpt"/>
   <File Type="BG-BIN" Name="system_bd_wrapper.bin"/>
+  <File Type="PLACE-CTRL" Name="system_bd_wrapper_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="system_bd_wrapper_power_routed.rpx"/>
   <File Type="BITSTR-MSK" Name="system_bd_wrapper.msk"/>
   <File Type="BITSTR-RBT" Name="system_bd_wrapper.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="system_bd_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="system_bd_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="system_bd_wrapper_route_status.rpt"/>
+  <File Type="PA-TCL" Name="system_bd_wrapper.tcl"/>
+  <File Type="ROUTE-PWR" Name="system_bd_wrapper_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="system_bd_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="system_bd_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="system_bd_wrapper_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="system_bd_wrapper.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="system_bd_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="system_bd_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="system_bd_wrapper.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="system_bd_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="system_bd_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="system_bd_wrapper.vdi"/>
+  <File Type="ROUTE-CLK" Name="system_bd_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="system_bd_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="system_bd_wrapper_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="system_bd_wrapper_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="system_bd_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="system_bd_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="system_bd_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="system_bd_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="system_bd_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="system_bd_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="system_bd_wrapper_bus_skew_postroute_physopted.pb"/>
   <File Type="BITSTR-NKY" Name="system_bd_wrapper.nky"/>
   <File Type="BITSTR-BMM" Name="system_bd_wrapper_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="system_bd_wrapper.mmi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="system_bd_wrapper.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="system_bd_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="system_bd_wrapper_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="system_bd_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="system_bd_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="system_bd_wrapper_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="system_bd_wrapper_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="system_bd_wrapper_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="system_bd_wrapper_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="system_bd_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="system_bd_wrapper_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="system_bd_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="system_bd_wrapper_postroute_physopt_bb.dcp"/>
   <File Type="PDI-FILE" Name="system_bd_wrapper.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="system_bd_wrapper_boot.pdi"/>
   <File Type="PL-PDI-FILE" Name="system_bd_wrapper_pld.pdi"/>
   <File Type="RCFI_FILE" Name="system_bd_wrapper.rcfi"/>
   <File Type="CFI_FILE" Name="system_bd_wrapper.cfi"/>
   <File Type="RNPI_FILE" Name="system_bd_wrapper.rnpi"/>
-  <File Type="RCDO-FILE" Name="system_bd_wrapper.rcdo"/>
-  <File Type="MARKER-RNPI-FILE" Name="system_bd_wrapper_markers.rnpi"/>
-  <File Type="MARKER-RCDO-FILE" Name="system_bd_wrapper_markers.rcdo"/>
-  <File Type="BOOT_RNPI_FILE" Name="system_bd_wrapper_boot.rnpi"/>
-  <File Type="BOOT_MARKER_RNPI_FILE" Name="system_bd_wrapper_boot_markers.rnpi"/>
-  <File Type="PL_RNPI_FILE" Name="system_bd_wrapper_pld.rnpi"/>
-  <File Type="PL_MARKER_RNPI_FILE" Name="system_bd_wrapper_pld_markers.rnpi"/>
-  <File Type="PL_MASK_RNPI_FILE" Name="system_bd_wrapper_pld_mask.rnpi"/>
-  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="system_bd_wrapper_pld_shutdown.rnpi"/>
-  <File Type="PL_UNMASK_RNPI_FILE" Name="system_bd_wrapper_pld_unmask.rnpi"/>
-  <File Type="PL-RCDO-FILE" Name="system_bd_wrapper_pld.rcdo"/>
-  <File Type="PL-CLEAR-RCDO-FILE" Name="system_bd_wrapper_pld_clear.rcdo"/>
-  <File Type="PL_MARKER_RCDO_FILE" Name="system_bd_wrapper_pld_markers.rcdo"/>
-  <File Type="PL_MASK_RCDO_FILE" Name="system_bd_wrapper_pld_mask.rcdo"/>
-  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="system_bd_wrapper_pld_unmask_markers.rcdo"/>
-  <File Type="PL_UNMASK_RCDO_FILE" Name="system_bd_wrapper_pld_unmask.rcdo"/>
   <File Type="NPI_FILE" Name="system_bd_wrapper.npi"/>
   <File Type="RBD_FILE" Name="system_bd_wrapper.rbd"/>
+  <File Type="ROUTE-RQS" Name="system_bd_wrapper_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="system_bd_wrapper_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <File Type="MMI-FILE" Name="system_bd_wrapper.mmi"/>
   <File Type="BIF-FILE" Name="system_bd_wrapper.bif"/>
   <File Type="BOOT-BIF-FILE" Name="system_bd_wrapper_boot.bif"/>
@@ -100,17 +77,22 @@
   <File Type="LTX-FILE" Name="system_bd_wrapper.ltx"/>
   <File Type="BOOT-LTX-FILE" Name="system_bd_wrapper_boot.ltx"/>
   <File Type="PL-LTX-FILE" Name="system_bd_wrapper_pld.ltx"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="system_bd_wrapper.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="system_bd_wrapper.sysdef"/>
-  <File Type="BG-BGN" Name="system_bd_wrapper.bgn"/>
-  <File Type="BG-DRC" Name="system_bd_wrapper.drc"/>
-  <File Type="RDI-RDI" Name="system_bd_wrapper.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="system_bd_wrapper_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="system_bd_wrapper_postroute_physopted.rqs"/>
-  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="RCDO-FILE" Name="system_bd_wrapper.rcdo"/>
+  <File Type="MARKER-RCDO-FILE" Name="system_bd_wrapper_markers.rcdo"/>
+  <File Type="PL-RCDO-FILE" Name="system_bd_wrapper_pld.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="system_bd_wrapper_markers.rnpi"/>
+  <File Type="BOOT_RNPI_FILE" Name="system_bd_wrapper_boot.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="system_bd_wrapper_pld.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="system_bd_wrapper_boot_markers.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="system_bd_wrapper_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="system_bd_wrapper_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="system_bd_wrapper_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="system_bd_wrapper_pld_unmask.rnpi"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="system_bd_wrapper_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="system_bd_wrapper_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="system_bd_wrapper_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="system_bd_wrapper_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="system_bd_wrapper_pld_unmask.rcdo"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/system_bd/system_bd.bd">
@@ -148,7 +130,7 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
-    <File Path="$PSRCDIR/utils_1/imports/synth_1/system_bd_wrapper.dcp">
+    <File Path="$PPRDIR/../../../ecg_cnn_BACKUP_1/hw/ecg_cnn_nexys_bd_backup/ecg_cnn_bd.srcs/utils_1/imports/synth_1/system_bd_wrapper.dcp">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -162,9 +144,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
@@ -174,5 +154,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

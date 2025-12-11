@@ -1,13 +1,11 @@
 #include "ecg_cnn.h"
-#include "weights_rom.h"   // <-- all weights & biases now included here
+#include "weights_rom.h"   //all weights & biases now included here
 #include <ap_int.h>
 #include <stdint.h>
-#include <hls_math.h>   // <-- put at top of ecg_cnn.cpp
+#include <hls_math.h>  
 #include <iostream>
 
-// ------------------------------------------------------------
 // Consts
-// ------------------------------------------------------------
 const data_t GAP_RECIPROCAL = (data_t)1.0 / (data_t)GAP_LEN;
 
 // ------------------- Layers -------------------
@@ -24,7 +22,7 @@ void conv1d_relu(data_t input[INPUT_LEN],
 #pragma HLS ARRAY_PARTITION variable=w_local complete dim=3
 #pragma HLS ARRAY_PARTITION variable=b_local complete
 
-    // preload weights
+    //weights
     LOAD_W1: for (int f = 0; f < CONV1_OUT; f++) {
         b_local[f] = bias[f];
         for (int k = 0; k < KERNEL1; k++) {
@@ -184,7 +182,7 @@ void dense_linear(data_t input[DENSE1_UNITS],
     }
 }
 
-// ------------------- Top CNN Function -------------------
+//CNN funtion
 void ecg_cnn(data_t input[INPUT_LEN],
              ap_uint<32>* output) {
 
@@ -255,7 +253,7 @@ void ecg_cnn(data_t input[INPUT_LEN],
     if (score_i16 >  32767) score_i16 =  32767;
     if (score_i16 < -32768) score_i16 = -32768;
 
-    ap_uint<1> label = (prob >= (data_t)0.5) ? 1 : 0;
+    ap_uint<1> label = (prob >= (data_t)0.4) ? 1 : 0;
     ap_uint<16> score_u16 = *((uint16_t*)&score_i16);
     ap_uint<32> packed = 0;
     packed.range(0, 0) = label;

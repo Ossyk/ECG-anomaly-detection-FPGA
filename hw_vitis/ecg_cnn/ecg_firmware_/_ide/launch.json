@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "ecg_firmware__app_hw_1",
+      "debugType": "baremetal-fpga",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "fpga"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "bitstreamFile": "${workspaceFolder}\\ecg_firmware_\\_ide\\bitstream\\system_bd_wrapperv2.bit",
+        "downloadElf": [
+          {
+            "core": "microblaze_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}\\ecg_firmware_\\build\\ecg_firmware_.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ]
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}

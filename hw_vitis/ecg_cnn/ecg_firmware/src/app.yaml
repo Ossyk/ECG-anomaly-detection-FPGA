@@ -1,4 +1,0 @@
-domain_path: C:\Users\oussk\OneDrive\Desktop\ECG_CNN_PROJECT_ALD\hw_vitis\ecg_cnn\ecg_platform\export\ecg_platform\sw\standalone_microblaze_0
-app_src_dir: C:\Xilinx\2025.1\Vitis\data\embeddedsw\lib\sw_apps\empty_application
-template: empty_application
-lang: c

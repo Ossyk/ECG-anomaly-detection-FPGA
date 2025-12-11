@@ -1,0 +1,658 @@
+
+
+================================================================
+== Vitis HLS Report for 'ecg_cnn'
+================================================================
+* Date:           Thu Dec 11 00:00:07 2025
+
+* Version:        2025.1 (Build 6135595 on May 21 2025)
+* Project:        ecg_cnn
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: artix7
+* Target device:  xc7a100t-csg324-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  8.000 ns|     2.00 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-------+-------+---------+
+    |  Latency (cycles) |  Latency (absolute) |    Interval   | Pipeline|
+    |   min   |   max   |    min   |    max   |  min  |  max  |   Type  |
+    +---------+---------+----------+----------+-------+-------+---------+
+    |    60677|    60677|  0.607 ms|  0.607 ms|  60678|  60678|       no|
+    +---------+---------+----------+----------+-------+-------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 48
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 13 
+13 --> 14 
+14 --> 15 
+15 --> 16 
+16 --> 17 
+17 --> 18 
+18 --> 19 
+19 --> 20 
+20 --> 21 
+21 --> 22 
+22 --> 23 
+23 --> 24 
+24 --> 25 
+25 --> 26 
+26 --> 27 
+27 --> 28 
+28 --> 29 
+29 --> 30 
+30 --> 31 
+31 --> 32 
+32 --> 33 
+33 --> 34 
+34 --> 35 
+35 --> 36 
+36 --> 37 
+37 --> 38 
+38 --> 39 
+39 --> 40 
+40 --> 41 
+41 --> 42 
+42 --> 43 
+43 --> 44 
+44 --> 45 
+45 --> 46 
+46 --> 47 
+47 --> 48 
+48 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.00>
+ST_1 : Operation 49 [1/1] (1.00ns)   --->   "%output_r_r_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %output_r_r"   --->   Operation 49 'read' 'output_r_r_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 50 [1/1] (1.00ns)   --->   "%input_r_r_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %input_r_r"   --->   Operation 50 'read' 'input_r_r_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%conv1_out = alloca i64 1" [../ecg_cnn.cpp:220]   --->   Operation 51 'alloca' 'conv1_out' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 2856> <RAM>
+ST_1 : Operation 52 [1/1] (0.00ns)   --->   "%conv1_out_1 = alloca i64 1" [../ecg_cnn.cpp:220]   --->   Operation 52 'alloca' 'conv1_out_1' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 2856> <RAM>
+ST_1 : Operation 53 [1/1] (0.00ns)   --->   "%pool1_out = alloca i64 1" [../ecg_cnn.cpp:221]   --->   Operation 53 'alloca' 'pool1_out' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 288> <RAM>
+ST_1 : Operation 54 [1/1] (0.00ns)   --->   "%pool1_out_1 = alloca i64 1" [../ecg_cnn.cpp:221]   --->   Operation 54 'alloca' 'pool1_out_1' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 288> <RAM>
+ST_1 : Operation 55 [1/1] (0.00ns)   --->   "%pool1_out_2 = alloca i64 1" [../ecg_cnn.cpp:221]   --->   Operation 55 'alloca' 'pool1_out_2' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 288> <RAM>
+ST_1 : Operation 56 [1/1] (0.00ns)   --->   "%pool1_out_3 = alloca i64 1" [../ecg_cnn.cpp:221]   --->   Operation 56 'alloca' 'pool1_out_3' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 288> <RAM>
+ST_1 : Operation 57 [1/1] (0.00ns)   --->   "%pool1_out_4 = alloca i64 1" [../ecg_cnn.cpp:221]   --->   Operation 57 'alloca' 'pool1_out_4' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 288> <RAM>
+ST_1 : Operation 58 [1/1] (0.00ns)   --->   "%pool1_out_5 = alloca i64 1" [../ecg_cnn.cpp:221]   --->   Operation 58 'alloca' 'pool1_out_5' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 288> <RAM>
+ST_1 : Operation 59 [1/1] (0.00ns)   --->   "%pool1_out_6 = alloca i64 1" [../ecg_cnn.cpp:221]   --->   Operation 59 'alloca' 'pool1_out_6' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 288> <RAM>
+ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%pool1_out_7 = alloca i64 1" [../ecg_cnn.cpp:221]   --->   Operation 60 'alloca' 'pool1_out_7' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 288> <RAM>
+ST_1 : Operation 61 [1/1] (0.00ns)   --->   "%pool1_out_8 = alloca i64 1" [../ecg_cnn.cpp:221]   --->   Operation 61 'alloca' 'pool1_out_8' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 288> <RAM>
+ST_1 : Operation 62 [1/1] (0.00ns)   --->   "%pool1_out_9 = alloca i64 1" [../ecg_cnn.cpp:221]   --->   Operation 62 'alloca' 'pool1_out_9' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 288> <RAM>
+ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%conv2_out = alloca i64 1" [../ecg_cnn.cpp:222]   --->   Operation 63 'alloca' 'conv2_out' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 1412> <RAM>
+ST_1 : Operation 64 [1/1] (0.00ns)   --->   "%conv2_out_1 = alloca i64 1" [../ecg_cnn.cpp:222]   --->   Operation 64 'alloca' 'conv2_out_1' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 1412> <RAM>
+ST_1 : Operation 65 [1/1] (0.00ns)   --->   "%conv2_out_2 = alloca i64 1" [../ecg_cnn.cpp:222]   --->   Operation 65 'alloca' 'conv2_out_2' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 1412> <RAM>
+ST_1 : Operation 66 [1/1] (0.00ns)   --->   "%conv2_out_3 = alloca i64 1" [../ecg_cnn.cpp:222]   --->   Operation 66 'alloca' 'conv2_out_3' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM_T2P_BRAM">   --->   Core 93 'RAM_T2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 11> <Depth = 1412> <RAM>
+ST_1 : Operation 67 [1/1] (0.00ns)   --->   "%gap_out = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 67 'alloca' 'gap_out' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 68 [1/1] (0.00ns)   --->   "%gap_out_1 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 68 'alloca' 'gap_out_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 69 [1/1] (0.00ns)   --->   "%gap_out_2 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 69 'alloca' 'gap_out_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 70 [1/1] (0.00ns)   --->   "%gap_out_3 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 70 'alloca' 'gap_out_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 71 [1/1] (0.00ns)   --->   "%gap_out_4 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 71 'alloca' 'gap_out_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 72 [1/1] (0.00ns)   --->   "%gap_out_5 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 72 'alloca' 'gap_out_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 73 [1/1] (0.00ns)   --->   "%gap_out_6 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 73 'alloca' 'gap_out_6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 74 [1/1] (0.00ns)   --->   "%gap_out_7 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 74 'alloca' 'gap_out_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 75 [1/1] (0.00ns)   --->   "%gap_out_8 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 75 'alloca' 'gap_out_8' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 76 [1/1] (0.00ns)   --->   "%gap_out_9 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 76 'alloca' 'gap_out_9' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 77 [1/1] (0.00ns)   --->   "%gap_out_10 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 77 'alloca' 'gap_out_10' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 78 [1/1] (0.00ns)   --->   "%gap_out_11 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 78 'alloca' 'gap_out_11' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 79 [1/1] (0.00ns)   --->   "%gap_out_12 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 79 'alloca' 'gap_out_12' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 80 [1/1] (0.00ns)   --->   "%gap_out_13 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 80 'alloca' 'gap_out_13' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 81 [1/1] (0.00ns)   --->   "%gap_out_14 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 81 'alloca' 'gap_out_14' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 82 [1/1] (0.00ns)   --->   "%gap_out_15 = alloca i64 1" [../ecg_cnn.cpp:223]   --->   Operation 82 'alloca' 'gap_out_15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 83 [1/1] (0.00ns)   --->   "%dense1_out = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 83 'alloca' 'dense1_out' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 84 [1/1] (0.00ns)   --->   "%dense1_out_1 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 84 'alloca' 'dense1_out_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 85 [1/1] (0.00ns)   --->   "%dense1_out_2 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 85 'alloca' 'dense1_out_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 86 [1/1] (0.00ns)   --->   "%dense1_out_3 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 86 'alloca' 'dense1_out_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 87 [1/1] (0.00ns)   --->   "%dense1_out_4 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 87 'alloca' 'dense1_out_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 88 [1/1] (0.00ns)   --->   "%dense1_out_5 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 88 'alloca' 'dense1_out_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 89 [1/1] (0.00ns)   --->   "%dense1_out_6 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 89 'alloca' 'dense1_out_6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 90 [1/1] (0.00ns)   --->   "%dense1_out_7 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 90 'alloca' 'dense1_out_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 91 [1/1] (0.00ns)   --->   "%dense1_out_8 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 91 'alloca' 'dense1_out_8' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 92 [1/1] (0.00ns)   --->   "%dense1_out_9 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 92 'alloca' 'dense1_out_9' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 93 [1/1] (0.00ns)   --->   "%dense1_out_10 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 93 'alloca' 'dense1_out_10' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 94 [1/1] (0.00ns)   --->   "%dense1_out_11 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 94 'alloca' 'dense1_out_11' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 95 [1/1] (0.00ns)   --->   "%dense1_out_12 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 95 'alloca' 'dense1_out_12' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 96 [1/1] (0.00ns)   --->   "%dense1_out_13 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 96 'alloca' 'dense1_out_13' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 97 [1/1] (0.00ns)   --->   "%dense1_out_14 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 97 'alloca' 'dense1_out_14' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 98 [1/1] (0.00ns)   --->   "%dense1_out_15 = alloca i64 1" [../ecg_cnn.cpp:224]   --->   Operation 98 'alloca' 'dense1_out_15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 99 [2/2] (0.00ns)   --->   "%call_ln237 = call void @conv1d_relu, i16 %INPUT_r, i64 %input_r_r_read, i11 %conv1_out, i11 %conv1_out_1, i11 %w_local_0, i10 %w_local_1, i10 %w_local_2, i10 %w_local_3, i9 %w_local_4, i10 %w_local_5, i11 %w_local_6" [../ecg_cnn.cpp:237]   --->   Operation 99 'call' 'call_ln237' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_1 : Operation 100 [1/1] (0.00ns)   --->   "%trunc_ln = partselect i62 @_ssdm_op_PartSelect.i62.i64.i32.i32, i64 %output_r_r_read, i32 2, i32 63" [../ecg_cnn.cpp:261]   --->   Operation 100 'partselect' 'trunc_ln' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 101 [1/1] (0.00ns)   --->   "%sext_ln261 = sext i62 %trunc_ln" [../ecg_cnn.cpp:261]   --->   Operation 101 'sext' 'sext_ln261' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 102 [1/1] (0.00ns)   --->   "%OUTPUT_r_addr = getelementptr i32 %OUTPUT_r, i64 %sext_ln261" [../ecg_cnn.cpp:261]   --->   Operation 102 'getelementptr' 'OUTPUT_r_addr' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 103 [1/2] (0.00ns)   --->   "%call_ln237 = call void @conv1d_relu, i16 %INPUT_r, i64 %input_r_r_read, i11 %conv1_out, i11 %conv1_out_1, i11 %w_local_0, i10 %w_local_1, i10 %w_local_2, i10 %w_local_3, i9 %w_local_4, i10 %w_local_5, i11 %w_local_6" [../ecg_cnn.cpp:237]   --->   Operation 103 'call' 'call_ln237' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 3 <SV = 2> <Delay = 0.00>
+ST_3 : Operation 104 [2/2] (0.00ns)   --->   "%call_ln238 = call void @maxpool, i11 %conv1_out, i11 %conv1_out_1, i11 %pool1_out, i11 %pool1_out_1, i11 %pool1_out_2, i11 %pool1_out_3, i11 %pool1_out_4, i11 %pool1_out_5, i11 %pool1_out_6, i11 %pool1_out_7, i11 %pool1_out_8, i11 %pool1_out_9" [../ecg_cnn.cpp:238]   --->   Operation 104 'call' 'call_ln238' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 105 [1/2] (0.00ns)   --->   "%call_ln238 = call void @maxpool, i11 %conv1_out, i11 %conv1_out_1, i11 %pool1_out, i11 %pool1_out_1, i11 %pool1_out_2, i11 %pool1_out_3, i11 %pool1_out_4, i11 %pool1_out_5, i11 %pool1_out_6, i11 %pool1_out_7, i11 %pool1_out_8, i11 %pool1_out_9" [../ecg_cnn.cpp:238]   --->   Operation 105 'call' 'call_ln238' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 5 <SV = 4> <Delay = 0.00>
+ST_5 : Operation 106 [2/2] (0.00ns)   --->   "%call_ln239 = call void @conv1d_relu2, i11 %pool1_out, i11 %pool1_out_1, i11 %pool1_out_2, i11 %pool1_out_3, i11 %pool1_out_4, i11 %pool1_out_5, i11 %pool1_out_6, i11 %pool1_out_7, i11 %pool1_out_8, i11 %pool1_out_9, i11 %conv2_out, i11 %conv2_out_1, i11 %conv2_out_2, i11 %conv2_out_3, i12 %w_local_80_0_0, i11 %w_local_80_0_1, i11 %w_local_80_0_2, i10 %w_local_80_0_3, i12 %w_local_80_0_4, i12 %w_local_80_1_0, i12 %w_local_80_1_1, i12 %w_local_80_1_2, i12 %w_local_80_1_3, i12 %w_local_80_1_4, i11 %w_local_80_2_0, i11 %w_local_80_2_1, i11 %w_local_80_2_2, i10 %w_local_80_2_3, i10 %w_local_80_2_4, i11 %w_local_80_3_0, i11 %w_local_80_3_1, i10 %w_local_80_3_2, i10 %w_local_80_3_3, i11 %w_local_80_3_4" [../ecg_cnn.cpp:239]   --->   Operation 106 'call' 'call_ln239' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 6 <SV = 5> <Delay = 0.00>
+ST_6 : Operation 107 [1/2] (0.00ns)   --->   "%call_ln239 = call void @conv1d_relu2, i11 %pool1_out, i11 %pool1_out_1, i11 %pool1_out_2, i11 %pool1_out_3, i11 %pool1_out_4, i11 %pool1_out_5, i11 %pool1_out_6, i11 %pool1_out_7, i11 %pool1_out_8, i11 %pool1_out_9, i11 %conv2_out, i11 %conv2_out_1, i11 %conv2_out_2, i11 %conv2_out_3, i12 %w_local_80_0_0, i11 %w_local_80_0_1, i11 %w_local_80_0_2, i10 %w_local_80_0_3, i12 %w_local_80_0_4, i12 %w_local_80_1_0, i12 %w_local_80_1_1, i12 %w_local_80_1_2, i12 %w_local_80_1_3, i12 %w_local_80_1_4, i11 %w_local_80_2_0, i11 %w_local_80_2_1, i11 %w_local_80_2_2, i10 %w_local_80_2_3, i10 %w_local_80_2_4, i11 %w_local_80_3_0, i11 %w_local_80_3_1, i10 %w_local_80_3_2, i10 %w_local_80_3_3, i11 %w_local_80_3_4" [../ecg_cnn.cpp:239]   --->   Operation 107 'call' 'call_ln239' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 7 <SV = 6> <Delay = 0.00>
+ST_7 : Operation 108 [2/2] (0.00ns)   --->   "%call_ln240 = call void @gap, i11 %conv2_out, i11 %conv2_out_1, i11 %conv2_out_2, i11 %conv2_out_3, i12 %gap_out, i12 %gap_out_1, i12 %gap_out_2, i12 %gap_out_3, i12 %gap_out_4, i12 %gap_out_5, i12 %gap_out_6, i12 %gap_out_7, i12 %gap_out_8, i12 %gap_out_9, i12 %gap_out_10, i12 %gap_out_11, i12 %gap_out_12, i12 %gap_out_13, i12 %gap_out_14, i12 %gap_out_15" [../ecg_cnn.cpp:240]   --->   Operation 108 'call' 'call_ln240' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 8 <SV = 7> <Delay = 1.86>
+ST_8 : Operation 109 [1/2] (1.86ns)   --->   "%call_ln240 = call void @gap, i11 %conv2_out, i11 %conv2_out_1, i11 %conv2_out_2, i11 %conv2_out_3, i12 %gap_out, i12 %gap_out_1, i12 %gap_out_2, i12 %gap_out_3, i12 %gap_out_4, i12 %gap_out_5, i12 %gap_out_6, i12 %gap_out_7, i12 %gap_out_8, i12 %gap_out_9, i12 %gap_out_10, i12 %gap_out_11, i12 %gap_out_12, i12 %gap_out_13, i12 %gap_out_14, i12 %gap_out_15" [../ecg_cnn.cpp:240]   --->   Operation 109 'call' 'call_ln240' <Predicate = true> <Delay = 1.86> <CoreType = "Generic">   --->   Generic Core
+
+State 9 <SV = 8> <Delay = 0.00>
+ST_9 : Operation 110 [1/1] (0.00ns)   --->   "%gap_out_load = load i12 %gap_out"   --->   Operation 110 'load' 'gap_out_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 111 [1/1] (0.00ns)   --->   "%gap_out_1_load = load i12 %gap_out_1"   --->   Operation 111 'load' 'gap_out_1_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 112 [1/1] (0.00ns)   --->   "%gap_out_2_load = load i12 %gap_out_2"   --->   Operation 112 'load' 'gap_out_2_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 113 [1/1] (0.00ns)   --->   "%gap_out_3_load = load i12 %gap_out_3"   --->   Operation 113 'load' 'gap_out_3_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 114 [1/1] (0.00ns)   --->   "%gap_out_4_load = load i12 %gap_out_4"   --->   Operation 114 'load' 'gap_out_4_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 115 [1/1] (0.00ns)   --->   "%gap_out_5_load = load i12 %gap_out_5"   --->   Operation 115 'load' 'gap_out_5_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 116 [1/1] (0.00ns)   --->   "%gap_out_6_load = load i12 %gap_out_6"   --->   Operation 116 'load' 'gap_out_6_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 117 [1/1] (0.00ns)   --->   "%gap_out_7_load = load i12 %gap_out_7"   --->   Operation 117 'load' 'gap_out_7_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 118 [1/1] (0.00ns)   --->   "%gap_out_8_load = load i12 %gap_out_8"   --->   Operation 118 'load' 'gap_out_8_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 119 [1/1] (0.00ns)   --->   "%gap_out_9_load = load i12 %gap_out_9"   --->   Operation 119 'load' 'gap_out_9_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 120 [1/1] (0.00ns)   --->   "%gap_out_10_load = load i12 %gap_out_10"   --->   Operation 120 'load' 'gap_out_10_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 121 [1/1] (0.00ns)   --->   "%gap_out_11_load = load i12 %gap_out_11"   --->   Operation 121 'load' 'gap_out_11_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 122 [1/1] (0.00ns)   --->   "%gap_out_12_load = load i12 %gap_out_12"   --->   Operation 122 'load' 'gap_out_12_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 123 [1/1] (0.00ns)   --->   "%gap_out_13_load = load i12 %gap_out_13"   --->   Operation 123 'load' 'gap_out_13_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 124 [1/1] (0.00ns)   --->   "%gap_out_14_load = load i12 %gap_out_14"   --->   Operation 124 'load' 'gap_out_14_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 125 [1/1] (0.00ns)   --->   "%gap_out_15_load = load i12 %gap_out_15"   --->   Operation 125 'load' 'gap_out_15_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 126 [2/2] (0.00ns)   --->   "%call_ln241 = call void @dense_relu, i12 %gap_out_load, i12 %gap_out_1_load, i12 %gap_out_2_load, i12 %gap_out_3_load, i12 %gap_out_4_load, i12 %gap_out_5_load, i12 %gap_out_6_load, i12 %gap_out_7_load, i12 %gap_out_8_load, i12 %gap_out_9_load, i12 %gap_out_10_load, i12 %gap_out_11_load, i12 %gap_out_12_load, i12 %gap_out_13_load, i12 %gap_out_14_load, i12 %gap_out_15_load, i11 %dense1_out, i11 %dense1_out_1, i11 %dense1_out_2, i11 %dense1_out_3, i11 %dense1_out_4, i11 %dense1_out_5, i11 %dense1_out_6, i11 %dense1_out_7, i11 %dense1_out_8, i11 %dense1_out_9, i11 %dense1_out_10, i11 %dense1_out_11, i11 %dense1_out_12, i11 %dense1_out_13, i11 %dense1_out_14, i11 %dense1_out_15, i12 %w_local_82_0, i12 %w_local_82_1, i12 %w_local_82_2, i11 %w_local_82_3" [../ecg_cnn.cpp:241]   --->   Operation 126 'call' 'call_ln241' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+
+State 10 <SV = 9> <Delay = 3.03>
+ST_10 : Operation 127 [1/2] (3.03ns)   --->   "%call_ln241 = call void @dense_relu, i12 %gap_out_load, i12 %gap_out_1_load, i12 %gap_out_2_load, i12 %gap_out_3_load, i12 %gap_out_4_load, i12 %gap_out_5_load, i12 %gap_out_6_load, i12 %gap_out_7_load, i12 %gap_out_8_load, i12 %gap_out_9_load, i12 %gap_out_10_load, i12 %gap_out_11_load, i12 %gap_out_12_load, i12 %gap_out_13_load, i12 %gap_out_14_load, i12 %gap_out_15_load, i11 %dense1_out, i11 %dense1_out_1, i11 %dense1_out_2, i11 %dense1_out_3, i11 %dense1_out_4, i11 %dense1_out_5, i11 %dense1_out_6, i11 %dense1_out_7, i11 %dense1_out_8, i11 %dense1_out_9, i11 %dense1_out_10, i11 %dense1_out_11, i11 %dense1_out_12, i11 %dense1_out_13, i11 %dense1_out_14, i11 %dense1_out_15, i12 %w_local_82_0, i12 %w_local_82_1, i12 %w_local_82_2, i11 %w_local_82_3" [../ecg_cnn.cpp:241]   --->   Operation 127 'call' 'call_ln241' <Predicate = true> <Delay = 3.03> <CoreType = "Generic">   --->   Generic Core
+
+State 11 <SV = 10> <Delay = 8.00>
+ST_11 : Operation 128 [1/1] (0.00ns)   --->   "%dense1_out_load = load i11 %dense1_out"   --->   Operation 128 'load' 'dense1_out_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 129 [1/1] (0.00ns)   --->   "%dense1_out_1_load = load i11 %dense1_out_1"   --->   Operation 129 'load' 'dense1_out_1_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 130 [1/1] (0.00ns)   --->   "%dense1_out_2_load = load i11 %dense1_out_2"   --->   Operation 130 'load' 'dense1_out_2_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 131 [1/1] (0.00ns)   --->   "%dense1_out_3_load = load i11 %dense1_out_3"   --->   Operation 131 'load' 'dense1_out_3_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 132 [1/1] (0.00ns)   --->   "%dense1_out_4_load = load i11 %dense1_out_4"   --->   Operation 132 'load' 'dense1_out_4_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 133 [1/1] (0.00ns)   --->   "%dense1_out_5_load = load i11 %dense1_out_5"   --->   Operation 133 'load' 'dense1_out_5_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 134 [1/1] (0.00ns)   --->   "%dense1_out_6_load = load i11 %dense1_out_6"   --->   Operation 134 'load' 'dense1_out_6_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 135 [1/1] (0.00ns)   --->   "%dense1_out_7_load = load i11 %dense1_out_7"   --->   Operation 135 'load' 'dense1_out_7_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 136 [1/1] (0.00ns)   --->   "%dense1_out_8_load = load i11 %dense1_out_8"   --->   Operation 136 'load' 'dense1_out_8_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 137 [1/1] (0.00ns)   --->   "%dense1_out_9_load = load i11 %dense1_out_9"   --->   Operation 137 'load' 'dense1_out_9_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 138 [1/1] (0.00ns)   --->   "%dense1_out_10_load = load i11 %dense1_out_10"   --->   Operation 138 'load' 'dense1_out_10_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 139 [1/1] (0.00ns)   --->   "%dense1_out_11_load = load i11 %dense1_out_11"   --->   Operation 139 'load' 'dense1_out_11_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 140 [1/1] (0.00ns)   --->   "%dense1_out_12_load = load i11 %dense1_out_12"   --->   Operation 140 'load' 'dense1_out_12_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 141 [1/1] (0.00ns)   --->   "%dense1_out_13_load = load i11 %dense1_out_13"   --->   Operation 141 'load' 'dense1_out_13_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 142 [1/1] (0.00ns)   --->   "%dense1_out_14_load = load i11 %dense1_out_14"   --->   Operation 142 'load' 'dense1_out_14_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 143 [1/1] (0.00ns)   --->   "%dense1_out_15_load = load i11 %dense1_out_15"   --->   Operation 143 'load' 'dense1_out_15_load' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 144 [2/2] (3.51ns)   --->   "%logits = call i12 @dense_linear, i11 %dense1_out_load, i11 %dense1_out_1_load, i11 %dense1_out_2_load, i11 %dense1_out_3_load, i11 %dense1_out_4_load, i11 %dense1_out_5_load, i11 %dense1_out_6_load, i11 %dense1_out_7_load, i11 %dense1_out_8_load, i11 %dense1_out_9_load, i11 %dense1_out_10_load, i11 %dense1_out_11_load, i11 %dense1_out_12_load, i11 %dense1_out_13_load, i11 %dense1_out_14_load, i11 %dense1_out_15_load" [../ecg_cnn.cpp:242]   --->   Operation 144 'call' 'logits' <Predicate = true> <Delay = 3.51> <CoreType = "Generic">   --->   Generic Core
+ST_11 : Operation 145 [1/1] (8.00ns)   --->   "%OUTPUT_r_addr_req = writereq i1 @_ssdm_op_WriteReq.m_axi.i32P1A, i32 %OUTPUT_r_addr, i64 1" [../ecg_cnn.cpp:261]   --->   Operation 145 'writereq' 'OUTPUT_r_addr_req' <Predicate = true> <Delay = 8.00> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 9> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 12 <SV = 11> <Delay = 4.28>
+ST_12 : Operation 146 [1/2] (0.00ns)   --->   "%logits = call i12 @dense_linear, i11 %dense1_out_load, i11 %dense1_out_1_load, i11 %dense1_out_2_load, i11 %dense1_out_3_load, i11 %dense1_out_4_load, i11 %dense1_out_5_load, i11 %dense1_out_6_load, i11 %dense1_out_7_load, i11 %dense1_out_8_load, i11 %dense1_out_9_load, i11 %dense1_out_10_load, i11 %dense1_out_11_load, i11 %dense1_out_12_load, i11 %dense1_out_13_load, i11 %dense1_out_14_load, i11 %dense1_out_15_load" [../ecg_cnn.cpp:242]   --->   Operation 146 'call' 'logits' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_12 : Operation 147 [1/1] (2.13ns)   --->   "%neg = sub i12 0, i12 %logits" [../ecg_cnn.cpp:246]   --->   Operation 147 'sub' 'neg' <Predicate = true> <Delay = 2.13> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.13> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 148 [7/7] (2.15ns)   --->   "%e = call i12 @exp<12, 3>, i12 %neg, i11 %f_x_lsb_table, i25 %exp_x_msb_2_m_1_table, i25 %exp_x_msb_1_table" [C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247]   --->   Operation 148 'call' 'e' <Predicate = true> <Delay = 2.15> <CoreType = "Generic">   --->   Generic Core
+
+State 13 <SV = 12> <Delay = 6.77>
+ST_13 : Operation 149 [6/7] (6.77ns)   --->   "%e = call i12 @exp<12, 3>, i12 %neg, i11 %f_x_lsb_table, i25 %exp_x_msb_2_m_1_table, i25 %exp_x_msb_1_table" [C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247]   --->   Operation 149 'call' 'e' <Predicate = true> <Delay = 6.77> <CoreType = "Generic">   --->   Generic Core
+
+State 14 <SV = 13> <Delay = 6.77>
+ST_14 : Operation 150 [5/7] (6.77ns)   --->   "%e = call i12 @exp<12, 3>, i12 %neg, i11 %f_x_lsb_table, i25 %exp_x_msb_2_m_1_table, i25 %exp_x_msb_1_table" [C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247]   --->   Operation 150 'call' 'e' <Predicate = true> <Delay = 6.77> <CoreType = "Generic">   --->   Generic Core
+
+State 15 <SV = 14> <Delay = 6.77>
+ST_15 : Operation 151 [4/7] (6.77ns)   --->   "%e = call i12 @exp<12, 3>, i12 %neg, i11 %f_x_lsb_table, i25 %exp_x_msb_2_m_1_table, i25 %exp_x_msb_1_table" [C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247]   --->   Operation 151 'call' 'e' <Predicate = true> <Delay = 6.77> <CoreType = "Generic">   --->   Generic Core
+
+State 16 <SV = 15> <Delay = 6.77>
+ST_16 : Operation 152 [3/7] (6.77ns)   --->   "%e = call i12 @exp<12, 3>, i12 %neg, i11 %f_x_lsb_table, i25 %exp_x_msb_2_m_1_table, i25 %exp_x_msb_1_table" [C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247]   --->   Operation 152 'call' 'e' <Predicate = true> <Delay = 6.77> <CoreType = "Generic">   --->   Generic Core
+
+State 17 <SV = 16> <Delay = 6.77>
+ST_17 : Operation 153 [2/7] (6.77ns)   --->   "%e = call i12 @exp<12, 3>, i12 %neg, i11 %f_x_lsb_table, i25 %exp_x_msb_2_m_1_table, i25 %exp_x_msb_1_table" [C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247]   --->   Operation 153 'call' 'e' <Predicate = true> <Delay = 6.77> <CoreType = "Generic">   --->   Generic Core
+
+State 18 <SV = 17> <Delay = 4.41>
+ST_18 : Operation 154 [1/7] (4.41ns)   --->   "%e = call i12 @exp<12, 3>, i12 %neg, i11 %f_x_lsb_table, i25 %exp_x_msb_2_m_1_table, i25 %exp_x_msb_1_table" [C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247]   --->   Operation 154 'call' 'e' <Predicate = true> <Delay = 4.41> <CoreType = "Generic">   --->   Generic Core
+
+State 19 <SV = 18> <Delay = 5.91>
+ST_19 : Operation 155 [1/1] (0.00ns)   --->   "%sext_ln248 = sext i12 %e" [../ecg_cnn.cpp:248]   --->   Operation 155 'sext' 'sext_ln248' <Predicate = true> <Delay = 0.00>
+ST_19 : Operation 156 [1/1] (2.13ns)   --->   "%add_ln248 = add i13 %sext_ln248, i13 512" [../ecg_cnn.cpp:248]   --->   Operation 156 'add' 'add_ln248' <Predicate = true> <Delay = 2.13> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.13> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_19 : Operation 157 [1/1] (0.00ns)   --->   "%sext_ln248_1 = sext i13 %add_ln248" [../ecg_cnn.cpp:248]   --->   Operation 157 'sext' 'sext_ln248_1' <Predicate = true> <Delay = 0.00>
+ST_19 : Operation 158 [24/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 158 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 20 <SV = 19> <Delay = 3.78>
+ST_20 : Operation 159 [23/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 159 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 21 <SV = 20> <Delay = 3.78>
+ST_21 : Operation 160 [22/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 160 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 22 <SV = 21> <Delay = 3.78>
+ST_22 : Operation 161 [21/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 161 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 23 <SV = 22> <Delay = 3.78>
+ST_23 : Operation 162 [20/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 162 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 24 <SV = 23> <Delay = 3.78>
+ST_24 : Operation 163 [19/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 163 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 25 <SV = 24> <Delay = 3.78>
+ST_25 : Operation 164 [18/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 164 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 26 <SV = 25> <Delay = 3.78>
+ST_26 : Operation 165 [17/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 165 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 27 <SV = 26> <Delay = 3.78>
+ST_27 : Operation 166 [16/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 166 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 28 <SV = 27> <Delay = 3.78>
+ST_28 : Operation 167 [15/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 167 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 29 <SV = 28> <Delay = 3.78>
+ST_29 : Operation 168 [14/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 168 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 30 <SV = 29> <Delay = 3.78>
+ST_30 : Operation 169 [13/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 169 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 31 <SV = 30> <Delay = 3.78>
+ST_31 : Operation 170 [12/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 170 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 32 <SV = 31> <Delay = 3.78>
+ST_32 : Operation 171 [11/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 171 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 33 <SV = 32> <Delay = 3.78>
+ST_33 : Operation 172 [10/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 172 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 34 <SV = 33> <Delay = 3.78>
+ST_34 : Operation 173 [9/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 173 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 35 <SV = 34> <Delay = 3.78>
+ST_35 : Operation 174 [8/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 174 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 36 <SV = 35> <Delay = 3.78>
+ST_36 : Operation 175 [7/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 175 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 37 <SV = 36> <Delay = 3.78>
+ST_37 : Operation 176 [6/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 176 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 38 <SV = 37> <Delay = 3.78>
+ST_38 : Operation 177 [5/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 177 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 39 <SV = 38> <Delay = 3.78>
+ST_39 : Operation 178 [4/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 178 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 40 <SV = 39> <Delay = 3.78>
+ST_40 : Operation 179 [3/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 179 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 41 <SV = 40> <Delay = 3.78>
+ST_41 : Operation 180 [2/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 180 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+
+State 42 <SV = 41> <Delay = 6.81>
+ST_42 : Operation 181 [1/24] (3.78ns)   --->   "%sdiv_ln248 = sdiv i20 262144, i20 %sext_ln248_1" [../ecg_cnn.cpp:248]   --->   Operation 181 'sdiv' 'sdiv_ln248' <Predicate = true> <Delay = 3.78> <CoreInst = "DivnS_SEQ">   --->   Core 7 'DivnS_SEQ' <Latency = 23> <II = 20> <Delay = 3.78> <FuncUnit> <Opcode : 'udiv' 'sdiv' 'urem' 'srem'> <InPorts = 2> <OutPorts = 1>
+ST_42 : Operation 182 [1/1] (0.00ns)   --->   "%prob = trunc i20 %sdiv_ln248" [../ecg_cnn.cpp:248]   --->   Operation 182 'trunc' 'prob' <Predicate = true> <Delay = 0.00>
+ST_42 : Operation 183 [1/1] (0.00ns)   --->   "%tmp = partselect i11 @_ssdm_op_PartSelect.i11.i20.i32.i32, i20 %sdiv_ln248, i32 1, i32 11" [../ecg_cnn.cpp:252]   --->   Operation 183 'partselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_42 : Operation 184 [1/1] (0.00ns) (grouped into LUT with out node ref_tmp_i_i_0)   --->   "%tmp_12 = bitselect i1 @_ssdm_op_BitSelect.i1.i20.i32, i20 %sdiv_ln248, i32 11" [../ecg_cnn.cpp:252]   --->   Operation 184 'bitselect' 'tmp_12' <Predicate = true> <Delay = 0.00>
+ST_42 : Operation 185 [1/1] (0.00ns)   --->   "%trunc_ln252 = trunc i20 %sdiv_ln248" [../ecg_cnn.cpp:252]   --->   Operation 185 'trunc' 'trunc_ln252' <Predicate = true> <Delay = 0.00>
+ST_42 : Operation 186 [1/1] (0.00ns)   --->   "%tmp_9 = bitconcatenate i9 @_ssdm_op_BitConcatenate.i9.i1.i8, i1 %trunc_ln252, i8 0" [../ecg_cnn.cpp:252]   --->   Operation 186 'bitconcatenate' 'tmp_9' <Predicate = true> <Delay = 0.00>
+ST_42 : Operation 187 [1/1] (2.11ns)   --->   "%icmp_ln252 = icmp_ne  i9 %tmp_9, i9 0" [../ecg_cnn.cpp:252]   --->   Operation 187 'icmp' 'icmp_ln252' <Predicate = true> <Delay = 2.11> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.11> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_42 : Operation 188 [1/1] (2.12ns)   --->   "%add_ln252 = add i11 %tmp, i11 1" [../ecg_cnn.cpp:252]   --->   Operation 188 'add' 'add_ln252' <Predicate = true> <Delay = 2.12> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.12> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_42 : Operation 189 [1/1] (0.00ns) (grouped into LUT with out node ref_tmp_i_i_0)   --->   "%select_ln252 = select i1 %icmp_ln252, i11 %add_ln252, i11 %tmp" [../ecg_cnn.cpp:252]   --->   Operation 189 'select' 'select_ln252' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_42 : Operation 190 [1/1] (0.90ns) (out node of the LUT)   --->   "%ref_tmp_i_i_0 = select i1 %tmp_12, i11 %select_ln252, i11 %tmp" [../ecg_cnn.cpp:252]   --->   Operation 190 'select' 'ref_tmp_i_i_0' <Predicate = true> <Delay = 0.90> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.90> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_42 : Operation 191 [1/1] (2.13ns)   --->   "%label = icmp_sgt  i12 %prob, i12 203" [../ecg_cnn.cpp:256]   --->   Operation 191 'icmp' 'label' <Predicate = true> <Delay = 2.13> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.13> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+
+State 43 <SV = 42> <Delay = 8.00>
+ST_43 : Operation 192 [1/1] (0.00ns)   --->   "%packed = bitconcatenate i12 @_ssdm_op_BitConcatenate.i12.i11.i1, i11 %ref_tmp_i_i_0, i1 %label" [../ecg_cnn.cpp:260]   --->   Operation 192 'bitconcatenate' 'packed' <Predicate = true> <Delay = 0.00>
+ST_43 : Operation 193 [1/1] (0.00ns)   --->   "%sext_ln260 = sext i12 %packed" [../ecg_cnn.cpp:260]   --->   Operation 193 'sext' 'sext_ln260' <Predicate = true> <Delay = 0.00>
+ST_43 : Operation 194 [1/1] (0.00ns)   --->   "%zext_ln260 = zext i17 %sext_ln260" [../ecg_cnn.cpp:260]   --->   Operation 194 'zext' 'zext_ln260' <Predicate = true> <Delay = 0.00>
+ST_43 : Operation 195 [1/1] (8.00ns)   --->   "%write_ln261 = write void @_ssdm_op_Write.m_axi.i32P1A, i32 %OUTPUT_r_addr, i32 %zext_ln260, i4 15" [../ecg_cnn.cpp:261]   --->   Operation 195 'write' 'write_ln261' <Predicate = true> <Delay = 8.00> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 5> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 44 <SV = 43> <Delay = 8.00>
+ST_44 : Operation 196 [5/5] (8.00ns)   --->   "%OUTPUT_r_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i32P1A, i32 %OUTPUT_r_addr" [../ecg_cnn.cpp:261]   --->   Operation 196 'writeresp' 'OUTPUT_r_addr_resp' <Predicate = true> <Delay = 8.00> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 45 <SV = 44> <Delay = 8.00>
+ST_45 : Operation 197 [4/5] (8.00ns)   --->   "%OUTPUT_r_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i32P1A, i32 %OUTPUT_r_addr" [../ecg_cnn.cpp:261]   --->   Operation 197 'writeresp' 'OUTPUT_r_addr_resp' <Predicate = true> <Delay = 8.00> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 46 <SV = 45> <Delay = 8.00>
+ST_46 : Operation 198 [3/5] (8.00ns)   --->   "%OUTPUT_r_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i32P1A, i32 %OUTPUT_r_addr" [../ecg_cnn.cpp:261]   --->   Operation 198 'writeresp' 'OUTPUT_r_addr_resp' <Predicate = true> <Delay = 8.00> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 47 <SV = 46> <Delay = 8.00>
+ST_47 : Operation 199 [2/5] (8.00ns)   --->   "%OUTPUT_r_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i32P1A, i32 %OUTPUT_r_addr" [../ecg_cnn.cpp:261]   --->   Operation 199 'writeresp' 'OUTPUT_r_addr_resp' <Predicate = true> <Delay = 8.00> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+
+State 48 <SV = 47> <Delay = 8.00>
+ST_48 : Operation 200 [1/1] (0.00ns)   --->   "%spectopmodule_ln186 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_7" [../ecg_cnn.cpp:186]   --->   Operation 200 'spectopmodule' 'spectopmodule_ln186' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 201 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %INPUT_r, void @empty_6, i32 0, i32 0, void @empty_5, i32 0, i32 720, void @empty_0, void @empty_13, void @empty_5, i32 16, i32 16, i32 16, i32 16, void @empty_5, void @empty_5, i32 4294967295, i32 0, i32 0"   --->   Operation 201 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 202 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %INPUT_r"   --->   Operation 202 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 203 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %OUTPUT_r, void @empty_6, i32 0, i32 0, void @empty_5, i32 0, i32 1, void @empty, void @empty_13, void @empty_5, i32 16, i32 16, i32 16, i32 16, void @empty_5, void @empty_5, i32 4294967295, i32 0, i32 0"   --->   Operation 203 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 204 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %OUTPUT_r"   --->   Operation 204 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 205 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %input_r_r, void @empty_15, i32 4294967295, i32 4294967295, void @empty_14, i32 0, i32 0, void @empty_16, void @empty_11, void @empty_5, i32 0, i32 0, i32 0, i32 0, void @empty_5, void @empty_10, i32 4294967295, i32 0, i32 0"   --->   Operation 205 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 206 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %input_r_r, void @empty_9, i32 4294967295, i32 4294967295, void @empty_5, i32 0, i32 0, void @empty_5, void @empty_5, void @empty_5, i32 0, i32 0, i32 0, i32 0, void @empty_5, void @empty_10, i32 4294967295, i32 0, i32 0"   --->   Operation 206 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 207 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %output_r_r, void @empty_15, i32 4294967295, i32 4294967295, void @empty_14, i32 0, i32 0, void @empty_16, void @empty_8, void @empty_5, i32 0, i32 0, i32 0, i32 0, void @empty_5, void @empty_10, i32 4294967295, i32 0, i32 0"   --->   Operation 207 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 208 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %output_r_r, void @empty_9, i32 4294967295, i32 4294967295, void @empty_5, i32 0, i32 0, void @empty_5, void @empty_5, void @empty_5, i32 0, i32 0, i32 0, i32 0, void @empty_5, void @empty_10, i32 4294967295, i32 0, i32 0"   --->   Operation 208 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 209 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_15, i32 0, i32 0, void @empty_5, i32 0, i32 0, void @empty_16, void @empty_5, void @empty_5, i32 0, i32 0, i32 0, i32 0, void @empty_5, void @empty_5, i32 4294967295, i32 0, i32 0"   --->   Operation 209 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 210 [1/1] (0.00ns)   --->   "%specmemcore_ln227 = specmemcore void @_ssdm_op_SpecMemCore, i11 %conv1_out_1, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:227]   --->   Operation 210 'specmemcore' 'specmemcore_ln227' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 211 [1/1] (0.00ns)   --->   "%specmemcore_ln227 = specmemcore void @_ssdm_op_SpecMemCore, i11 %conv1_out, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:227]   --->   Operation 211 'specmemcore' 'specmemcore_ln227' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 212 [1/1] (0.00ns)   --->   "%specmemcore_ln228 = specmemcore void @_ssdm_op_SpecMemCore, i11 %pool1_out_9, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:228]   --->   Operation 212 'specmemcore' 'specmemcore_ln228' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 213 [1/1] (0.00ns)   --->   "%specmemcore_ln228 = specmemcore void @_ssdm_op_SpecMemCore, i11 %pool1_out_8, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:228]   --->   Operation 213 'specmemcore' 'specmemcore_ln228' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 214 [1/1] (0.00ns)   --->   "%specmemcore_ln228 = specmemcore void @_ssdm_op_SpecMemCore, i11 %pool1_out_7, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:228]   --->   Operation 214 'specmemcore' 'specmemcore_ln228' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 215 [1/1] (0.00ns)   --->   "%specmemcore_ln228 = specmemcore void @_ssdm_op_SpecMemCore, i11 %pool1_out_6, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:228]   --->   Operation 215 'specmemcore' 'specmemcore_ln228' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 216 [1/1] (0.00ns)   --->   "%specmemcore_ln228 = specmemcore void @_ssdm_op_SpecMemCore, i11 %pool1_out_5, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:228]   --->   Operation 216 'specmemcore' 'specmemcore_ln228' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 217 [1/1] (0.00ns)   --->   "%specmemcore_ln228 = specmemcore void @_ssdm_op_SpecMemCore, i11 %pool1_out_4, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:228]   --->   Operation 217 'specmemcore' 'specmemcore_ln228' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 218 [1/1] (0.00ns)   --->   "%specmemcore_ln228 = specmemcore void @_ssdm_op_SpecMemCore, i11 %pool1_out_3, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:228]   --->   Operation 218 'specmemcore' 'specmemcore_ln228' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 219 [1/1] (0.00ns)   --->   "%specmemcore_ln228 = specmemcore void @_ssdm_op_SpecMemCore, i11 %pool1_out_2, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:228]   --->   Operation 219 'specmemcore' 'specmemcore_ln228' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 220 [1/1] (0.00ns)   --->   "%specmemcore_ln228 = specmemcore void @_ssdm_op_SpecMemCore, i11 %pool1_out_1, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:228]   --->   Operation 220 'specmemcore' 'specmemcore_ln228' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 221 [1/1] (0.00ns)   --->   "%specmemcore_ln228 = specmemcore void @_ssdm_op_SpecMemCore, i11 %pool1_out, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:228]   --->   Operation 221 'specmemcore' 'specmemcore_ln228' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 222 [1/1] (0.00ns)   --->   "%specmemcore_ln229 = specmemcore void @_ssdm_op_SpecMemCore, i11 %conv2_out_3, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:229]   --->   Operation 222 'specmemcore' 'specmemcore_ln229' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 223 [1/1] (0.00ns)   --->   "%specmemcore_ln229 = specmemcore void @_ssdm_op_SpecMemCore, i11 %conv2_out_2, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:229]   --->   Operation 223 'specmemcore' 'specmemcore_ln229' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 224 [1/1] (0.00ns)   --->   "%specmemcore_ln229 = specmemcore void @_ssdm_op_SpecMemCore, i11 %conv2_out_1, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:229]   --->   Operation 224 'specmemcore' 'specmemcore_ln229' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 225 [1/1] (0.00ns)   --->   "%specmemcore_ln229 = specmemcore void @_ssdm_op_SpecMemCore, i11 %conv2_out, i64 666, i64 30, i64 18446744073709551615" [../ecg_cnn.cpp:229]   --->   Operation 225 'specmemcore' 'specmemcore_ln229' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 226 [1/5] (8.00ns)   --->   "%OUTPUT_r_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i32P1A, i32 %OUTPUT_r_addr" [../ecg_cnn.cpp:261]   --->   Operation 226 'writeresp' 'OUTPUT_r_addr_resp' <Predicate = true> <Delay = 8.00> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_48 : Operation 227 [1/1] (0.00ns)   --->   "%ret_ln262 = ret" [../ecg_cnn.cpp:262]   --->   Operation 227 'ret' 'ret_ln262' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.000ns.
+
+ <State 1>: 1.000ns
+The critical path consists of the following:
+	s_axi read operation ('output_r_r_read') on port 'output_r_r' [49]  (1.000 ns)
+
+ <State 2>: 0.000ns
+The critical path consists of the following:
+
+ <State 3>: 0.000ns
+The critical path consists of the following:
+
+ <State 4>: 0.000ns
+The critical path consists of the following:
+
+ <State 5>: 0.000ns
+The critical path consists of the following:
+
+ <State 6>: 0.000ns
+The critical path consists of the following:
+
+ <State 7>: 0.000ns
+The critical path consists of the following:
+
+ <State 8>: 1.861ns
+The critical path consists of the following:
+	'call' operation 0 bit ('call_ln240', ../ecg_cnn.cpp:240) to 'gap' [118]  (1.861 ns)
+
+ <State 9>: 0.000ns
+The critical path consists of the following:
+
+ <State 10>: 3.035ns
+The critical path consists of the following:
+	'call' operation 0 bit ('call_ln241', ../ecg_cnn.cpp:241) to 'dense_relu' [135]  (3.035 ns)
+
+ <State 11>: 8.000ns
+The critical path consists of the following:
+	bus request operation ('OUTPUT_r_addr_req', ../ecg_cnn.cpp:261) on port 'OUTPUT_r' (../ecg_cnn.cpp:261) [175]  (8.000 ns)
+
+ <State 12>: 4.283ns
+The critical path consists of the following:
+	'call' operation 12 bit ('logits', ../ecg_cnn.cpp:242) to 'dense_linear' [152]  (0.000 ns)
+	'sub' operation 12 bit ('neg', ../ecg_cnn.cpp:246) [153]  (2.131 ns)
+	'call' operation 12 bit ('e', C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247) to 'exp<12, 3>' [154]  (2.152 ns)
+
+ <State 13>: 6.770ns
+The critical path consists of the following:
+	'call' operation 12 bit ('e', C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247) to 'exp<12, 3>' [154]  (6.770 ns)
+
+ <State 14>: 6.770ns
+The critical path consists of the following:
+	'call' operation 12 bit ('e', C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247) to 'exp<12, 3>' [154]  (6.770 ns)
+
+ <State 15>: 6.770ns
+The critical path consists of the following:
+	'call' operation 12 bit ('e', C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247) to 'exp<12, 3>' [154]  (6.770 ns)
+
+ <State 16>: 6.770ns
+The critical path consists of the following:
+	'call' operation 12 bit ('e', C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247) to 'exp<12, 3>' [154]  (6.770 ns)
+
+ <State 17>: 6.770ns
+The critical path consists of the following:
+	'call' operation 12 bit ('e', C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247) to 'exp<12, 3>' [154]  (6.770 ns)
+
+ <State 18>: 4.415ns
+The critical path consists of the following:
+	'call' operation 12 bit ('e', C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_math.h:1178->../ecg_cnn.cpp:247) to 'exp<12, 3>' [154]  (4.415 ns)
+
+ <State 19>: 5.914ns
+The critical path consists of the following:
+	'add' operation 13 bit ('add_ln248', ../ecg_cnn.cpp:248) [156]  (2.131 ns)
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 20>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 21>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 22>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 23>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 24>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 25>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 26>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 27>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 28>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 29>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 30>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 31>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 32>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 33>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 34>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 35>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 36>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 37>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 38>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 39>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 40>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 41>: 3.784ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+
+ <State 42>: 6.815ns
+The critical path consists of the following:
+	'sdiv' operation 20 bit ('sdiv_ln248', ../ecg_cnn.cpp:248) [158]  (3.784 ns)
+	'add' operation 11 bit ('add_ln252', ../ecg_cnn.cpp:252) [165]  (2.127 ns)
+	'select' operation 11 bit ('select_ln252', ../ecg_cnn.cpp:252) [166]  (0.000 ns)
+	'select' operation 11 bit ('ref_tmp_i_i_0', ../ecg_cnn.cpp:252) [167]  (0.905 ns)
+
+ <State 43>: 8.000ns
+The critical path consists of the following:
+	bus write operation ('write_ln261', ../ecg_cnn.cpp:261) on port 'OUTPUT_r' (../ecg_cnn.cpp:261) [176]  (8.000 ns)
+
+ <State 44>: 8.000ns
+The critical path consists of the following:
+	bus response operation ('OUTPUT_r_addr_resp', ../ecg_cnn.cpp:261) on port 'OUTPUT_r' (../ecg_cnn.cpp:261) [177]  (8.000 ns)
+
+ <State 45>: 8.000ns
+The critical path consists of the following:
+	bus response operation ('OUTPUT_r_addr_resp', ../ecg_cnn.cpp:261) on port 'OUTPUT_r' (../ecg_cnn.cpp:261) [177]  (8.000 ns)
+
+ <State 46>: 8.000ns
+The critical path consists of the following:
+	bus response operation ('OUTPUT_r_addr_resp', ../ecg_cnn.cpp:261) on port 'OUTPUT_r' (../ecg_cnn.cpp:261) [177]  (8.000 ns)
+
+ <State 47>: 8.000ns
+The critical path consists of the following:
+	bus response operation ('OUTPUT_r_addr_resp', ../ecg_cnn.cpp:261) on port 'OUTPUT_r' (../ecg_cnn.cpp:261) [177]  (8.000 ns)
+
+ <State 48>: 8.000ns
+The critical path consists of the following:
+	bus response operation ('OUTPUT_r_addr_resp', ../ecg_cnn.cpp:261) on port 'OUTPUT_r' (../ecg_cnn.cpp:261) [177]  (8.000 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+	State 19
+	State 20
+	State 21
+	State 22
+	State 23
+	State 24
+	State 25
+	State 26
+	State 27
+	State 28
+	State 29
+	State 30
+	State 31
+	State 32
+	State 33
+	State 34
+	State 35
+	State 36
+	State 37
+	State 38
+	State 39
+	State 40
+	State 41
+	State 42
+	State 43
+	State 44
+	State 45
+	State 46
+	State 47
+	State 48
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

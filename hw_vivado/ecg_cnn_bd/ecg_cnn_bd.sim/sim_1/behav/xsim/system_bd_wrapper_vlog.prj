@@ -1,13 +1,12 @@
 # compile verilog/system verilog design source files
-verilog xil_defaultlib  --include "../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a9be" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/f0b6/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a8e4/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/ec67/hdl" --include "C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
+verilog xil_defaultlib  --include "../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a9be" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/f0b6/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a8e4/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/ec67/hdl" --include "C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_lmb_bram_0_1/sim/system_bd_lmb_bram_0.v" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_clk_wiz_1_0_1/system_bd_clk_wiz_1_0_clk_wiz.v" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_clk_wiz_1_0_1/system_bd_clk_wiz_1_0.v" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_blk_mem_gen_0_1/sim/system_bd_blk_mem_gen_0_1.v" \
-"../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_blk_mem_gen_0_2/sim/system_bd_blk_mem_gen_0_2.v" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_0/sim/bd_e6ac_one_0.v" \
 
-sv xil_defaultlib  --include "../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a9be" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/f0b6/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a8e4/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/ec67/hdl" --include "C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
+sv xil_defaultlib  --include "../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a9be" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/f0b6/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a8e4/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/ec67/hdl" --include "C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_2/sim/bd_e6ac_arsw_0.sv" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_e6ac_rsw_0.sv" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_4/sim/bd_e6ac_awsw_0.sv" \
@@ -85,22 +84,15 @@ sv xil_defaultlib  --include "../../../../../../../../../../Xilinx/2025.1/Vivado
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_76/sim/bd_e6ac_m04wn_0.sv" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_77/sim/bd_e6ac_m04bn_0.sv" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_78/sim/bd_e6ac_m04e_0.sv" \
-"../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_79/sim/bd_e6ac_m05s2a_0.sv" \
-"../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_80/sim/bd_e6ac_m05arn_0.sv" \
-"../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_81/sim/bd_e6ac_m05rn_0.sv" \
-"../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_82/sim/bd_e6ac_m05awn_0.sv" \
-"../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_83/sim/bd_e6ac_m05wn_0.sv" \
-"../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_84/sim/bd_e6ac_m05bn_0.sv" \
-"../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/ip/ip_85/sim/bd_e6ac_m05e_0.sv" \
 
-verilog xil_defaultlib  --include "../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a9be" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/f0b6/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a8e4/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/ec67/hdl" --include "C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
+verilog xil_defaultlib  --include "../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a9be" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/f0b6/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a8e4/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/ec67/hdl" --include "C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/bd_0/sim/bd_e6ac.v" \
 
-sv xil_defaultlib  --include "../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a9be" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/f0b6/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a8e4/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/ec67/hdl" --include "C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
+sv xil_defaultlib  --include "../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a9be" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/f0b6/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a8e4/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/ec67/hdl" --include "C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
 "../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_smartconnect_0_0/sim/system_bd_smartconnect_0_0.sv" \
 
-verilog xil_defaultlib  --include "../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a9be" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/f0b6/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a8e4/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/ec67/hdl" --include "C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
-"../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_xlconstant_0_0/sim/system_bd_xlconstant_0_0.v" \
+verilog xil_defaultlib  --include "../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a9be" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/f0b6/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/a8e4/hdl/verilog" --include "../../../../ecg_cnn_bd.gen/sources_1/bd/system_bd/ipshared/ec67/hdl" --include "C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" \
+"../../../../ecg_cnn_bd.ip_user_files/bd/system_bd/ip/system_bd_xlconstant_0_2/sim/system_bd_xlconstant_0_2.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

@@ -1,0 +1,150 @@
+{
+  "0": {
+    "basicblocks": 43,
+    "calls": "4 1 2 3 7 6",
+    "control_depth": 0,
+    "def_use_depth": 4,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 186,
+    "instructions": 155,
+    "loads": {
+      "L": 6
+    },
+    "memory_accesses": 0,
+    "name": "ecg_cnn",
+    "stores": {
+      "T": 1
+    },
+    "total_instructions": 3013
+  },
+  "1": {
+    "basicblocks": 10,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 5,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 49,
+    "instructions": 33,
+    "loads": {
+      "L": 2
+    },
+    "memory_accesses": 3,
+    "name": "maxpool",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 33
+  },
+  "2": {
+    "basicblocks": 747,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 123,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 70,
+    "instructions": 1896,
+    "loads": {
+      "G": 41,
+      "L": 40
+    },
+    "memory_accesses": 81,
+    "name": "conv1d_relu2",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 1896
+  },
+  "3": {
+    "basicblocks": 31,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 4,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 108,
+    "instructions": 72,
+    "loads": {
+      "L": 3
+    },
+    "memory_accesses": 3,
+    "name": "gap",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 72
+  },
+  "4": {
+    "basicblocks": 145,
+    "calls": "",
+    "control_depth": 3,
+    "def_use_depth": 24,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 14,
+    "instructions": 361,
+    "loads": {
+      "G": 8,
+      "L": 7
+    },
+    "memory_accesses": 15,
+    "name": "conv1d_relu",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 361
+  },
+  "5": {
+    "basicblocks": 165,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 39,
+    "file": "hls_exp_apfixed.h",
+    "fileloc": 13,
+    "instructions": 331,
+    "loads": {
+      "G": 3
+    },
+    "memory_accesses": 4,
+    "name": "exp<12, 3>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 331
+  },
+  "6": {
+    "basicblocks": 29,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 5,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 155,
+    "instructions": 77,
+    "loads": {
+      "G": 2,
+      "L": 1
+    },
+    "memory_accesses": 2,
+    "name": "dense_linear",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 77
+  },
+  "7": {
+    "basicblocks": 36,
+    "calls": "",
+    "control_depth": 4,
+    "def_use_depth": 5,
+    "file": "ecg_cnn.cpp",
+    "fileloc": 124,
+    "instructions": 86,
+    "loads": {
+      "G": 2,
+      "L": 1
+    },
+    "memory_accesses": 2,
+    "name": "dense_relu",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 86
+  }
+}
