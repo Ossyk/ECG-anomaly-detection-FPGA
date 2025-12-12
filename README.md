@@ -6,12 +6,12 @@ A MicroBlaze processor handles communication and control, while a custom HLS IP 
 
 ## Reproducibility & Running instructions
 
-Tools:
+- Tools:
   * Vivado 
   * Vitis 
   * Vitis HLS 
-  * Python \
-Board:
+  * Python 
+- Board:
   * Nexys4 DDR (or compatible Artix-7)
 
 ### Clone the Repository
