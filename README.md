@@ -10,7 +10,7 @@ Tools:
   * Vivado 
   * Vitis 
   * Vitis HLS 
-  * Python
+  * Python \
 Board:
   * Nexys4 DDR (or compatible Artix-7)
 
