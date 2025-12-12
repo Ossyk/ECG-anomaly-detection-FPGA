@@ -6,8 +6,6 @@ A MicroBlaze processor handles communication and control, while a custom HLS IP 
 
 ## Reproducibility & Running instructions
 
-Prerequisites
-  * OS: Windows 10 / 11
 Tools:
   * Vivado 
   * Vitis 
