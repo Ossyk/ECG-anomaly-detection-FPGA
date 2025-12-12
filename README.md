@@ -72,7 +72,7 @@ Open Command Prompt (not PowerShell):
 ```
 * Install Required Python Packages
 ```
-  python -m pip install --upgrade pip
+  python -m pip install --upgrade pip 
   pip install numpy pyserial matplotlib scipy wfdb
 ```
 * Launch the GUI
@@ -131,12 +131,12 @@ This workspace contains the CNN accelerator implemented with Vitis HLS.
 
 ## Structure
 
-* /vitis/ – CNN accelerator (Vitis HLS) + MicroBlaze C application (Vitis platform & application)
+* vitis/ : CNN accelerator (Vitis HLS) + MicroBlaze C application (Vitis platform & application)
 
-* /vivado/ – Block design and exported XSA
+* vivado/ : Block design and exported XSA
 
-* /gui/ – Python interface and preprocessing code
+* gui/ : Python interface and preprocessing code
 
-* /data/ – Raw dataset and processed numpy arrays
+* data/ : Raw dataset and processed numpy arrays
 
 
