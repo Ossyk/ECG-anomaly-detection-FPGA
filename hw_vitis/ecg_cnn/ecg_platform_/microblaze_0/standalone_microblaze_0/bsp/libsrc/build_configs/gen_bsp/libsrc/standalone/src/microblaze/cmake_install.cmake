@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_platform_/microblaze_0/standalone_microblaze_0/bsp/libsrc/standalone/src/microblaze
+# Install script for directory: C:/Users/oussk/Downloads/ECG_anomaly_detection/hw_vitis/ecg_cnn/ecg_platform_/microblaze_0/standalone_microblaze_0/bsp/libsrc/standalone/src/microblaze
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

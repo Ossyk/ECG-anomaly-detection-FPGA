@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_platform_/microblaze_0/standalone_microblaze_0/bsp/libsrc/standalone/src/common
+# Install script for directory: C:/Users/oussk/Downloads/ECG_anomaly_detection/hw_vitis/ecg_cnn/ecg_platform_/microblaze_0/standalone_microblaze_0/bsp/libsrc/standalone/src/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/oussk/Downloads/ald_v2/hw_vitis/ecg_cnn/ecg_platform_/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/standalone/src/common/intr/cmake_install.cmake")
+  include("C:/Users/oussk/Downloads/ECG_anomaly_detection/hw_vitis/ecg_cnn/ecg_platform_/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/standalone/src/common/intr/cmake_install.cmake")
 endif()
 

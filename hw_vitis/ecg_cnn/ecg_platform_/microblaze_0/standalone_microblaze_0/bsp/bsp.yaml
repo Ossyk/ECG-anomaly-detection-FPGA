@@ -1,7 +1,7 @@
 sdt: hw_artifacts\microblaze_0_baremetal.dts
 family: artix7
-path: C:\Users\oussk\Downloads\ald_v2\hw_vitis\ecg_cnn\ecg_platform_\microblaze_0\standalone_microblaze_0\bsp
-config: default
+path: C:/Users/oussk/Downloads/ECG_anomaly_detection/hw_vitis/ecg_cnn/ecg_platform_/microblaze_0/standalone_microblaze_0/bsp
+config: None
 os: standalone
 os_info:
   standalone:
@@ -169,7 +169,7 @@ drv_info:
   ecg_cnn_0:
     driver: ecg_cnn
     ip_name: ecg_cnn
-    path: C:\Users\oussk\Downloads\ald_v2\hw_vitis\ecg_cnn\ecg_platform_\microblaze_0\standalone_microblaze_0\bsp\hw_artifacts\drivers\ecg_cnn_v1_0
+    path: C:\Users\oussk\Downloads\ECG_anomaly_detection\hw_vitis\ecg_cnn\ecg_platform_\microblaze_0\standalone_microblaze_0\bsp\hw_artifacts\drivers\ecg_cnn_v1_0
   microblaze_0_local_memory_dlmb_bram_if_cntlr:
     driver: bram
     ip_name: lmb_bram_if_cntlr

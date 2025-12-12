@@ -8,24 +8,20 @@ from matplotlib.widgets import Button, Slider
 from tkinter import Tk, Label, Button as TkButton, filedialog, messagebox
 from scipy.signal import butter, filtfilt
 
-# Optional dependency for PhysioNet (.dat/.hea)
+#dependency for PhysioNet
 try:
     import wfdb
     WFDB_AVAILABLE = True
 except ImportError:
     WFDB_AVAILABLE = False
 
-# ======================================================
 # Configuration
-# ======================================================
 SER_BAUD = 115200
-FS = 360             # Sampling frequency
+FS = 360             # Sampling freq
 WIN_SEC = 2          # Segment duration (seconds)
-DEFAULT_THR = 0.4   # Default decision threshold
+DEFAULT_THR = 0.4   # Default threshold
 
-# ======================================================
-# FPGA Interface (robust serial communication)
-# ======================================================
+
 class FPGA:
     
     def __init__(self, port=None, simulate=False):
