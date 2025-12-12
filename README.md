@@ -67,7 +67,7 @@ From the project root:
 Open Command Prompt (not PowerShell):
 ```
   cd ECG-anomaly-detection-FPGA\gui
-  py -m venv venv
+  python -m venv venv
   venv\Scripts\activate.bat
 ```
 * Install Required Python Packages
